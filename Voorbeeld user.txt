@@ -1,0 +1,8 @@
+Username: Leander
+Password: Stolk
+SourceDatabaseUsername: 
+TargetDatabaseUsername: 
+SourceDatabasePassword: 
+TargetDatabasePassword: 
+SourceDatabaseURL: 
+TargetDatabaseURL: 
