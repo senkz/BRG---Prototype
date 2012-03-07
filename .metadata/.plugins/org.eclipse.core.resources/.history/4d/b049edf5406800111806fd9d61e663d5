@@ -1,0 +1,82 @@
+package model;
+
+public class Database 
+{
+	private int ID;
+	private String dbType;
+	private String hostName;
+	private String name;
+	private String password;
+	private int port;
+	
+	public int getID()
+	{
+		return ID;
+	}
+
+	public String getDbType() 
+	{
+		return dbType;
+	}
+
+	public String getHostName() 
+	{
+		return hostName;
+	}
+
+	public String getName() 
+	{
+		return name;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public int getPort()
+	{
+		return port;
+	}
+
+	public void setDbType(String dbType) {
+		this.dbType = dbType;
+	}
+	
+	public void setHostName(String _hostName) {
+		hostName = _hostName;
+	}
+
+
+
+
+public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+
+
+
+
+
+
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+
+
+
+
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+
+	
+}

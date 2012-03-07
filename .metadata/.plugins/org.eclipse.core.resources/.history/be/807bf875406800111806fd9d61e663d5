@@ -1,0 +1,19 @@
+package model;
+
+public class Database 
+{
+	private int ID;
+	private String dbType;
+	private String hostName;
+	private String name;
+	private String password;
+	private int port;
+	
+	
+	
+
+	public int getID()
+	{
+		return ID;
+	}
+}
