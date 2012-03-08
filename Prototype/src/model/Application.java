@@ -17,21 +17,38 @@ public class Application
 		creationDate = _creationDate;
 	}
 
-	private void setLastEdited(Calendar _lastEdited)
+	public String getName()
 	{
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void setComment(String _comment) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void setName(String _name) {
-		// TODO Auto-generated method stub
-		
+		return name;
 	}
 	
+	public String getComment()
+	{
+		return comment;
+	}
 	
+	public Calendar getCreationDate()
+	{
+		return creationDate;
+	}
+	
+	public Calendar getLastEdited()
+	{
+		return lastEdited;
+	}
+	
+	private void setName(String _name) 
+	{
+		name = _name;
+	}
+
+	private void setComment(String _comment)
+	{
+		comment = _comment;
+	}
+	
+	private void setLastEdited(Calendar _lastEdited)
+	{		
+		lastEdited = _lastEdited;
+	}
 }

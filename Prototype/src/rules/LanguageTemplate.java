@@ -1,0 +1,6 @@
+package rules;
+
+public abstract class LanguageTemplate 
+{
+	
+}

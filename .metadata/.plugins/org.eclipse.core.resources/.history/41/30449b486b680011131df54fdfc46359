@@ -1,0 +1,35 @@
+package model;
+
+public class BusinessRule 
+{
+	private int ID;
+	private String name;
+	private Error error;
+	
+	public BusinessRule(int _ID, String _name, Error error)
+	{
+		ID = _ID;
+		setName(_name);
+	}
+
+	public int getID() 
+	{
+		return ID;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	
+	public Error getError()
+	{
+		return error;
+	}
+	
+	public void setName(String _name) 
+	{
+		name = _name;
+	}
+}

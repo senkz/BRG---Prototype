@@ -1,0 +1,87 @@
+package model;
+
+public class BusinessRule 
+{
+	private int ID;
+	private String name;
+	private Error error;
+	private Trigger trigger;
+	private Application application;
+	private Operator operator;
+	private BusinessRuleType businessRuleType;
+	
+	public BusinessRule(int _ID, String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleType _businessRuleType)
+	{
+		ID = _ID;
+		setName(_name);
+		setError(_error);
+		setTrigger(_trigger);
+		setApplication(_application);
+		setOperator(_operator);
+		setBusinessRuleType(_businessRuleType);
+	}
+
+	public int getID() 
+	{
+		return ID;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	
+	public Error getError()
+	{
+		return error;
+	}
+	
+	public void setName(String _name) 
+	{
+		name = _name;
+	}
+	
+	public void setError(Error _error)
+	{
+		error = _error;
+	}
+
+	public void setTrigger(Trigger _trigger) {
+		trigger = _trigger;
+	}
+
+	public Trigger getTrigger() {
+		return trigger;
+	}
+
+	public void setApplication(Application _application)
+	{
+		application = _application;
+	}
+
+	public Application getApplication()
+	{
+		return application;
+	}
+
+	public void setOperator(Operator operator)
+	{
+		this.operator = operator;
+	}
+
+	public Operator getOperator()
+	{
+		return operator;
+	}
+
+	public void setBusinessRuleType(BusinessRuleType businessRuleType)
+	{
+		businessRuleType = _businessRuleType;
+	}
+
+	public BusinessRuleType getBusinessRuleType() 
+	{
+		return businessRuleType;
+	}
+}

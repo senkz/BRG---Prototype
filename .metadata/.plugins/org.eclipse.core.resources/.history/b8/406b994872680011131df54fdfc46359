@@ -1,0 +1,6 @@
+package rules;
+
+public class PLSQL implements LanguageTemplate()
+{
+
+}
