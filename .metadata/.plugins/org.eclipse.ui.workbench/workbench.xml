@@ -47,6 +47,8 @@
 <part id="12"/>
 <part id="13"/>
 <part id="14"/>
+<part id="15"/>
+<part id="16"/>
 </presentation>
 </folder>
 </info>
@@ -97,19 +99,27 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessRuleType.java" partName="BusinessRuleType.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/BusinessRuleType.java" title="BusinessRuleType.java" tooltip="Prototype/src/model/rules/BusinessRuleType.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/rules/BusinessRuleType.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1299" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1299" selectionTopPixel="771"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Generator.java" partName="Generator.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/controller/Generator.java" title="Generator.java" tooltip="Prototype/src/controller/Generator.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/controller/Generator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="233" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="771" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAttributeCompareRule.java" partName="TestAttributeCompareRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/test/TestAttributeCompareRule.java" title="TestAttributeCompareRule.java" tooltip="Prototype/src/test/TestAttributeCompareRule.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/test/TestAttributeCompareRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="264" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="258" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeRangeRule.java" partName="AttributeRangeRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/AttributeRangeRule.java" title="AttributeRangeRule.java" tooltip="Prototype/src/model/rules/AttributeRangeRule.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeRangeRule.java" partName="AttributeRangeRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/AttributeRangeRule.java" title="AttributeRangeRule.java" tooltip="Prototype/src/model/rules/AttributeRangeRule.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="324" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="376" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" partName="PLSQL.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/PLSQL.java" title="PLSQL.java" tooltip="Prototype/src/languages/PLSQL.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/PLSQL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="43" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LanguageTemplate.java" partName="LanguageTemplate.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/LanguageTemplate.java" title="LanguageTemplate.java" tooltip="Prototype/src/languages/LanguageTemplate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/LanguageTemplate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -140,7 +150,7 @@
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -284,58 +294,12 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/Trigger.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/Error.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/controller/Generator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/test/TestAttributeCompareRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/PLSQL.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/LanguageTemplate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/BusinessRuleType.java"/>
 </editors>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="1054" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="1577" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="1728" y="0"/>
-</item>
-<item historyLabel="Value.java" index="5">
-<position info="not_deleted" x="541" y="0"/>
-</item>
-<item historyLabel="Generator.java" index="1">
-<position/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="1692" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="576" y="0"/>
-</item>
-<item historyLabel="Table.java" index="3">
-<position info="not_deleted" x="143" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="576" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="620" y="0"/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="1721" y="0"/>
-</item>
-<item historyLabel="Value.java" index="5">
-<position info="not_deleted" x="141" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="0">
-<position/>
-</item>
-<item historyLabel="Operator.java" index="4">
-<position info="not_deleted" x="541" y="81"/>
-</item>
-<item historyLabel="Value.java" index="5">
-<position info="not_deleted" x="117" y="0"/>
-</item>
-<item historyLabel="Generator.java" index="1">
-<position/>
-</item>
 <item historyLabel="Value.java" index="5">
 <position info="not_deleted" x="117" y="0"/>
 </item>
@@ -432,8 +396,59 @@
 <item historyLabel="Generator.java" index="1">
 <position info="not_deleted" x="233" y="0"/>
 </item>
-<item active="true" historyLabel="AttributeRangeRule.java" index="8">
+<item historyLabel="AttributeRangeRule.java" index="8">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Generator.java" index="9">
+<position info="not_deleted" x="233" y="0"/>
+</item>
+<item historyLabel="TestAttributeCompareRule.java" index="10">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="8">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestAttributeCompareRule.java" index="10">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="BusinessRuleType.java" index="13">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="8">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="Generator.java" index="9">
+<position info="not_deleted" x="793" y="0"/>
+</item>
+<item historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="122" y="0"/>
+</item>
+<item historyLabel="Generator.java" index="9">
+<position info="not_deleted" x="771" y="0"/>
+</item>
+<item historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="11">
+<position info="not_deleted" x="43" y="7"/>
+</item>
+<item active="true" historyLabel="LanguageTemplate.java" index="12">
+<position info="not_deleted" x="130" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -453,6 +468,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LanguageTemplate.java" tooltip="Prototype/src/languages/LanguageTemplate.java">
+<persistable path="/Prototype/src/languages/LanguageTemplate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" tooltip="Prototype/src/languages/PLSQL.java">
+<persistable path="/Prototype/src/languages/PLSQL.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeRangeRule.java" tooltip="Prototype/src/model/rules/AttributeRangeRule.java">
 <persistable path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
 </file>
@@ -491,12 +512,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Table.java" tooltip="Prototype/src/model/Table.java">
 <persistable path="/Prototype/src/model/Table.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" tooltip="Prototype/src/rules/PLSQL.java">
-<persistable path="/Prototype/src/rules/PLSQL.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LanguageTemplate.java" tooltip="Prototype/src/rules/LanguageTemplate.java">
-<persistable path="/Prototype/src/rules/LanguageTemplate.java"/>
 </file>
 </mruList>
 </workbench>

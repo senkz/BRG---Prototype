@@ -1,0 +1,8 @@
+package languages;
+
+public interface LanguageTemplate 
+{
+	public String startString;
+	public String endString;
+	
+}

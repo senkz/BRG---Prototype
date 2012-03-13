@@ -1,0 +1,9 @@
+package languages;
+
+public abstract class LanguageTemplate 
+{
+	private String initianteFunctionString;
+	
+	private String endString;
+	private String 
+}

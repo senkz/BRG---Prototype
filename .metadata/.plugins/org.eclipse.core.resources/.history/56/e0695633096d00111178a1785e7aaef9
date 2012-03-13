@@ -8,5 +8,4 @@ public abstract class LanguageTemplate
 	private String begin;
 	private String action;
 	private String actionClose;
-	private String close;
 }
