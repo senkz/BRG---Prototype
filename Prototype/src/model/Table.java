@@ -4,8 +4,12 @@ public class Table
 {
 	private int ID;
 	private String name;
-	private TableColumn tableColumn;
+	public TableColumn tableColumn;
 	
+	public Table()
+	{
+		
+	}
 	public Table(int _ID, String _name, TableColumn _tableColumn)
 	{
 		ID = _ID;
@@ -37,6 +41,5 @@ public class Table
 	public TableColumn getTableColumn()
 	{
 		return tableColumn;
-	}
 	}
 }

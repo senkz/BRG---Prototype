@@ -1,0 +1,19 @@
+package model.rules;
+
+import model.BusinessRuleCategory;
+import model.Error;
+
+public class AttributeRangeRule extends BusinessRuleType
+{
+
+	public AttributeRangeRule(int _ID, String _name, BusinessRuleCategory _businessRuleCategory, Error _error)
+	{
+		super(_ID, _name, _businessRuleCategory, _error);
+		
+	}
+
+	public String toString()
+	{
+		return "";
+	}
+}	

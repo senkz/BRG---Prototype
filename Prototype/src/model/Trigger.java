@@ -3,7 +3,7 @@ package model;
 public class Trigger 
 {
 	private int ID;
-	private Table table;
+	public Table table;
 	private String event; //Only valid states are allowed like: Before Update etc.!
 	
 	public Trigger(int _ID, Table _table, String _event)

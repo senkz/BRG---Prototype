@@ -1,0 +1,8 @@
+package languages;
+
+import rules.LanguageTemplate;
+
+public class PLSQL extends LanguageTemplate
+{
+
+}

@@ -1,0 +1,29 @@
+package model;
+
+public class Value 
+{
+	private int ID;
+	private Object value;
+	
+	public Value(int _ID, String _value)
+	{
+		ID = _ID;
+		setValue(_value);
+	}
+
+	public int getID()
+	{
+		return ID;
+	}
+	
+	public String getValue()
+	{
+		return value;
+	}
+	
+	private void setValue(String _value) 
+	{
+		value = _value;
+	}
+	
+}

@@ -1,22 +1,24 @@
 package model;
 
-import java.util.ArrayList;
+import model.rules.BusinessRuleType;
 
 public class BusinessRule 
 {
 	private int ID;
+	private boolean replace;
 	private String name;
-	private Error error;
-	private Trigger trigger;
-	private Application application;
-	private ArrayList<Operator> operatorList;
-	private BusinessRuleType businessRuleType;
+	public Error error;
+	public Trigger trigger;
+	public Application application;
+	public Operator operator;
+	public BusinessRuleType businessRuleType;
 	
-	public BusinessRule(int _ID, String _name, Error _error, Trigger _trigger, Application _application, ArrayList<Operator> _operator, BusinessRuleType _businessRuleType)
+	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleType _businessRuleType)
 	{
 		ID = _ID;
 		setName(_name);
 		setError(_error);
+		setReplace(_replace);
 		setTrigger(_trigger);
 		setApplication(_application);
 		setOperator(_operator);
@@ -67,41 +69,41 @@ public class BusinessRule
 		return application;
 	}
 
-	public void setOperator(ArrayList<Operator> __operatorList)
+	public void setOperator(Operator _operator)
 	{
-		operatorList = __operatorList;
+		operator = _operator;
 	}
 
-	public ArrayList<Operator> getOperatorList()
+	public Operator getOperatorList()
 	{
-		return operatorList;
+		return operator;
 	}
 	
-	public boolean addOperator(Operator _operator)
-	{
-		for(Operator o : operatorList)
-		{
-			if (o.equals(_operator))
-			{
-				return false;	//Operator already exists
-			}
-		}
-		operatorList.add(_operator);
-		return true;
-	}
-	
-	public boolean removeOperator(Operator _operator)
-	{
-		for(Operator o : operatorList)
-		{
-			if (o.equals(_operator))
-			{
-				return false;	//Operator already exists
-			}
-		}
-		operatorList.remove(_operator);
-		return true;	
-	}
+//	public boolean addOperator(Operator _operator)
+//	{
+//		for(Operator o : operatorList)
+//		{
+//			if (o.equals(_operator))
+//			{
+//				return false;	//Operator already exists
+//			}
+//		}
+//		operatorList.add(_operator);
+//		return true;
+//	}
+//	
+//	public boolean removeOperator(Operator _operator)
+//	{
+//		for(Operator o : operatorList)
+//		{
+//			if (o.equals(_operator))
+//			{
+//				return false;	//Operator already exists
+//			}
+//		}
+//		operatorList.remove(_operator);
+//		return true;	
+//	}
 
 	public void setBusinessRuleType(BusinessRuleType _businessRuleType)
 	{
@@ -111,5 +113,14 @@ public class BusinessRule
 	public BusinessRuleType getBusinessRuleType() 
 	{
 		return businessRuleType;
+	}
+
+	public void setReplace(boolean _replace) 
+	{
+		replace = _replace;
+	}
+
+	public boolean isReplace() {
+		return replace;
 	}
 }

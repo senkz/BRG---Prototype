@@ -1,0 +1,115 @@
+package model;
+
+import java.util.ArrayList;
+
+public class BusinessRule 
+{
+	private int ID;
+	private String name;
+	private Error error;
+	private Trigger trigger;
+	private Application application;
+	private ArrayList<Operator> operatorList;
+	private BusinessRuleType businessRuleType;
+	
+	public BusinessRule(int _ID, String _name, Error _error, Trigger _trigger, Application _application, ArrayList<Operator> _operator, BusinessRuleType _businessRuleType)
+	{
+		ID = _ID;
+		setName(_name);
+		setError(_error);
+		setTrigger(_trigger);
+		setApplication(_application);
+		setOperator(_operator);
+		setBusinessRuleType(_businessRuleType);
+	}
+
+	public int getID() 
+	{
+		return ID;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	
+	public Error getError()
+	{
+		return error;
+	}
+	
+	public void setName(String _name) 
+	{
+		name = _name;
+	}
+	
+	public void setError(Error _error)
+	{
+		error = _error;
+	}
+
+	public void setTrigger(Trigger _trigger) {
+		trigger = _trigger;
+	}
+
+	public Trigger getTrigger() {
+		return trigger;
+	}
+
+	public void setApplication(Application _application)
+	{
+		application = _application;
+	}
+
+	public Application getApplication()
+	{
+		return application;
+	}
+
+	public void setOperator(ArrayList<Operator> __operatorList)
+	{
+		operatorList = __operatorList;
+	}
+
+	public ArrayList<Operator> getOperatorList()
+	{
+		return operatorList;
+	}
+	
+	public boolean addOperator(Operator _operator)
+	{
+		for(Operator o : operatorList)
+		{
+			if (o.equals(_operator))
+			{
+				return false;	//Operator already exists
+			}
+		}
+		operatorList.add(_operator);
+		return true;
+	}
+	
+	public boolean removeOperator(Operator _operator)
+	{
+		for(Operator o : operatorList)
+		{
+			if (o.equals(_operator))
+			{
+				return false;	//Operator already exists
+			}
+		}
+		operatorList.remove(_operator);
+		return true;	
+	}
+
+	public void setBusinessRuleType(BusinessRuleType _businessRuleType)
+	{
+		businessRuleType = _businessRuleType;
+	}
+
+	public BusinessRuleType getBusinessRuleType() 
+	{
+		return businessRuleType;
+	}
+}

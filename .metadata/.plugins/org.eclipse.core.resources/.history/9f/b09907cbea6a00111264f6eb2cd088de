@@ -1,0 +1,15 @@
+package test;
+
+import model.Error;
+import model.*;
+import model.rules.*;
+
+public class TestAttributeCompareRule 
+{
+	Error _error = new Error(1,"Waarde moet tussen de 1 en 10 zitten");
+	Trigger _trigger = new 
+	BusinessRuleCategory _businessRuleCatagory = new BusinessRuleCategory(1,"");
+	AttributeRangeRule _attributeRangeRule = (AttributeRangeRule) new BusinessRuleType(1, null, _businessRuleCatagory, null);
+	
+	
+}

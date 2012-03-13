@@ -1,0 +1,5 @@
+package model.rules;
+
+public class AttributeRangeRule extends BusinessRuleType{
+
+}

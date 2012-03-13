@@ -1,0 +1,18 @@
+package test;
+
+import model.Error;
+import model.*;
+import model.rules.*;
+
+public class TestAttributeCompareRule 
+{
+	Error _error = new Error(1,"Value must be between 1 and 10");
+	TableColumn _tableColumn = new TableColumn(1,"mark",null)
+	Table _table = new Table(1,"requirements" )
+	Trigger _trigger = new Trigger
+	BusinessRuleCategory _businessRuleCatagory = new BusinessRuleCategory(1,"");
+	AttributeRangeRule _attributeRangeRule = (AttributeRangeRule) new BusinessRuleType(1, null, _businessRuleCatagory, null);
+	
+
+	
+}

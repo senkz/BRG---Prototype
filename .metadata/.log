@@ -165,3 +165,35 @@ java.net.UnknownHostException: www.googleapis.com
 
 !ENTRY com.google.gdt.eclipse.managedapis 1 0 2012-03-07 20:23:46.874
 !MESSAGE Failed to load icon cache
+!SESSION 2012-03-10 18:10:50.797 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_29
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_NL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.google.gdt.eclipse.login 2 0 2012-03-10 18:11:29.877
+!MESSAGE GPE: IOException while trying to check OAuth credentials: www.googleapis.com
+!STACK 0
+java.net.UnknownHostException: www.googleapis.com
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.google.api.client.javanet.NetHttpRequest.execute(NetHttpRequest.java:76)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:207)
+	at com.google.gdt.eclipse.login.GoogleLogin$2.run(GoogleLogin.java:173)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.google.gdt.eclipse.managedapis 1 0 2012-03-10 18:11:31.032
+!MESSAGE Failed to load icon cache

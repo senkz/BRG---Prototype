@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class Operator 
 {
+	private Value declaredValue;
+	private Value comparativeValue;
+	
 	private boolean sameRow;
 	
 	ArrayList<String> operatorList = new ArrayList<String>();
@@ -14,8 +17,12 @@ public class Operator
 	private String lesserThanOperator = "<";
 	private String greaterThanOrEqualsOperator = "=>";
 	private String lesserThanOrEqualsOperator = "=>";
+	private String operator;
 	
-	public Operator(String _operator, boolean _sameRow)
+//	private Table _emptyTable = new Table();
+//	private String _emptyString = "";
+	
+	public Operator(Value _declaredValue, String _operator, Value _comparativeValue, boolean _sameRow)// throws Exception
 	{
 		if
 		(
@@ -27,8 +34,11 @@ public class Operator
 			||!_operator.equals(lesserThanOrEqualsOperator)
 		)
 		{
-			//TODO throw Invalid Operator Exception
+			//throw new Exception("Operator is invalid");
 		}
+		operator = _operator;
+		declaredValue = _declaredValue;
+		comparativeValue = _comparativeValue;
 		setSameRow(_sameRow);
 	}
 
@@ -40,5 +50,30 @@ public class Operator
 	public boolean isSameRow() 
 	{
 		return sameRow;
+	}
+	
+	public Value getDeclaredValue()
+	{
+		return declaredValue;
+	}
+	
+	public Value getComparativeValue()
+	{
+		return comparativeValue;
+	}
+	
+	public String getOperator()
+	{
+		return operator;
+	}
+
+	public String toString()
+	{
+//		String s = "";
+//		if(declaredValue.getClass().equals(_emptyTable.getClass()))
+//		{
+//			declaredValue.
+//		}
+		return declaredValue.getValue() + " " +operator + " " + comparativeValue.getValue();
 	}
 }

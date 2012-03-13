@@ -2,4 +2,8 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="model.rules.BusinessRuleType"/>
+<fullyQualifiedTypeName name="model.rules.AttributeRangeRule"/>
+<fullyQualifiedTypeName name="model.BusinessRule"/>
+<fullyQualifiedTypeName name="controller.Generator"/>
 </qualifiedTypeNameHistroy>

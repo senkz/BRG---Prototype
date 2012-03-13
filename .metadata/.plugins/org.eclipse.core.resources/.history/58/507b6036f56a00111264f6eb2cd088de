@@ -1,0 +1,11 @@
+package controller;
+
+import model.BusinessRule;
+
+public class Generator
+{
+	public Generator(BusinessRule _businessRule)
+	{
+		
+	}
+}
