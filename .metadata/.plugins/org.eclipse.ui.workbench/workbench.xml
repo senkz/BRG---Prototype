@@ -38,25 +38,26 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessRule.java" partName="BusinessRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/BusinessRule.java" title="BusinessRule.java" tooltip="Prototype/src/model/BusinessRule.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/BusinessRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="790" selectionTopPixel="262"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1852" selectionTopPixel="1377"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Language.java" partName="Language.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/Language.java" title="Language.java" tooltip="Prototype/src/languages/Language.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/Language.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="992" selectionTopPixel="1122"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="742" selectionTopPixel="867"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" partName="PLSQL.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/PLSQL.java" title="PLSQL.java" tooltip="Prototype/src/languages/PLSQL.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/PLSQL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="414" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="709" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeRangeRule.java" partName="AttributeRangeRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/AttributeRangeRule.java" title="AttributeRangeRule.java" tooltip="Prototype/src/model/rules/AttributeRangeRule.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="190" selectionOffset="54" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1452" selectionOffset="279" selectionTopPixel="142"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/set&amp;get/src/Main.java" title="Main.java" tooltip="set&amp;get/src/Main.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/set&amp;get/src/Main.java"/>
@@ -64,7 +65,11 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeCompareRule.java" partName="AttributeCompareRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/AttributeCompareRule.java" title="AttributeCompareRule.java" tooltip="Prototype/src/model/rules/AttributeCompareRule.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="246" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="939" selectionTopPixel="346"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Operator.java" partName="Operator.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/Operator.java" title="Operator.java" tooltip="Prototype/src/model/Operator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/Operator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="190" selectionTopPixel="255"/>
 </editor>
 </editors>
 <views>
@@ -230,141 +235,19 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/PLSQL.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/set&amp;get/src/Main.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/BusinessRule.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/Language.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/test/TestAttributeCompareRule.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/PLSQL.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/set&amp;get/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/Language.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/PLSQL.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/BusinessRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/test/TestAttributeCompareRule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/Operator.java"/>
 </editors>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="372" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="BusinessRule.java" index="3">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="372" y="0"/>
-</item>
-<item historyLabel="BusinessRule.java" index="3">
-<position info="not_deleted" x="1200" y="1"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="0" y="610"/>
-</item>
-<item historyLabel="BusinessRule.java" index="3">
-<position info="not_deleted" x="1200" y="1"/>
-</item>
-<item historyLabel="BusinessRule.java" index="3">
-<position info="not_deleted" x="790" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="699" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="699" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="847" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="286" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="847" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="0" y="610"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="966" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="455" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="340" y="0"/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="655" y="1034"/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="935" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="341" y="0"/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="935" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="148" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="935" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="148" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="806" y="59"/>
-</item>
-<item historyLabel="Language.java" index="4">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="0" y="610"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
-<position info="not_deleted" x="966" y="0"/>
-</item>
-<item historyLabel="AttributeRangeRule.java" index="2">
-<position info="not_deleted" x="795" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="806" y="59"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="327" y="0"/>
-</item>
-<item historyLabel="PLSQL.java" index="0">
-<position info="not_deleted" x="414" y="0"/>
-</item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
+<item historyLabel="TestAttributeCompareRule.java" index="3">
 <position info="not_deleted" x="214" y="0"/>
 </item>
 <item historyLabel="PLSQL.java" index="0">
@@ -376,14 +259,143 @@
 <item historyLabel="AttributeRangeRule.java" index="2">
 <position info="not_deleted" x="795" y="0"/>
 </item>
-<item historyLabel="TestAttributeCompareRule.java" index="5">
+<item historyLabel="TestAttributeCompareRule.java" index="3">
 <position info="not_deleted" x="214" y="0"/>
 </item>
 <item historyLabel="AttributeRangeRule.java" index="2">
 <position info="not_deleted" x="54" y="190"/>
 </item>
-<item active="true" historyLabel="AttributeCompareRule.java" index="6">
+<item historyLabel="AttributeCompareRule.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="54" y="190"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1436" y="0"/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="4">
+<position info="not_deleted" x="246" y="0"/>
+</item>
+<item historyLabel="Main.java" index="7">
+<position info="not_deleted" x="448" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1436" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="Language.java" index="8">
+<position info="not_deleted" x="998" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1436" y="0"/>
+</item>
+<item historyLabel="Language.java" index="8">
+<position info="not_deleted" x="998" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1408" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="1526" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1432" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="1526" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1496" y="0"/>
+</item>
+<item historyLabel="Language.java" index="8">
+<position info="not_deleted" x="742" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1450" y="0"/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="4">
+<position info="not_deleted" x="246" y="0"/>
+</item>
+<item historyLabel="Main.java" index="7">
+<position info="not_deleted" x="448" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1450" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="1526" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="6">
+<position info="not_deleted" x="524" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1450" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="9">
+<position info="not_deleted" x="524" y="0"/>
+</item>
+<item historyLabel="PLSQL.java" index="9">
+<position info="not_deleted" x="709" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="10">
+<position/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="249" y="1486"/>
+</item>
+<item historyLabel="BusinessRule.java" index="11">
+<position info="not_deleted" x="846" y="0"/>
+</item>
+<item historyLabel="BusinessRule.java" index="11">
+<position info="not_deleted" x="1852" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="910" y="0"/>
+</item>
+<item historyLabel="BusinessRule.java" index="11">
+<position info="not_deleted" x="1852" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="1464" y="0"/>
+</item>
+<item historyLabel="TestAttributeCompareRule.java" index="12">
+<position info="not_deleted" x="717" y="0"/>
+</item>
+<item historyLabel="Operator.java" index="13">
+<position info="not_deleted" x="190" y="0"/>
+</item>
+<item historyLabel="TestAttributeCompareRule.java" index="12">
+<position info="not_deleted" x="717" y="0"/>
+</item>
+<item historyLabel="AttributeRangeRule.java" index="5">
+<position info="not_deleted" x="279" y="1452"/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="10">
+<position/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="10">
+<position info="not_deleted" x="272" y="1761"/>
+</item>
+<item historyLabel="TestAttributeCompareRule.java" index="12">
+<position info="not_deleted" x="717" y="0"/>
+</item>
+<item historyLabel="AttributeCompareRule.java" index="10">
+<position info="not_deleted" x="1144" y="0"/>
+</item>
+<item active="true" historyLabel="AttributeCompareRule.java" index="10">
+<position info="not_deleted" x="1135" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -391,13 +403,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottomRight"/>
-<trimItem IMemento.internal.id="topRight"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -410,11 +415,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeCompareRule.java" tooltip="Prototype/src/model/rules/AttributeCompareRule.java">
-<persistable path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Operator.java" tooltip="Prototype/src/model/Operator.java">
+<persistable path="/Prototype/src/model/Operator.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAttributeCompareRule.java" tooltip="Prototype/src/test/TestAttributeCompareRule.java">
 <persistable path="/Prototype/src/test/TestAttributeCompareRule.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeCompareRule.java" tooltip="Prototype/src/model/rules/AttributeCompareRule.java">
+<persistable path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="set&amp;get/src/Main.java">
 <persistable path="/set&amp;get/src/Main.java"/>
@@ -448,9 +456,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Value.java" tooltip="Prototype/src/model/Value.java">
 <persistable path="/Prototype/src/model/Value.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Operator.java" tooltip="Prototype/src/model/Operator.java">
-<persistable path="/Prototype/src/model/Operator.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TableColumn.java" tooltip="Prototype/src/model/TableColumn.java">
 <persistable path="/Prototype/src/model/TableColumn.java"/>

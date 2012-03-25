@@ -16,15 +16,15 @@ public class PLSQL extends Language
 	
 	private String begin = "BEGIN";
 	
-	private String startIf;
-	private String closeIf;
+	private String startIf = "IF";
+	private String closeIf = "END IF;";
 	
-	private String printLine;
+	private String printLine = "THEN DBMS_OUTPUT.PUT_LINE('";
 	private String raiseError;
 	
 	private String action;
 	private String actionClose;
-	private String close;
+	private String close = "END;";
 	
 	public String getInitiateFunction() 
 	{
@@ -81,12 +81,12 @@ public class PLSQL extends Language
 		return closeIf;
 	}
 	
-	public String printLine()
+	public String getPrintLine()
 	{
 		return printLine;
 	}
 	
-	public String raiseError()
+	public String getRaiseError()
 	{
 		return raiseError;
 	}

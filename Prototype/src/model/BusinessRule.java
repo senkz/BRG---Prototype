@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 import languages.Language;
 
 
@@ -11,11 +13,11 @@ public class BusinessRule
 	public Error error;
 	public Trigger trigger;
 	public Application application;
-	public Operator operator;
+	public ArrayList<Operator> operators;
 	public BusinessRuleCategory _businessRuleCategory;
 	public Language language;
 	
-	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleCategory _businessRuleCategory, Language _language)
+	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, ArrayList<Operator> _operators, BusinessRuleCategory _businessRuleCategory, Language _language)
 	{
 		ID = _ID;
 		setName(_name);
@@ -23,7 +25,7 @@ public class BusinessRule
 		setReplace(_replace);
 		setTrigger(_trigger);
 		setApplication(_application);
-		setOperator(_operator);
+		setOperator(_operators);
 		setBusinessRuleCategory(_businessRuleCategory);
 		setLanguage(_language);
 	}
@@ -88,14 +90,14 @@ public class BusinessRule
 		return application;
 	}
 
-	public void setOperator(Operator _operator)
+	public void setOperator(ArrayList<Operator> _operators)
 	{
-		operator = _operator;
+		operators = _operators;
 	}
 
-	public Operator getOperatorList()
+	public ArrayList<Operator> getOperatorList()
 	{
-		return operator;
+		return operators;
 	}
 	
 //	public boolean addOperator(Operator _operator)

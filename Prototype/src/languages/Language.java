@@ -53,12 +53,12 @@ public abstract class Language
 		return null;
 	}
 	
-	public String printLine()
+	public String getPrintLine()
 	{
 		return null;
 	}
 	
-	public String raiseError()
+	public String getRaiseError()
 	{
 		return null;
 	}

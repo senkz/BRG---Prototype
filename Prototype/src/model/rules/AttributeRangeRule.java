@@ -24,33 +24,32 @@ public class AttributeRangeRule extends BusinessRuleType
 		{
 			s+="." + businessRule.trigger.table.tableColumn.getName();
 		}
-		s+=" "+businessRule.getLanguage().getBegin();
-		s+="\nIF " + ":old.";
+		s+="\n"+businessRule.getLanguage().getBegin();
+		s+="\n" + businessRule.getLanguage().getStartIf() + " :old.";
 		
-		if(businessRule.operator.getDeclaredValue().getValueString().equals(""))
+		if(businessRule.getOperatorList().get(0).getDeclaredValue().getValueString().equals(""))
 		{
-			s+=businessRule.operator.getDeclaredValue().getValue();
+			s+=businessRule.getOperatorList().get(0).getDeclaredValue().getValue();
 		}
 		else
 		{
-			s+=businessRule.operator.getDeclaredValue().getValueString();
+			s+=businessRule.getOperatorList().get(0).getDeclaredValue().getValueString();
 		}
 		
-		s+= " "+businessRule.operator.getOperator() + " ";
+		s+= " "+businessRule.getOperatorList().get(0).getOperator() + " ";
 		
-		if(businessRule.operator.getComparativeValue().getValueString().equals(""))
+		if(businessRule.getOperatorList().get(0).getComparativeValue().getValueString().equals(""))
 		{
-			s+=businessRule.operator.getComparativeValue().getValue();
+			s+=businessRule.getOperatorList().get(0).getComparativeValue().getValue();
 		}
 		else
 		{
-			s+=businessRule.operator.getComparativeValue().getValueString();
+			s+=businessRule.getOperatorList().get(0).getComparativeValue().getValueString();
 		}
 		
-		s+="\nTHEN DBMS_OUTPUT.PUT_LINE('"+businessRule.error.getMessage()+"');";
-		s+="\nEND IF;";
-		s+="\nEND;";
-		
+		s+="\n"+businessRule.getLanguage().getPrintLine()+businessRule.getError().getMessage()+"');";
+		s+="\n"+ businessRule.getLanguage().getCloseIf();
+		s+="\n"+businessRule.getLanguage().getClose();
 		 
 		return s;
 	}
