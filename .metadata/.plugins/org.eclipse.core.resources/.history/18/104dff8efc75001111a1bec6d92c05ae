@@ -1,0 +1,27 @@
+package languages;
+
+
+public class PLSQL extends LanguageTemplate
+{
+	private String initiateFunction;
+	private String replaceFunction;
+	private String trigger;
+	private String begin;
+	private String printline;
+	private String raiseError;
+	private String action;
+	private String actionClose;
+	private String close;
+	
+	public String getInitiateFunction() 
+	{
+		return initiateFunction;
+	}
+
+	public String getReplaceFunction()
+	{
+		return replaceFunction;
+	}
+	
+	
+}

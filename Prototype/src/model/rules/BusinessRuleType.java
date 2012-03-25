@@ -1,7 +1,6 @@
 package model.rules;
 
-import model.BusinessRuleCategory;
-import model.Error;
+import model.BusinessRule;
 
 public class BusinessRuleType 
 {
@@ -9,15 +8,14 @@ public class BusinessRuleType
 	private String name;
 	private String message;
 	private String comment;
-	private BusinessRuleCategory businessRuleCategory;
-	private Error error;
+	protected BusinessRule businessRule;
+
 	
-	public BusinessRuleType(int _ID, String _name, BusinessRuleCategory _businessRuleCategory, Error _error)
+	public BusinessRuleType(int _ID, String _name, BusinessRule _businessRule)
 	{
 		ID = _ID;
 		setName(_name);
-		setBusinessRuleCategory(_businessRuleCategory);
-		setError(_error);
+		setBusinessRule(_businessRule);
 	}
 
 	public int getID()
@@ -39,15 +37,10 @@ public class BusinessRuleType
 	{
 		return comment;
 	}
-	
-	public Error getError()
+		
+	public BusinessRule getBusinessRule()
 	{
-		return error;
-	}
-	
-	public BusinessRuleCategory getBusinessRuleCategory()
-	{
-		return businessRuleCategory;
+		return businessRule;
 	}
 	
 	public void setName(String _name)
@@ -65,13 +58,13 @@ public class BusinessRuleType
 		comment = _comment;
 	}
 	
-	private void setBusinessRuleCategory(BusinessRuleCategory _businessRuleCategory) 
+	private void setBusinessRule(BusinessRule _businessRule) 
 	{
-		businessRuleCategory = _businessRuleCategory;
+		businessRule = _businessRule;
 	}
-	
-	public void setError(Error _error)
+
+	public String generate() 
 	{
-		error = _error;
+		return null;
 	}
 }

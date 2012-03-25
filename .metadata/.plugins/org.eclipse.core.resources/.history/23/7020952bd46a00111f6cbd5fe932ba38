@@ -1,8 +1,0 @@
-package rules;
-
-import rules.LanguageTemplate;
-
-public class PLSQL extends LanguageTemplate
-{
-
-}

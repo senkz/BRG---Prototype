@@ -1,0 +1,10 @@
+package languages;
+
+
+public class PLSQL extends LanguageTemplate
+{
+	public String getInitiateFunction() 
+	{
+		return "CREATE OR REPLACE TRIGGER";
+	}
+}

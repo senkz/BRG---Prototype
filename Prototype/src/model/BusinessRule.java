@@ -1,6 +1,7 @@
 package model;
 
-import model.rules.BusinessRuleType;
+import languages.Language;
+
 
 public class BusinessRule 
 {
@@ -11,9 +12,10 @@ public class BusinessRule
 	public Trigger trigger;
 	public Application application;
 	public Operator operator;
-	public BusinessRuleType businessRuleType;
+	public BusinessRuleCategory _businessRuleCategory;
+	public Language language;
 	
-	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleType _businessRuleType)
+	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleCategory _businessRuleCategory, Language _language)
 	{
 		ID = _ID;
 		setName(_name);
@@ -22,7 +24,13 @@ public class BusinessRule
 		setTrigger(_trigger);
 		setApplication(_application);
 		setOperator(_operator);
-		setBusinessRuleType(_businessRuleType);
+		setBusinessRuleCategory(_businessRuleCategory);
+		setLanguage(_language);
+	}
+
+	private void setBusinessRuleCategory
+	(
+		BusinessRuleCategory _businessRuleCategory2) {		
 	}
 
 	public int getID() 
@@ -40,6 +48,17 @@ public class BusinessRule
 	{
 		return error;
 	}
+	
+	public Language getLanguage()
+	{
+		return language;
+	}
+
+	public void setLanguage(Language _language)
+	{
+		language = _language ;
+	}
+
 	
 	public void setName(String _name) 
 	{
@@ -105,15 +124,6 @@ public class BusinessRule
 //		return true;	
 //	}
 
-	public void setBusinessRuleType(BusinessRuleType _businessRuleType)
-	{
-		businessRuleType = _businessRuleType;
-	}
-
-	public BusinessRuleType getBusinessRuleType() 
-	{
-		return businessRuleType;
-	}
 
 	public void setReplace(boolean _replace) 
 	{

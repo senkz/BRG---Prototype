@@ -1,8 +1,0 @@
-package languages;
-
-public abstract class LanguageTemplate 
-{
-	private String openString;
-	//private String 
-	
-}

@@ -1,0 +1,12 @@
+package languages;
+
+public abstract class Language 
+{
+
+	
+	public String getInitiateFunction() 
+	{
+		return null;
+	}
+	
+}

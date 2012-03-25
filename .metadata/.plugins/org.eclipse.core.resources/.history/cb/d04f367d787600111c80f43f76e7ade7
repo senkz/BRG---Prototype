@@ -1,0 +1,121 @@
+package model;
+
+
+public class BusinessRule 
+{
+	private int ID;
+	private boolean replace;
+	private String name;
+	public Error error;
+	public Trigger trigger;
+	public Application application;
+	public Operator operator;
+	public BusinessRuleCategory _businessRuleCategory;
+	
+	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, Operator _operator, BusinessRuleCategory _businessRuleCategory)
+	{
+		ID = _ID;
+		setName(_name);
+		setError(_error);
+		setReplace(_replace);
+		setTrigger(_trigger);
+		setApplication(_application);
+		setOperator(_operator);
+		setBusinessRuleCategory(_businessRuleCategory);
+	}
+
+	private void setBusinessRuleCategory
+	(
+		BusinessRuleCategory _businessRuleCategory2) {		
+	}
+
+	public int getID() 
+	{
+		return ID;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	
+	public Error getError()
+	{
+		return error;
+	}
+	
+	public void setName(String _name) 
+	{
+		name = _name;
+	}
+	
+	public void setError(Error _error)
+	{
+		error = _error;
+	}
+
+	public void setTrigger(Trigger _trigger) {
+		trigger = _trigger;
+	}
+
+	public Trigger getTrigger() {
+		return trigger;
+	}
+
+	public void setApplication(Application _application)
+	{
+		application = _application;
+	}
+
+	public Application getApplication()
+	{
+		return application;
+	}
+
+	public void setOperator(Operator _operator)
+	{
+		operator = _operator;
+	}
+
+	public Operator getOperatorList()
+	{
+		return operator;
+	}
+	
+//	public boolean addOperator(Operator _operator)
+//	{
+//		for(Operator o : operatorList)
+//		{
+//			if (o.equals(_operator))
+//			{
+//				return false;	//Operator already exists
+//			}
+//		}
+//		operatorList.add(_operator);
+//		return true;
+//	}
+//	
+//	public boolean removeOperator(Operator _operator)
+//	{
+//		for(Operator o : operatorList)
+//		{
+//			if (o.equals(_operator))
+//			{
+//				return false;	//Operator already exists
+//			}
+//		}
+//		operatorList.remove(_operator);
+//		return true;	
+//	}
+
+
+	public void setReplace(boolean _replace) 
+	{
+		replace = _replace;
+	}
+
+	public boolean isReplace() {
+		return replace;
+	}
+}

@@ -1,6 +1,0 @@
-package controller;
-
-public class Generator
-{
-	public Generator(BusinessRule _businessRule)
-}

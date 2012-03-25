@@ -4,6 +4,8 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="model.rules.BusinessRuleType"/>
 <fullyQualifiedTypeName name="model.rules.AttributeRangeRule"/>
-<fullyQualifiedTypeName name="model.BusinessRule"/>
 <fullyQualifiedTypeName name="controller.Generator"/>
+<fullyQualifiedTypeName name="model.BusinessRule"/>
+<fullyQualifiedTypeName name="languages.Language"/>
+<fullyQualifiedTypeName name="languages.PLSQL"/>
 </qualifiedTypeNameHistroy>
