@@ -7,7 +7,7 @@ public class Error
 	private String message;
 	private String comment;
 	
-	public Error(int _ID, String _name, String _message, String _comment)
+	public Error(int _ID, String _message, String _comment, String _name)
 	{
 		ID = _ID;
 		setName(_name);

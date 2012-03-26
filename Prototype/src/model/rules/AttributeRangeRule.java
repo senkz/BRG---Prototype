@@ -18,7 +18,7 @@ public class AttributeRangeRule extends BusinessRuleType
 		{
 			s+=" "+businessRule.getLanguage().getReplaceFunction();
 		}
-		s+=" " + businessRule.getLanguage().getFunction() + " " + businessRule.getName();
+		s+=" " + businessRule.getLanguage().getFunction() + " '" + businessRule.getName()+"'";
 		s+="\n" + businessRule.trigger.getEvent() + " ON "+businessRule.trigger.table.getName();
 		if (businessRule.trigger.table.tableColumn!=null)
 		{
@@ -47,7 +47,7 @@ public class AttributeRangeRule extends BusinessRuleType
 			s+=businessRule.getOperatorList().get(0).getComparativeValue().getValueString();
 		}
 		
-		s+="\n"+businessRule.getLanguage().getPrintLine()+businessRule.getError().getMessage()+"');";
+		s+="\n"+businessRule.getLanguage().getPrintLine()+businessRule.getError().getMessage()+", "+businessRule.getError().getComment()+"');";
 		s+="\n"+ businessRule.getLanguage().getCloseIf();
 		s+="\n"+businessRule.getLanguage().getClose();
 		 

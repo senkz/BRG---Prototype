@@ -13,6 +13,11 @@ public class Trigger
 		setEvent(_event);
 	}
 	
+	public Trigger(int _ID, String _event) {
+		ID = _ID;
+		setEvent(_event);
+	}
+
 	public int getID()
 	{
 		return ID;

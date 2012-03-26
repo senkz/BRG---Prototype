@@ -9,6 +9,7 @@ public interface SourceDatabase
 {
 
 	ArrayList<BusinessRule> getBusinessRules();
+	BusinessRule getBusinessRule(int id);
 	//public  Connection getConnection();
 	//public 
 }

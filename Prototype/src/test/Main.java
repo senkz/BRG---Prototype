@@ -1,10 +1,12 @@
 package test;
 
 import java.io.File;
+import javax.management.modelmbean.ModelMBean;
 
-import connections.SourceDatabaseJDBC_Oracle;
-
+import model.BusinessRule;
+import model.Trigger;
 import output.Write;
+import connections.SourceDatabaseJDBC_Oracle;
 
 public class Main
 {
@@ -12,15 +14,11 @@ public class Main
 	public static void main(String[] args) 
 	{
 		TestAttributeCompareRule _testAttributeCompareRule = new TestAttributeCompareRule();
-		_testAttributeCompareRule.execute();
+		//Supply Businessrule ID 
+		_testAttributeCompareRule.execute(35);
 		
-		System.out.println("");
-		
-		TestAttributeRangeRule _testAttributeRangeRule = new TestAttributeRangeRule();
-		Write.writeText(new File("test.txt"),_testAttributeRangeRule.execute(), false);
-		
-		SourceDatabaseJDBC_Oracle conn = new SourceDatabaseJDBC_Oracle();
-		conn.getBusinessRules();
+		//TestAttributeRangeRule _testAttributeRangeRule = new TestAttributeRangeRule();
+		//Write.writeText(new File("test.txt"),_testAttributeRangeRule.execute(), false);
 	}
 
 }

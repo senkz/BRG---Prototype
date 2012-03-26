@@ -14,6 +14,11 @@ public class Value
 		setValueString(_valueString);
 	}
 
+	public Value(int _ID, String _valueString) {
+		ID = _ID;
+		setValueString(_valueString);
+	}
+
 	public int getID()
 	{
 		return ID;

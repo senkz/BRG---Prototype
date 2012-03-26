@@ -17,6 +17,11 @@ public class BusinessRule
 	public BusinessRuleCategory _businessRuleCategory;
 	public Language language;
 	
+	private int Ierror;
+	private int Itrigger;
+	private int IbrType;
+	private int Iapplication;
+	
 	public BusinessRule(String s)
 	{
 		name = s;
@@ -33,6 +38,34 @@ public class BusinessRule
 		setOperator(_operators);
 		setBusinessRuleCategory(_businessRuleCategory);
 		setLanguage(_language);
+	}
+
+	public BusinessRule(int _ID, boolean _replace, String _name, int _error, int _trigger, int _application, ArrayList<Operator> _operators, int _businessruleType, Language _language) {
+		ID = _ID;
+		setReplace(_replace);
+		Itrigger = _trigger;
+		Ierror = _error;
+		IbrType = _businessruleType;
+		Iapplication = _application;
+		setOperator(_operators);
+		setLanguage(_language);
+		setName(_name);
+	}
+	
+	public int getItrigger() {
+		return Itrigger;
+	}
+	
+	public int getIerror() {
+		return Ierror;
+	}
+	
+	public int getIbrTtype() {
+		return IbrType;
+	}
+	
+	public int getIapplication() {
+		return Iapplication;
 	}
 
 	private void setBusinessRuleCategory

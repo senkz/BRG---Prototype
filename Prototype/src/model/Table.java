@@ -17,6 +17,10 @@ public class Table
 		setTableColumn(_tableColumn);
 	}
 	
+	public Table(int _ID, String _name) {
+		ID = _ID;
+		setName(_name);
+	}
 	private void setTableColumn(TableColumn _tableColumn) 
 	{
 		tableColumn = _tableColumn;

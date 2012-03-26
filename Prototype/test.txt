@@ -2,6 +2,6 @@ CREATE OR REPLACE TRIGGER price_constraint
 BEFORE UPDATE ON product.price
 BEGIN
 IF :oldproductproduct BETWEEN 1 AND 3
-THEN DBMS_OUTPUT.PUT_LINE('Value must be 1.0 or higher');
+THEN DBMS_OUTPUT.PUT_LINE('Value error');
 END IF;
 END;

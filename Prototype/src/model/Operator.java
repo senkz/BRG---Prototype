@@ -19,6 +19,12 @@ public class Operator
 	private String lesserThanOrEqualsOperator = "=>";
 	private String operator;
 	
+	private int ID;
+	private int samerow;
+	private int tableColumn1;
+	private int tableColumn2;
+	private int collectionValue;
+	
 //	private Table _emptyTable = new Table();
 //	private String _emptyString = "";
 	
@@ -40,6 +46,55 @@ public class Operator
 		declaredValue = _declaredValue;
 		comparativeValue = _comparativeValue;
 		setSameRow(_sameRow);
+	}
+
+	public Operator(int _ID, String operator, int samerow, int tableColumn1, int tableColumn2, int collectionValue) {
+		this.setID(_ID);
+		this.operator = operator;
+		this.setSamerow(samerow);
+		this.setTableColumn1(tableColumn1);
+		this.setTableColumn2(tableColumn2);
+		this.setCollectionValue(collectionValue);
+	}
+	
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public int getSamerow() {
+		return samerow;
+	}
+
+	public void setSamerow(int samerow) {
+		this.samerow = samerow;
+	}
+
+	public int getTableColumn1() {
+		return tableColumn1;
+	}
+
+	public void setTableColumn1(int tableColumn1) {
+		this.tableColumn1 = tableColumn1;
+	}
+
+	public int getTableColumn2() {
+		return tableColumn2;
+	}
+
+	public void setTableColumn2(int tableColumn2) {
+		this.tableColumn2 = tableColumn2;
+	}
+
+	public int getCollectionValue() {
+		return collectionValue;
+	}
+
+	public void setCollectionValue(int collectionValue) {
+		this.collectionValue = collectionValue;
 	}
 
 	public void setSameRow(boolean _sameRow) 
