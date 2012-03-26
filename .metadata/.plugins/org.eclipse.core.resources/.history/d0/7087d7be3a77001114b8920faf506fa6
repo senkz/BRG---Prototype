@@ -1,0 +1,13 @@
+package connections;
+
+import java.sql.Connection;
+
+public class SourceDatabaseJDBC_Oracle implements SourceDatabase{
+
+	@Override
+	public Connection getConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

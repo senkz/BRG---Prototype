@@ -1,7 +1,7 @@
 package languages;
 
 
-public class PLSQL extends Language
+public class PLSQL implements Language
 {
 	private String initiateFunction = "CREATE";
 	private String replaceFunction = "OR REPLACE";
@@ -25,6 +25,11 @@ public class PLSQL extends Language
 	private String action;
 	private String actionClose;
 	private String close = "END;";
+	
+	private String oldReference = ":old";
+	
+	private String betweenFunction = "BETWEEN";
+	private String andFunction = "AND";
 	
 	public String getInitiateFunction() 
 	{
@@ -104,5 +109,24 @@ public class PLSQL extends Language
 	public String getClose()
 	{
 		return close;
+	}
+	
+	public String getOldReference()
+	{
+		return oldReference;
+	}
+
+	@Override
+	public String getAndFunction() 
+	{
+
+		return andFunction;
+	}
+
+	@Override
+	public String getBetweenFunction()
+	{
+		
+		return betweenFunction;
 	}
 }

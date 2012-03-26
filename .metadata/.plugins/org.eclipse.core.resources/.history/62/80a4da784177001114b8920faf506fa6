@@ -1,0 +1,21 @@
+package test;
+
+import java.io.File;
+
+import output.Write;
+
+public class Main
+{
+
+	public static void main(String[] args) 
+	{
+		TestAttributeCompareRule _testAttributeCompareRule = new TestAttributeCompareRule();
+		_testAttributeCompareRule.execute();
+		
+		System.out.println("");
+		
+		TestAttributeRangeRule _testAttributeRangeRule = new TestAttributeRangeRule();
+		Write.writeText(new File("test.txt"),_testAttributeRangeRule.execute(), false);
+	}
+
+}

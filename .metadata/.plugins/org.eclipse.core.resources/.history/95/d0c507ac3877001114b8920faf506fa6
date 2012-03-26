@@ -1,0 +1,53 @@
+package output;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+
+public class Write
+{
+	public static boolean writeText(File _file, String _text, boolean replace)
+	{
+		if(replace)
+		{
+			_file.delete();
+		}
+		try
+		{
+			FileWriter fstream = new FileWriter(_file);
+			BufferedWriter out = new BufferedWriter(fstream);
+			out.write(_text);
+			out.close();
+			return true;
+		}
+		catch (Exception e)
+		{	//Catch exception if any
+			System.out.println("Error: " + e.getMessage());
+			return false;
+		}
+	}
+	
+	public static boolean writeArrayList(File _file, ArrayList<String> _text, boolean replace)
+	{
+		if(replace)
+		{
+			_file.delete();
+		}
+		try
+		{
+			FileWriter fstream = new FileWriter(_file);
+			BufferedWriter out = new BufferedWriter(fstream);
+			out.write(_text);
+			out.close();
+			return true;
+		}
+		catch (Exception e)
+		{	//Catch exception if any
+			System.out.println("Error: " + e.getMessage());
+			return false;
+		}
+	}
+}

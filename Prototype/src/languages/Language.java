@@ -1,86 +1,48 @@
 package languages;
 
-public abstract class Language 
+public interface Language 
 {
 
-	public String getInitiateFunction() 
-	{
-		return null;
-	}
+	public String getInitiateFunction() ;
 	
-	public String getReplaceFunction()
-	{
-		return null;
-	}
 	
-	public String getBeforeTrigger()
-	{
-		return null;
-	}
-	
-	public String getAfterTrigger()
-	{
-		return null;
-	}
+	public String getReplaceFunction();
 
-	public String getUpdateTrigger()
-	{
-		return null;
-	}
+	
+	public String getBeforeTrigger();
 
-	public String getCreateTrigger()
-	{
-		return null;
-	}
+	
+	public String getAfterTrigger();
 
-	public String getDeleteTrigger()
-	{
-		return null;
-	}
 
-	public String getBegin()
-	{
-		return null;		
-	}
+	public String getUpdateTrigger();
+
+
+	public String getCreateTrigger();
+
+	public String getDeleteTrigger();
+
+	public String getBegin();
 	
-	public String getStartIf()
-	{
-		return null;		
-	}
+	public String getStartIf();
 	
-	public String getCloseIf()
-	{
-		return null;
-	}
+	public String getCloseIf();
 	
-	public String getPrintLine()
-	{
-		return null;
-	}
+	public String getPrintLine();
 	
-	public String getRaiseError()
-	{
-		return null;
-	}
+	public String getRaiseError();
 	
-	public String getAction()
-	{
-		return null;
-	}
+	public String getAction();
 	
-	public String getActionClose()
-	{
-		return null;
-	}
+	public String getActionClose();
 	
-	public String getClose()
-	{
-		return null;
-	}
+	public String getClose();
 	
-	public String getFunction()
-	{
-		return null;
-	}
+	public String getFunction();
 	
+	public String getOldReference();
+	
+	public String getAndFunction();
+	
+	public String getBetweenFunction();
 }

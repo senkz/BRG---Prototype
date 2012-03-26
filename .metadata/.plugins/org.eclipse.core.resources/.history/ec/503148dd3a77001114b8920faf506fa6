@@ -1,0 +1,33 @@
+package connections;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class SourceDatabaseJDBC_Oracle implements SourceDatabase
+{
+	static String userid="stud1570037", password = "stud1570037";
+	static String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
+	static Statement stmt;
+	static Connection con;
+	
+	@Override
+	public static Connection getConnection()
+	{		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			} 
+		catch(java.lang.ClassNotFoundException e) {
+			System.err.print("ClassNotFoundException: ");
+			System.err.println(e.getMessage());
+		}
+
+		try {
+			con = DriverManager.getConnection(url, userid, password);
+		} 
+		catch(SQLException ex) {
+			System.err.println("SQLException:  " + ex.getMessage());
+		}
+		
+		return con;
+	}
+}

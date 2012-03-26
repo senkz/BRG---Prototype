@@ -1,0 +1,6 @@
+package Controls;
+
+public class Main 
+{
+	Register.initialize();
+}

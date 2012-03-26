@@ -1,0 +1,26 @@
+package output;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class Write
+{
+	public void writeText(File _file, String _text, boolean replace)
+	{
+		try
+		{
+			  FileWriter fstream = new FileWriter(_file);
+			  BufferedWriter out = new BufferedWriter(fstream);
+			   out.write(_text);
+			  //Close the output stream
+			  out.close();
+		}
+		catch (Exception e)
+		{	//Catch exception if any
+			System.out.println("Error: " + e.getMessage());
+		}
+	}
+}

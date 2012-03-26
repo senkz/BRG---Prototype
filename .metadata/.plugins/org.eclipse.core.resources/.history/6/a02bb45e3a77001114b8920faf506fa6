@@ -1,0 +1,6 @@
+package connections;
+
+public interface SourceDatabase 
+{
+	public static Connection getConnection();
+}

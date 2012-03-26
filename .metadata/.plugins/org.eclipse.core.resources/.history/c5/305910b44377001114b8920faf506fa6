@@ -1,0 +1,11 @@
+package connections;
+
+import java.sql.Connection;
+
+public interface SourceDatabase 
+{
+
+	void getBusinessRules();
+	//public  Connection getConnection();
+	//public 
+}

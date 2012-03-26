@@ -1,7 +1,6 @@
 package model.rules;
 
 import model.BusinessRule;
-import model.Operator;
 
 public class AttributeCompareRule extends BusinessRuleType
 {
@@ -25,15 +24,20 @@ public class AttributeCompareRule extends BusinessRuleType
 			s+="." + businessRule.trigger.table.tableColumn.getName();
 		}
 		s+="\n"+businessRule.getLanguage().getBegin();
-		s+="\n" + businessRule.getLanguage().getStartIf() + " :old.";
+		s+="\n" + businessRule.getLanguage().getStartIf();
+		
 		//TODO lussen door operators gescheiden door OR!!
-		for (Operator _operator : businessRule.getOperatorList())
-		{
-			if (_operator.getDeclaredValue().getValueString().equals(""))
-			{
-				_operator.getDeclaredValue().getValueString();
-			}
+//		for (Operator _operator : businessRule.getOperatorList())
+//		{
 			
+			if (!businessRule.getOperatorList().get(0).getDeclaredValue().getValueString().equals(""))
+			{
+				s+=" "+businessRule.getLanguage().getOldReference()+businessRule.getOperatorList().get(0).getDeclaredValue().getValueString();
+			}
+			else
+			{
+				s+=businessRule.getOperatorList().get(0).getDeclaredValue().getValue();
+			}
 		
 			if(businessRule.getOperatorList().get(0).getDeclaredValue().getValueString().equals(""))
 			{
@@ -44,7 +48,7 @@ public class AttributeCompareRule extends BusinessRuleType
 				s+=businessRule.getOperatorList().get(0).getDeclaredValue().getValueString();
 			}
 			
-			s+= " "+businessRule.getOperatorList().get(0).getOperator() + " ";
+			s+= " "+businessRule.getLanguage().getBetweenFunction() + " ";
 			
 			if(businessRule.getOperatorList().get(0).getComparativeValue().getValueString().equals(""))
 			{
@@ -54,7 +58,18 @@ public class AttributeCompareRule extends BusinessRuleType
 			{
 				s+=businessRule.getOperatorList().get(0).getComparativeValue().getValueString();
 			}
-		}
+			
+			s+= " "+businessRule.getLanguage().getAndFunction() + " ";
+			
+			if(businessRule.getOperatorList().get(1).getComparativeValue().getValueString().equals(""))
+			{
+				s+=businessRule.getOperatorList().get(1).getComparativeValue().getValue();
+			}
+			else
+			{
+				s+=businessRule.getOperatorList().get(1).getComparativeValue().getValueString();
+			}
+//		}
 		s+="\n"+businessRule.getLanguage().getPrintLine()+businessRule.getError().getMessage()+"');";
 		s+="\n"+ businessRule.getLanguage().getCloseIf();
 		s+="\n"+businessRule.getLanguage().getClose();

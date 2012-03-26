@@ -1,0 +1,9 @@
+package output;
+
+public class Write
+{
+	public void writeTxt(String text)
+	{
+		
+	}
+}

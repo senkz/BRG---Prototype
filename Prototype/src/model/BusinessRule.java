@@ -8,7 +8,7 @@ import languages.Language;
 public class BusinessRule 
 {
 	private int ID;
-	private boolean replace;
+	private boolean replace; //Optioneel!! ALIJD CREATE OR REPLACE!
 	private String name;
 	public Error error;
 	public Trigger trigger;
@@ -16,6 +16,11 @@ public class BusinessRule
 	public ArrayList<Operator> operators;
 	public BusinessRuleCategory _businessRuleCategory;
 	public Language language;
+	
+	public BusinessRule(String s)
+	{
+		name = s;
+	}
 	
 	public BusinessRule(int _ID, boolean _replace,String _name, Error _error, Trigger _trigger, Application _application, ArrayList<Operator> _operators, BusinessRuleCategory _businessRuleCategory, Language _language)
 	{
