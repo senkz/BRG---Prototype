@@ -50,7 +50,7 @@ public class Operator
 
 	public Operator(int _ID, String operator, int samerow, int tableColumn1, int tableColumn2, int collectionValue) {
 		this.setID(_ID);
-		this.operator = operator;
+		this.setOperator(operator);
 		this.setSamerow(samerow);
 		this.setTableColumn1(tableColumn1);
 		this.setTableColumn2(tableColumn2);
@@ -120,6 +120,11 @@ public class Operator
 	public String getOperator()
 	{
 		return operator;
+	}
+	
+	public void setOperator(String s)
+	{
+		this.operator = s;
 	}
 
 	public String toString()

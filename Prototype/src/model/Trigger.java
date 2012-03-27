@@ -33,9 +33,31 @@ public class Trigger
 		return event;
 	}
 	
-	public void setEvent(String _event)
+	/**
+	 * Expect of the following chars, U,I,D
+	 * @param String
+	 */
+	public void setEvent(String s)
 	{
-		event = _event;
+		char[] chars = s.toCharArray();
+		int i = 0;
+		s = "";
+		
+		for (char c : chars) {
+			switch (c) {
+			case 'U':
+				s += (i!=0) ? " OR UPDATE" : "UPDATE";i++;
+				break;
+			case 'I':
+				s += (i!=0) ? " OR INSERT" : "INSERT";i++;
+				break;
+			case 'D':
+				s += (i!=0) ? " OR DELETE" : "DELETE";i++;
+				break;
+			}
+		}
+		
+		this.event = s;
 	}
 	
 	public void setTable(Table _table)
