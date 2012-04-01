@@ -90,7 +90,7 @@ public class Database
 		{
 			//e.printStackTrace();
 		}
-		return null;
+		return "";
 	}
 	
 	public static void setCredentials(String _name, char [] _password)

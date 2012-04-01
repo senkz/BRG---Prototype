@@ -16,12 +16,27 @@ import model.Value;
 
 public class SourceDatabaseJDBC_Oracle implements DAO
 {
-	static String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
-	static String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
-	static Statement stmt;
-	static Connection con;
+	 String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
+	 String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
+	 Statement stmt;
+	 Connection con;
 	
-	public static Connection getConnection()
+	 @Override 
+	public  boolean testConnection()
+	{
+		try
+		{
+			getConnection();
+			return true;
+		}
+		catch (Exception e)
+		{
+			
+		}
+		return false;
+	}
+	
+	public Connection getConnection()
 	{		
 		try 
 		{

@@ -7,7 +7,8 @@ public class Main
 
 	public static void main(String[] args)
 	{
-		Database.initialize();
+		System.out.println("Application has started");
+		Repository.initialize();
 		LoginFrame lg = new LoginFrame();
 		lg.setVisible(true);
 	}

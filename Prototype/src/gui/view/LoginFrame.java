@@ -4,8 +4,8 @@ package gui.view;
 //Project BusinessRuleGenerator
 
 
-import gui.controller.Database;
-import gui.controller.Register;
+import gui.controller.Repository;
+import gui.controller.GUIRegister;
 import gui.model.User;
 
 import java.awt.event.ActionEvent;
@@ -47,8 +47,7 @@ public class LoginFrame extends JFrame implements ActionListener
 		  {
 			  credentials.setSelected(false);
 		  }
-	  	  System.out.println("Application has started");
-	      setLayout(null);
+	  	  setLayout(null);
 	      
 	      JLabel name = new JLabel("Name:");
 	      name.setBounds(10,10,100,20);
@@ -103,14 +102,28 @@ public class LoginFrame extends JFrame implements ActionListener
 	  
 	  private void getCredentials() 
 	  {
-		  String [] _temp = Database.getCredentials().split(":");
-		  namef.setText(_temp[0]);
-		  passf.setText(_temp[1]);
+		  String [] _temp = Repository.getCredentials().split(":");
+		  
+		  try
+		  {
+			  if(!_temp[0].equals(""))
+			  {
+				  namef.setText(_temp[0]);
+			  }
+			  if(!_temp[1].equals(""))
+			  {
+				  passf.setText(_temp[1]);
+			  }
+		  }
+		  catch (Exception e)
+		  {
+			  System.out.println("No credentials");
+		  }
 	  }
 
 	  public void setCredentials(String _name, char[] _password)
 	  {
-		  Database.setCredentials(_name, _password);
+		  Repository.setCredentials(_name, _password);
 	  }
 	  
 	  public void clear()
@@ -168,7 +181,7 @@ public class LoginFrame extends JFrame implements ActionListener
 			JOptionPane.showMessageDialog(null,errorMessage, "Invalid login data", JOptionPane.ERROR_MESSAGE);
 		}
 		
-		for (User s : Register.userList)
+		for (User s : GUIRegister.userList)
 		{
 			if (s.getUsername().equals(namef.getText())&&s.getPassword().equals(new String(passf.getPassword())))
 			{
@@ -176,10 +189,18 @@ public class LoginFrame extends JFrame implements ActionListener
 				if (credentials.isSelected())
 				{
 					setCredentials(namef.getText(),passf.getPassword());
+					Repository.removeCredentials();
 					 
 				}
-				//TODO!!
-				
+				else
+				{
+					Repository.removeCredentials();
+				}
+				System.out.println("Logged in as: "+ namef.getText() + ".");
+				GUIRegister.setActiveUser(s);
+				dispose();
+				DatabaseManagerFrame db = new DatabaseManagerFrame();
+				db.setVisible(true);
 			}
 			else
 			{

@@ -1,6 +1,6 @@
 package gui.view;
-import gui.controller.Database;
-import gui.controller.Register;
+import gui.controller.Repository;
+import gui.controller.GUIRegister;
 import gui.model.User;
 
 import java.awt.event.ActionEvent;
@@ -94,13 +94,13 @@ public class NewUserFrame extends JFrame implements ActionListener
         {
         	if (!new String(passf1.getPassword()).equals(new String(passf2.getPassword())))
         	{
-        		JOptionPane.showMessageDialog(null, "The passwords do not match");
-        	}
+        		JOptionPane.showMessageDialog(null, "The passwords do not match", "", JOptionPane.ERROR_MESSAGE);
+           	}
         	else
         	{
         		if (new String(passf1.getPassword()).length()<4)
         		{
-        			JOptionPane.showMessageDialog(null, "The password must be at least 4 characters long");
+        			JOptionPane.showMessageDialog(null, "The password must be at least 4 characters long", "", JOptionPane.ERROR_MESSAGE);
         		}
         		else
         		{
@@ -111,7 +111,7 @@ public class NewUserFrame extends JFrame implements ActionListener
         			else
         			{
         				System.out.println(0);
-        				if (Database.isAvailableId(namef.getText(),passf1.getPassword()))
+        				if (Repository.isAvailableId(namef.getText(),passf1.getPassword()))
 						{
 							System.out.println(1);
 							createAccount();
@@ -124,7 +124,7 @@ public class NewUserFrame extends JFrame implements ActionListener
 						}
 						else 
 						{
-							JOptionPane.showMessageDialog(null, "This username is already in use, choose a different username.");
+							JOptionPane.showMessageDialog(null, "This username is already in use, choose a different username.", "", JOptionPane.ERROR_MESSAGE);
 						}
         			}
         		}
@@ -139,8 +139,8 @@ public class NewUserFrame extends JFrame implements ActionListener
         
     private void createAccount() 
     {
-    	Database.newUser(new User(namef.getText(),new String(passf1.getPassword())));
-		Database.initialize();
+    	Repository.newUser(new User(namef.getText(),new String(passf1.getPassword())));
+		Repository.initialize();
 		
 	}
 }

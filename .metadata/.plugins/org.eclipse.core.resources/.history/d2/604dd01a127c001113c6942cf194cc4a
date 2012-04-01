@@ -1,0 +1,103 @@
+package gui.view;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+
+public class ChangePasswordFrame extends JFrame// implements ActionListener
+{
+	private static final long serialVersionUID = 2391029819307227283L;
+	JButton ca = new JButton("Change Password");
+	JButton cl = new JButton("Close");
+    JTextField namef = new JTextField(12);
+    JPasswordField passf1 = new JPasswordField(12);
+    JPasswordField passf2 = new JPasswordField(12);
+        
+    public ChangePasswordFrame() 
+    {
+    	initUI();
+    }
+
+    public void setUser(){
+    	namef.setText("");
+    }
+    public final void initUI() 
+    {
+        setLayout(null);
+        
+        JLabel name = new JLabel("Name:");
+        name.setBounds(10,10,150,20);
+        
+        
+        namef.setBounds(10,35,150,20);
+        passf1.setFocusable(isCursorSet());
+        
+        JLabel pass1 = new JLabel(" New Password:");
+        pass1.setBounds(10,60,150,20);
+        
+        passf1.setBounds(10,85,150,20);
+        
+        JLabel pass2 = new JLabel("Confirm new passport");
+        pass2.setBounds(10,110,150,30);
+        
+        passf2.setBounds(10,135,150,20);
+                   
+        ca.setBounds(250, 60, 150, 20);
+        ca.setHorizontalAlignment(SwingConstants.LEFT);
+        //ca.addActionListener(this);
+        
+        cl.setBounds(250, 85, 150, 20);
+        cl.setHorizontalAlignment(SwingConstants.LEFT);
+        //cl.addActionListener(this);
+
+            
+        add(cl);
+        add(ca);
+        add(name);
+        add(pass1);
+        add(pass2);
+        add(namef);
+        add(passf1);
+        add(passf2);
+
+       
+        
+        setTitle("Change password");
+        setSize(430, 205);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+    }
+
+    
+  
+	public void actionPerformed(ActionEvent e)
+    { 
+        if(ca==e.getSource())
+        {
+        	String return_ = manager.isValidPassword(new String(passf1.getPassword()),new String (passf2.getPassword()));
+        	if(return_==null)
+        	{
+        
+        	}
+        	else
+        	{
+        		JOptionPane.showMessageDialog(null,return_);
+        	}
+        }
+        	
+        if(cl==e.getSource())
+        {
+        	dispose();
+        }
+    }
+}
+              
+
+   
+  
+
+
+

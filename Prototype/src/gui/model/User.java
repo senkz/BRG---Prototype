@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class User implements Serializable
 {
+	private static final long serialVersionUID = -7825939887632075837L;
 	private String userName;
 	private String password;
 	
@@ -26,6 +27,36 @@ public class User implements Serializable
 		targetDatabaseURL = turl;
 	}
 	
+	public void setSourceDatabaseUsername(String _sourceDatabaseUsername)
+	{
+		sourceDatabaseUsername = _sourceDatabaseUsername;
+	}
+	
+	public void setTargetDatabaseUsername(String _targetDatabaseUsername)
+	{
+		targetDatabaseUsername = _targetDatabaseUsername;
+	}
+	
+	public void setSourceDatabasePassword(String _sourceDatabasePassword)
+	{
+		sourceDatabasePassword = _sourceDatabasePassword;
+	}
+	
+	public void setTargetDatabasePassword(String _targetDatabasePassword)
+	{
+		targetDatabasePassword = _targetDatabasePassword;
+	}
+	
+	public void setSourceDatabaseURL(String _sourceDatabaseURL)
+	{
+		sourceDatabaseURL = _sourceDatabaseURL;
+	}
+	
+	public void setTargetDatabaseURL(String _targetDatabaseURL)
+	{
+		targetDatabaseURL = _targetDatabaseURL;
+	}
+	
 	public User(String un, String up)
 	{
 		userName = un;
@@ -40,6 +71,11 @@ public class User implements Serializable
 	public String getPassword()
 	{
 		return password;
+	}
+	
+	public void setPassword(String _password)
+	{
+		password = _password;
 	}
 	
 	public String getSourceDatabaseUsername()

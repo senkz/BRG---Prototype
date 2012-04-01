@@ -9,9 +9,6 @@ import model.BusinessRule;
 
 public class Register 
 {
-	@SuppressWarnings("unused")
-	private ArrayList<BusinessRule> businessRuleList = new ArrayList<BusinessRule>();
-	//Voegt alle businessRules toe aan 
 	static DAO conn;
 	
 	private Register() {}
@@ -25,7 +22,7 @@ public class Register
 	{
 		if (conn == null) 
 		{
-			conn = (DAO) new SourceDatabaseJDBC_Oracle();
+			initialize();
 			return conn;
 		} 
 		else 
