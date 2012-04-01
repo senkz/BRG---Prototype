@@ -1,0 +1,136 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+
+
+public class NewUserFrame extends JFrame// implements ActionListener
+{
+	private static final long serialVersionUID = 8175886282452959094L;
+	
+	JButton ca = new JButton("Create Account");
+	JButton cl = new JButton("Close");
+    JTextField namef = new JTextField(12);
+    JPasswordField passf1 = new JPasswordField(12);
+    JPasswordField passf2 = new JPasswordField(12);
+    
+    public NewUserFrame() 
+    {
+        initUI();
+    }
+
+    public final void initUI() 
+    {
+        setLayout(null);
+
+        JLabel name = new JLabel("Name:");
+        name.setBounds(10,10,100,20);
+                
+        namef.setBounds(10,35,100,20);
+       passf1.setFocusable(isCursorSet());
+        
+        JLabel pass1 = new JLabel("Password:");
+        pass1.setBounds(10,60,100,20);
+        
+        passf1.setBounds(10,85,100,20);
+        
+        JLabel pass2 = new JLabel("Confirm passport");
+        pass2.setBounds(10,110,100,30);
+        
+        passf2.setBounds(10,135,100,20);
+                   
+        ca.setBounds(150, 60, 130, 20);
+        ca.setHorizontalAlignment(SwingConstants.LEFT);
+        //ca.addActionListener(this);
+        
+        cl.setBounds(150, 85, 130, 20);
+        cl.setHorizontalAlignment(SwingConstants.LEFT);
+        //cl.addActionListener(this);
+
+            
+        add(cl);
+        add(ca);
+        add(name);
+        add(pass1);
+        add(pass2);
+        add(namef);
+        add(passf1);
+        add(passf2);
+
+       
+        
+        setTitle("New user");
+        setSize(315, 210);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+    }
+
+     public boolean passCheck(String emailAddress)
+     {  
+    	 String  expression= "^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9_-]{6,24}$";  
+    	 CharSequence inputStr = emailAddress;  
+    	 Pattern pattern = Pattern.compile(expression,Pattern.CASE_INSENSITIVE);  
+    	 Matcher matcher = pattern.matcher(inputStr);  
+    	 return matcher.matches();
+     }
+     
+      
+//	public void actionPerformed(ActionEvent e)
+//    { 
+//        if(ca==e.getSource())
+//        {
+//        	if (!new String(passf1.getPassword()).equals(new String(passf2.getPassword())))
+//        	{
+//        		JOptionPane.showMessageDialog(null, "The passwords do not match");
+//        	}
+//        	else
+//        	{
+//        		if (new String(passf1.getPassword()).length()<4)
+//        		{
+//        			JOptionPane.showMessageDialog(null, "The password must be at least 4 characters long");
+//        		}
+//        		else
+//        		{
+//        			if(!passCheck(new String(passf1.getPassword())))
+//        			{
+//        				JOptionPane.showMessageDialog(null, "The password cannot contain any special symbols");
+//        			}
+//        			else
+//        			{
+//        				System.out.println(0);
+//        				if (database.isAvailableId(new User(namef.getText(), new String(passf1.getPassword()))))
+//						{
+//							System.out.println(1);
+//							createAccount();
+//							namef.setText("");
+//							passf1.setText("");
+//							passf2.setText("");
+//							
+//							JOptionPane.showMessageDialog(null, "Account succesfully created.");
+//							dispose();
+//						}
+//						else 
+//						{
+//							JOptionPane.showMessageDialog(null, "This username is already in use, choose a different username.");
+//						}
+//        			}
+//        		}
+//        	}
+//        }
+//        	
+//        if(cl==e.getSource())
+//        {
+//        	dispose();
+//        }
+//    }
+        
+    private void createAccount() 
+    {
+		//database.addUser(new User(namef.getText(),new String(passf1.getPassword())));
+	}
+}

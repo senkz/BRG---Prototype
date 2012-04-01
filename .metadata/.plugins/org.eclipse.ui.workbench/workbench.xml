@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="50" version="2.0">
+<workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="772" maximized="true" width="1024" x="-40" y="58">
+<window height="772" maximized="true" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -23,6 +23,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -37,64 +38,29 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeCompareRule.java" partName="AttributeCompareRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/rules/AttributeCompareRule.java" title="AttributeCompareRule.java" tooltip="Prototype/src/model/rules/AttributeCompareRule.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2357" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="C:/Users/Leander/workspace/BRG---Prototype/LoginSystem/src/gui/model/User.java" title="User.java" tooltip="LoginSystem/src/gui/model/User.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoginSystem/src/gui/model/User.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1405" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Language.java" partName="Language.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/Language.java" title="Language.java" tooltip="Prototype/src/languages/Language.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/Language.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="736" selectionTopPixel="431"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Database.java" partName="Database.java" path="C:/Users/Leander/workspace/BRG---Prototype/LoginSystem/src/gui/controller/Database.java" title="Database.java" tooltip="LoginSystem/src/gui/controller/Database.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoginSystem/src/gui/controller/Database.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="419" selectionTopPixel="1543"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" partName="PLSQL.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/languages/PLSQL.java" title="PLSQL.java" tooltip="Prototype/src/languages/PLSQL.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/languages/PLSQL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2073" selectionTopPixel="1859"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Register.java" partName="Register.java" path="C:/Users/Leander/workspace/BRG---Prototype/LoginSystem/src/gui/controller/Register.java" title="Register.java" tooltip="LoginSystem/src/gui/controller/Register.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoginSystem/src/gui/controller/Register.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="206" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Operator.java" partName="Operator.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/Operator.java" title="Operator.java" tooltip="Prototype/src/model/Operator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/Operator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1661" selectionTopPixel="975"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginFrame.java" partName="LoginFrame.java" path="C:/Users/Leander/workspace/BRG---Prototype/LoginSystem/src/gui/view/LoginFrame.java" title="LoginFrame.java" tooltip="LoginSystem/src/gui/view/LoginFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoginSystem/src/gui/view/LoginFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="956" selectionTopPixel="2495"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Write.java" partName="Write.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/output/Write.java" title="Write.java" tooltip="Prototype/src/output/Write.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/output/Write.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="533" selectionTopPixel="74"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/test/Main.java" title="Main.java" tooltip="Prototype/src/test/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/test/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="95" selectionOffset="516" selectionTopPixel="91"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAttributeRangeRule.java" partName="TestAttributeRangeRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/test/TestAttributeRangeRule.java" title="TestAttributeRangeRule.java" tooltip="Prototype/src/test/TestAttributeRangeRule.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/test/TestAttributeRangeRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1207" selectionTopPixel="91"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SourceDatabase.java" partName="SourceDatabase.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/connections/SourceDatabase.java" title="SourceDatabase.java" tooltip="Prototype/src/connections/SourceDatabase.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/connections/SourceDatabase.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SourceDatabaseJDBC_Oracle.java" partName="SourceDatabaseJDBC_Oracle.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/connections/SourceDatabaseJDBC_Oracle.java" title="SourceDatabaseJDBC_Oracle.java" tooltip="Prototype/src/connections/SourceDatabaseJDBC_Oracle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/connections/SourceDatabaseJDBC_Oracle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="294" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessRule.java" partName="BusinessRule.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/model/BusinessRule.java" title="BusinessRule.java" tooltip="Prototype/src/model/BusinessRule.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/model/BusinessRule.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2616" selectionTopPixel="1995"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Register.java" partName="Register.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/Controls/Register.java" title="Register.java" tooltip="Prototype/src/Controls/Register.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/Controls/Register.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="496" selectionTopPixel="23"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Leander/Documents/BRG - Prototype/BRG---Prototype/Prototype/src/Controls/Main.java" title="Main.java" tooltip="Prototype/src/Controls/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Prototype/src/Controls/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="92" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Leander/workspace/BRG---Prototype/LoginSystem/src/gui/controller/Main.java" title="Main.java" tooltip="LoginSystem/src/gui/controller/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoginSystem/src/gui/controller/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -103,7 +69,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<columnWidths org.eclipse.ui.ide.allSeverityField="0" org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0"/>
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -217,7 +183,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24948025" ratioLeft="240" ratioRight="722" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.54330707" ratioLeft="414" ratioRight="348" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottomRight" ratio="0.71259844" ratioLeft="543" ratioRight="219" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
@@ -257,166 +223,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/languages/Language.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/output/Write.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/test/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/test/TestAttributeRangeRule.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/connections/SourceDatabase.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/connections/SourceDatabaseJDBC_Oracle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/model/BusinessRule.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/Controls/Register.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Prototype/src/Controls/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/model/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/controller/Database.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/controller/Register.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/controller/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/view/LoginFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/view/NewUserFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GUI/src/model/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/model/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/controller/Database.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/view/LoginFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LoginSystem/src/gui/controller/Main.java"/>
 </editors>
-<item historyLabel="Language.java" index="1">
-<position info="not_deleted" x="736" y="0"/>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="767" y="0"/>
 </item>
-<item historyLabel="AttributeCompareRule.java" index="0">
-<position info="not_deleted" x="1018" y="0"/>
+<item historyLabel="NewUserFrame.java" index="5">
+<position info="not_deleted" x="3973" y="0"/>
 </item>
-<item historyLabel="AttributeCompareRule.java" index="0">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="AttributeCompareRule.java" index="0">
-<position info="not_deleted" x="2357" y="0"/>
-</item>
-<item historyLabel="Write.java" index="2">
+<item historyLabel="LoginFrame.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Write.java" index="2">
-<position info="not_deleted" x="1074" y="0"/>
-</item>
-<item historyLabel="Write.java" index="2">
-<position info="not_deleted" x="170" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="Write.java" index="2">
-<position info="not_deleted" x="178" y="9"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="508" y="0"/>
-</item>
-<item historyLabel="TestAttributeRangeRule.java" index="4">
-<position info="not_deleted" x="1207" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="310" y="0"/>
-</item>
-<item historyLabel="Write.java" index="2">
-<position info="not_deleted" x="178" y="9"/>
-</item>
-<item historyLabel="Write.java" index="2">
-<position info="not_deleted" x="533" y="0"/>
-</item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="242" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="13" y="0"/>
-</item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="242" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="13" y="0"/>
-</item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="209" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="426" y="0"/>
-</item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="202" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="426" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="930" y="0"/>
-</item>
-<item historyLabel="BusinessRule.java" index="7">
+<item historyLabel="Register.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="BusinessRule.java" index="7">
-<position info="not_deleted" x="479" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="1569" y="0"/>
-</item>
 <item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="611" y="0"/>
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="1569" y="0"/>
+<item historyLabel="NewUserFrame.java" index="5">
+<position info="not_deleted" x="3973" y="0"/>
 </item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="611" y="0"/>
+<item historyLabel="Database.java" index="1">
+<position info="not_deleted" x="1434" y="0"/>
 </item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="42" y="0"/>
+<item historyLabel="NewUserFrame.java" index="5">
+<position info="not_deleted" x="3973" y="0"/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="306" y="0"/>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="757" y="0"/>
 </item>
-<item historyLabel="Main.java" index="9">
-<position info="not_deleted" x="88" y="0"/>
+<item historyLabel="NewUserFrame.java" index="5">
+<position info="not_deleted" x="3973" y="0"/>
 </item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="138" y="44"/>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="1400" y="0"/>
 </item>
-<item historyLabel="Main.java" index="9">
-<position info="not_deleted" x="92" y="0"/>
+<item historyLabel="NewUserFrame.java" index="5">
+<position info="not_deleted" x="3973" y="0"/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="488" y="0"/>
+<item historyLabel="Database.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Main.java" index="3">
-<position info="not_deleted" x="516" y="95"/>
+<item historyLabel="Database.java" index="1">
+<position info="not_deleted" x="2849" y="0"/>
 </item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="202" y="0"/>
+<item historyLabel="Database.java" index="1">
+<position info="not_deleted" x="2601" y="0"/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="403" y="0"/>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="SourceDatabase.java" index="5">
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="User.java" index="6">
+<position info="not_deleted" x="1525" y="0"/>
+</item>
+<item historyLabel="User.java" index="7">
+<position info="not_deleted" x="0" y="1405"/>
+</item>
+<item historyLabel="User.java" index="6">
+<position info="not_deleted" x="436" y="0"/>
+</item>
+<item historyLabel="User.java" index="7">
+<position info="not_deleted" x="0" y="1405"/>
+</item>
+<item historyLabel="Database.java" index="8">
 <position/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="381" y="0"/>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="206" y="0"/>
 </item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="854" y="23"/>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="3981" y="0"/>
 </item>
-<item historyLabel="SourceDatabase.java" index="5">
-<position info="not_deleted" x="249" y="0"/>
+<item historyLabel="LoginFrame.java" index="9">
+<position info="not_deleted" x="956" y="0"/>
 </item>
-<item historyLabel="Main.java" index="9">
-<position info="not_deleted" x="92" y="0"/>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="3981" y="0"/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="496" y="0"/>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="719" y="0"/>
 </item>
-<item historyLabel="BusinessRule.java" index="7">
-<position info="not_deleted" x="2616" y="0"/>
+<item historyLabel="Database.java" index="8">
+<position/>
 </item>
-<item historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="294" y="0"/>
+<item historyLabel="Main.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Register.java" index="8">
-<position info="not_deleted" x="496" y="0"/>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="1043" y="50"/>
 </item>
-<item active="true" historyLabel="SourceDatabaseJDBC_Oracle.java" index="6">
-<position info="not_deleted" x="294" y="0"/>
+<item historyLabel="Database.java" index="8">
+<position/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="1921" y="0"/>
+</item>
+<item historyLabel="Main.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="1086" y="0"/>
+</item>
+<item historyLabel="Main.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position/>
+</item>
+<item historyLabel="Main.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="LoginFrame.java" index="9">
+<position info="not_deleted" x="956" y="0"/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="1711" y="0"/>
+</item>
+<item historyLabel="Main.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LoginFrame.java" index="9">
+<position info="not_deleted" x="956" y="0"/>
+</item>
+<item historyLabel="Register.java" index="2">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="Database.java" index="8">
+<position info="not_deleted" x="1711" y="0"/>
+</item>
+<item active="true" historyLabel="Database.java" index="8">
+<position info="not_deleted" x="3271" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -424,6 +391,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -432,54 +405,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Prototype/src/Controls/Main.java">
-<persistable path="/Prototype/src/Controls/Main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="LoginSystem/src/gui/controller/Main.java">
+<persistable path="/LoginSystem/src/gui/controller/Main.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Register.java" tooltip="Prototype/src/Controls/Register.java">
-<persistable path="/Prototype/src/Controls/Register.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginFrame.java" tooltip="LoginSystem/src/gui/view/LoginFrame.java">
+<persistable path="/LoginSystem/src/gui/view/LoginFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessRule.java" tooltip="Prototype/src/model/BusinessRule.java">
-<persistable path="/Prototype/src/model/BusinessRule.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Register.java" tooltip="LoginSystem/src/gui/controller/Register.java">
+<persistable path="/LoginSystem/src/gui/controller/Register.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SourceDatabaseJDBC_Oracle.java" tooltip="Prototype/src/connections/SourceDatabaseJDBC_Oracle.java">
-<persistable path="/Prototype/src/connections/SourceDatabaseJDBC_Oracle.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Database.java" tooltip="LoginSystem/src/gui/controller/Database.java">
+<persistable path="/LoginSystem/src/gui/controller/Database.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SourceDatabase.java" tooltip="Prototype/src/connections/SourceDatabase.java">
-<persistable path="/Prototype/src/connections/SourceDatabase.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="LoginSystem/src/gui/model/User.java">
+<persistable path="/LoginSystem/src/gui/model/User.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAttributeRangeRule.java" tooltip="Prototype/src/test/TestAttributeRangeRule.java">
-<persistable path="/Prototype/src/test/TestAttributeRangeRule.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="GUI/src/model/User.java">
+<persistable path="/GUI/src/model/User.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Prototype/src/test/Main.java">
-<persistable path="/Prototype/src/test/Main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewUserFrame.java" tooltip="LoginSystem/src/gui/view/NewUserFrame.java">
+<persistable path="/LoginSystem/src/gui/view/NewUserFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Write.java" tooltip="Prototype/src/output/Write.java">
-<persistable path="/Prototype/src/output/Write.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="LoginSystem/src/User.java">
+<persistable path="/LoginSystem/src/User.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Operator.java" tooltip="Prototype/src/model/Operator.java">
-<persistable path="/Prototype/src/model/Operator.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="gui.java" tooltip="LoginSystem/src/gui.java">
+<persistable path="/LoginSystem/src/gui.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PLSQL.java" tooltip="Prototype/src/languages/PLSQL.java">
-<persistable path="/Prototype/src/languages/PLSQL.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Register.java" tooltip="LoginSystem/src/Register.java">
+<persistable path="/LoginSystem/src/Register.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Language.java" tooltip="Prototype/src/languages/Language.java">
-<persistable path="/Prototype/src/languages/Language.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewUserFrame.java" tooltip="LoginSystem/src/NewUserFrame.java">
+<persistable path="/LoginSystem/src/NewUserFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeCompareRule.java" tooltip="Prototype/src/model/rules/AttributeCompareRule.java">
-<persistable path="/Prototype/src/model/rules/AttributeCompareRule.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="LoginSystem/src/Main.java">
+<persistable path="/LoginSystem/src/Main.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AttributeRangeRule.java" tooltip="Prototype/src/model/rules/AttributeRangeRule.java">
-<persistable path="/Prototype/src/model/rules/AttributeRangeRule.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="credentials.txt" tooltip="LoginSystem/credentials.txt">
+<persistable path="/LoginSystem/credentials.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessRuleType.java" tooltip="Prototype/src/model/rules/BusinessRuleType.java">
-<persistable path="/Prototype/src/model/rules/BusinessRuleType.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Initializer.java" tooltip="LoginSystem/src/Initializer.java">
+<persistable path="/LoginSystem/src/Initializer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="set&amp;get/src/Main.java">
-<persistable path="/set&amp;get/src/Main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginFrame.java" tooltip="LoginSystem/src/LoginFrame.java">
+<persistable path="/LoginSystem/src/LoginFrame.java"/>
 </file>
 </mruList>
 </workbench>

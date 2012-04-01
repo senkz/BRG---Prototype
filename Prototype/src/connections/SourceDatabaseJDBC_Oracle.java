@@ -1,4 +1,4 @@
-package connections;
+ package connections;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ import model.TableColumn;
 import model.Trigger;
 import model.Value;
 
-public class SourceDatabaseJDBC_Oracle implements SourceDatabase
+public class SourceDatabaseJDBC_Oracle implements DAO
 {
 	static String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
 	static String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
