@@ -36,6 +36,7 @@ public class NewUserFrame extends JFrame implements ActionListener
     public final void initUI() 
     {
         setLayout(null);
+        setResizable(false);
 
         JLabel name = new JLabel("Name:");
         name.setBounds(10,10,100,20);

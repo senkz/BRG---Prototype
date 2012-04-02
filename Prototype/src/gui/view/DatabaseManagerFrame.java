@@ -15,6 +15,8 @@ import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import controls.Register;
+
 public class DatabaseManagerFrame extends JFrame implements ActionListener
 {
 	private JLabel sourceDbLabel = new JLabel("Source database:");
@@ -52,6 +54,7 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	{
 		initialize();
 		setLayout(null);
+		setResizable(false);
 		
 		sourceDbLabel.setBounds( 10,10,100,20);
 		targetDbLabel.setBounds(200,10,100,20);

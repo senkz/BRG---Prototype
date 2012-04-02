@@ -48,6 +48,7 @@ public class LoginFrame extends JFrame implements ActionListener
 			  credentials.setSelected(false);
 		  }
 	  	  setLayout(null);
+	  	  setResizable(false);
 	      
 	      JLabel name = new JLabel("Name:");
 	      name.setBounds(10,10,100,20);

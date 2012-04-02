@@ -35,6 +35,9 @@ public class GeneratedCode extends JFrame
 	
 	public GeneratedCode(String code)
 	{
+		frame.setResizable(false);
+		setResizable(false);
+		
 		theCode = code;
 		setLayout(new FlowLayout());
 		Toolkit tk = Toolkit.getDefaultToolkit();

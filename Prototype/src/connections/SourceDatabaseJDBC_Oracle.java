@@ -8,7 +8,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import model.BusinessRule;
-import model.Error;
 import model.Operator;
 import model.Table;
 import model.TableColumn;
