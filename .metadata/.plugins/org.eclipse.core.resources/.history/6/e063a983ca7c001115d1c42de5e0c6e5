@@ -1,0 +1,6 @@
+package connections;
+
+public abstract class DAO 
+{
+	testConnection();
+}

@@ -4,25 +4,44 @@ import connections.*;
 
 public class Register 
 {
-	static DAO conn;
+	static SourceDAO sourceConn;
+	static TargetDAO targetConn;
 	
 	private Register() {}
 
-	public static void initialize() 
+	public static void initializeTarget() 
 	{
-		conn = (DAO) new SourceDatabaseJDBC_Oracle();		
+		targetConn = (TargetDAO) new TargetDatabaseJDBC_Oracle();		
 	}
 	
-	public static DAO getConnection() 
+	public static void initializeSource() 
 	{
-		if (conn == null) 
+		sourceConn = (SourceDAO) new SourceDatabaseJDBC_Oracle();		
+	}
+	
+	public static SourceDAO getSourceConnection() 
+	{
+		if (sourceConn == null) 
 		{
-			initialize();
-			return conn;
+			initializeSource();
+			return sourceConn;
 		} 
 		else 
 		{
-			return conn;
+			return sourceConn;
+		}
+	}
+	
+	public static TargetDAO getTargetConnection() 
+	{
+		if (targetConn == null) 
+		{
+			initializeTarget();
+			return targetConn;
+		} 
+		else 
+		{
+			return targetConn;
 		}
 	}
 }

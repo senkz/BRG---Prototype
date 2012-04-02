@@ -1,0 +1,290 @@
+ package connections;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import model.BusinessRule;
+import model.Error;
+import model.Operator;
+import model.Table;
+import model.TableColumn;
+import model.Trigger;
+import model.Value;
+
+public class SourceDatabaseJDBC_Oracle implements SourceDAO
+{
+	 String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
+	 String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
+	 Statement stmt;
+	 Connection con;
+	
+	 @Override 
+	public  String testConnection(String _username, String _password, String _URL)
+	{
+		 String s = "";
+		 try 
+			{
+				Class.forName("oracle.jdbc.OracleDriver");
+			} 
+			catch(java.lang.ClassNotFoundException e) 
+			{
+				s += e.getMessage();
+			}
+
+			try 
+			{
+				con = DriverManager.getConnection(_URL, _username, _password);
+			} 
+			catch(SQLException ex)
+			{
+				s += "\nConnection to database failed";
+			}
+			
+			if(s.equals(""))
+			{
+				return s = "Connection to database established";
+			}
+			else
+			{
+				return s;
+			}
+	}
+	
+	public Connection getConnection(String _username, String _password, String _URL)
+	{		
+		try 
+		{
+			Class.forName("oracle.jdbc.OracleDriver");
+		} 
+		catch(java.lang.ClassNotFoundException e) 
+		{
+			System.err.print("ClassNotFoundException: ");
+			System.err.println(e.getMessage());
+		}
+
+		try 
+		{
+			con = DriverManager.getConnection(url, userid, password);
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException:  " + ex.getMessage());
+		}
+		return con;
+	}
+	
+	public ArrayList<BusinessRule> getBusinessRules()
+	{
+		String sql = "SELECT NAME FROM APP_BUSINESSRULE";
+		ArrayList<BusinessRule> _temp = new ArrayList<BusinessRule>();
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	            BusinessRule _businessRule = new BusinessRule(rs.getString(1));
+	            _temp.add(_businessRule);
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _temp;
+	}
+	
+	public BusinessRule getBusinessRule(int id)
+	{
+		String sql = "SELECT * FROM APP_BUSINESSRULE WHERE BR_ID = "+id;
+		BusinessRule _businessRule = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	            _businessRule = new BusinessRule(rs.getInt(1),false,rs.getString(2),rs.getInt(4),rs.getInt(6),
+	            		rs.getInt(5),null,rs.getInt(3), null);
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _businessRule;
+	}
+	
+	public Error getError(int id)
+	{
+		String sql = "SELECT * FROM APP_ERROR WHERE ERR_ID = "+id;
+		Error _error = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_error = new Error(rs.getInt("ERR_ID"),rs.getString("CODE"),rs.getString("ERR_COMMENT"),rs.getString("NAME"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _error;
+	}
+	
+	public Trigger getTrigger(int id)
+	{
+		String sql = "SELECT * FROM APP_TRIGGER WHERE TG_ID = "+id;
+		Trigger _trigger = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_trigger = new Trigger(rs.getInt(1), rs.getString("EVENT"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _trigger;
+	}
+	
+	public Table getTableByTrigger(int id)
+	{
+		String sql = "SELECT * FROM APP_TABLE WHERE TB_ID IN (SELECT DISTINCT TB_FK from APP_JUNC_TB_TG where TG_FK = "+id+")";
+		Table _table = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_table = new Table(rs.getInt("TB_ID"),rs.getString("NAME"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _table;
+	}
+	
+	public Operator getOperatorByBrFk(int id)
+	{
+		String sql = "SELECT * FROM APP_OPERATOR WHERE BR_FK = "+id;
+		Operator _operator = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_operator = new Operator(rs.getInt("OP_ID"),rs.getString("OPERATOR"),rs.getInt("SAMEROW"),
+	        			rs.getInt("TC1_FK"),rs.getInt("TC2_FK"),rs.getInt("CV_FK"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _operator;
+	}
+	
+	public TableColumn getTableColumn(int id)
+	{
+		String sql = "SELECT * FROM APP_TABLECOLUMN WHERE TBC_ID = "+id;
+		TableColumn _tableColumn = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_tableColumn = new TableColumn(rs.getInt("TBC_ID"), rs.getString("NAME"), rs.getString("TYPE"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _tableColumn;
+	}
+	
+	public Value getValueByCvFk(int id)
+	{
+		String sql = "SELECT * FROM APP_VALUE WHERE CV_FK = "+id;
+		Value _value = null;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+           	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        while (rs.next())
+	        {
+	        	_value = new Value(rs.getInt("VL_ID"), rs.getString("VALUE"));
+	        }
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+		return _value;
+	}
+
+
+	public void applyBusinessRule(String _code)
+	{
+		String sql = _code;
+		Connection con = getConnection(userid,password,url);
+		try 
+		{
+	       	stmt = con.createStatement();
+	        ResultSet rs = stmt.executeQuery(sql);
+	        stmt.close();
+		    con.close();
+		} 
+		catch(SQLException ex)
+		{
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+	}
+
+	@Override
+	public String testConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

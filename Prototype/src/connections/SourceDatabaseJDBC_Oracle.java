@@ -1,12 +1,13 @@
  package connections;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 
-import languages.Language;
-import model.Application;
 import model.BusinessRule;
-import model.BusinessRuleCategory;
 import model.Error;
 import model.Operator;
 import model.Table;
@@ -14,7 +15,7 @@ import model.TableColumn;
 import model.Trigger;
 import model.Value;
 
-public class SourceDatabaseJDBC_Oracle implements DAO
+public class SourceDatabaseJDBC_Oracle implements SourceDAO
 {
 	 String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
 	 String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
@@ -24,16 +25,33 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	 @Override 
 	public  String testConnection(String _username, String _password, String _URL)
 	{
-		try
-		{
-			getConnection(userid,password,url);
-			return "Connection succesfully established";
-		}
-		catch (Exception e)
-		{
-			return e.getMessage();
-		}
-	
+		 String s = "";
+		 try 
+			{
+				Class.forName("oracle.jdbc.OracleDriver");
+			} 
+			catch(java.lang.ClassNotFoundException e) 
+			{
+				s += e.getMessage();
+			}
+
+			try 
+			{
+				con = DriverManager.getConnection(_URL, _username, _password);
+			} 
+			catch(SQLException ex)
+			{
+				s += "\nConnection to database failed";
+			}
+			
+			if(s.equals(""))
+			{
+				return s = "Connection to database established";
+			}
+			else
+			{
+				return s;
+			}
 	}
 	
 	public Connection getConnection(String _username, String _password, String _URL)
