@@ -1,0 +1,24 @@
+<class-diagram version="1.0.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" corner="BOTTOM_RIGHT" language="java" name="connections.DAO" project="Prototype" 
+    file="/Prototype/src/connections/DAO.java" binary="false">    
+    <position height="-1" width="-1" x="397" y="246"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="connections.SourceDatabaseJDBC_Oracle" project="Prototype" 
+    file="/Prototype/src/connections/SourceDatabaseJDBC_Oracle.java" binary="false">    
+    <position height="-1" width="-1" x="578" y="421"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
