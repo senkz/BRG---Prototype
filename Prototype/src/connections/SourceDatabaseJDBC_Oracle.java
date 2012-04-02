@@ -1,21 +1,38 @@
  package connections;
 
-import java.sql.*;
+import java.sql.Connection;
 import java.util.ArrayList;
 
-import languages.Language;
-import model.Application;
 import model.BusinessRule;
-import model.BusinessRuleCategory;
-import model.Error;
-import model.Operator;
-import model.Table;
-import model.TableColumn;
-import model.Trigger;
-import model.Value;
+
 
 public class SourceDatabaseJDBC_Oracle implements DAO
 {
+
+	@Override
+	public ArrayList<BusinessRule> getBusinessRules() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BusinessRule getBusinessRule(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Connection getConnection(String username, String password, String URL) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String testConnection(String username, String password, String URL) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	/**
 	 String userid="THO7_2011_2B_TEAM3A", password = "THO7_2011_2B_TEAM3A";
 	 String url = "jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01";
 	 Statement stmt;
@@ -245,4 +262,5 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 		}
 		return _value;
 	}
+	**/
 }

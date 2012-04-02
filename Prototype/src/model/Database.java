@@ -1,65 +1,54 @@
 package model;
 
-public class Database 
-{
-	private int ID;
+public class DataBase {
+	private int db_id;
 	private String dbType;
-	private String hostName;
+	private String hostname;
 	private String name;
 	private String password;
 	private int port;
+	private int app_fk;
 	
-	public int getID()
-	{
-		return ID;
+	public int getDb_id() {
+		return db_id;
 	}
-
-	public String getDbType() 
-	{
+	public void setDb_id(int db_id) {
+		this.db_id = db_id;
+	}
+	public String getDbType() {
 		return dbType;
 	}
-
-	public String getHostName() 
-	{
-		return hostName;
+	public void setDbType(String dbType) {
+		this.dbType = dbType;
 	}
-
-	public String getName() 
-	{
+	public String getHostname() {
+		return hostname;
+	}
+	public void setHostname(String hostname) {
+		this.hostname = hostname;
+	}
+	public String getName() {
 		return name;
 	}
-	
+	public void setName(String name) {
+		this.name = name;
+	}
 	public String getPassword() {
 		return password;
 	}
-
-	public int getPort()
-	{
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public int getPort() {
 		return port;
 	}
-
-	public void setDbType(String _dbType) 
-	{
-		dbType = _dbType;
+	public void setPort(int port) {
+		this.port = port;
 	}
-	
-	public void setHostName(String _hostName)
-	{
-		hostName = _hostName;
+	public int getApp_fk() {
+		return app_fk;
 	}
-
-	public void setName(String _name) 
-	{
-		name = _name;
-	}
-
-	public void setPassword(String _password) 
-	{
-		password = _password;
-	}
-
-	public void setPort(int _port)
-	{
-		port = _port;
+	public void setApp_fk(int app_fk) {
+		this.app_fk = app_fk;
 	}
 }

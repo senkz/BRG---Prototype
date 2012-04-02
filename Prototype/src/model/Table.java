@@ -1,49 +1,26 @@
 package model;
 
-public class Table 
-{
-	private int ID;
+public class Table {
+	private int tb_id;
 	private String name;
-	public TableColumn tableColumn;
+	private int db_fk;
 	
-	public Table()
-	{
-		
+	public int getTb_id() {
+		return tb_id;
 	}
-	public Table(int _ID, String _name, TableColumn _tableColumn)
-	{
-		ID = _ID;
-		setName(_name);
-		setTableColumn(_tableColumn);
+	public void setTb_id(int tb_id) {
+		this.tb_id = tb_id;
 	}
-	
-	public Table(int _ID, String _name) {
-		ID = _ID;
-		setName(_name);
-	}
-	private void setTableColumn(TableColumn _tableColumn) 
-	{
-		tableColumn = _tableColumn;
-		
-	}
-
-	private void setName(String _name) 
-	{
-		name = _name;
-	}
-	
-	public String getName()
-	{
+	public String getName() {
 		return name;
 	}
-	
-	public int getID()
-	{
-		return ID;
+	public void setName(String name) {
+		this.name = name;
 	}
-	
-	public TableColumn getTableColumn()
-	{
-		return tableColumn;
+	public int getDb_fk() {
+		return db_fk;
+	}
+	public void setDb_fk(int db_fk) {
+		this.db_fk = db_fk;
 	}
 }

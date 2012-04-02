@@ -1,47 +1,27 @@
 package model;
 
-public class Value 
-{
-	private int ID;
-	private Object value;
-	private String valueString;
-//	private boolean isTable;
+public class Value {
+	private int vl_id;
+	private String value;
+	private int cv_fk;
 	
-	public Value(int _ID, Object _value, String _valueString)
-	{
-		ID = _ID;
-		setValue(_value);
-		setValueString(_valueString);
+	public int getVl_id() {
+		return vl_id;
 	}
-
-	public Value(int _ID, String _valueString) {
-		ID = _ID;
-		setValueString(_valueString);
+	public void setVl_id(int vl_id) {
+		this.vl_id = vl_id;
 	}
-
-	public int getID()
-	{
-		return ID;
-	}
-	
-	public void setValueString(String _valueString)
-	{
-		valueString = _valueString;
-	}
-	
-	public String getValueString()
-	{
-		return valueString;
-	}
-	
-	public Object getValue()
-	{
+	public String getValue() {
 		return value;
 	}
-	
-	private void setValue(Object _value) 
-	{
-		value = _value;
+	public void setValue(String value) {
+		this.value = value;
+	}
+	public int getCv_fk() {
+		return cv_fk;
+	}
+	public void setCv_fk(int cv_fk) {
+		this.cv_fk = cv_fk;
 	}
 	
 }

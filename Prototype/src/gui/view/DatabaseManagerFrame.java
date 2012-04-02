@@ -15,8 +15,6 @@ import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import controls.Register;
-
 public class DatabaseManagerFrame extends JFrame implements ActionListener
 {
 	private JLabel sourceDbLabel = new JLabel("Source database:");
