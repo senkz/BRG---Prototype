@@ -1,0 +1,41 @@
+package controls;
+
+import connections.*;
+
+public class Register 
+{
+	static DAO sourceConn;
+	
+	private Register() {}
+
+	public static void initialize() 
+	{
+		sourceConn = (DAO) new SourceDatabaseJDBC_Oracle();		
+	}
+	
+	public static DAO getSourceConnection() 
+	{
+		if (sourceConn == null) 
+		{
+			initialize();
+			return sourceConn;
+		} 
+		else 
+		{
+			return sourceConn;
+		}
+	}
+	
+	public static DAO getTargetConnection() 
+	{
+		if (sourceConn == null) 
+		{
+			initialize();
+			return sourceConn;
+		} 
+		else 
+		{
+			return sourceConn;
+		}
+	}
+}

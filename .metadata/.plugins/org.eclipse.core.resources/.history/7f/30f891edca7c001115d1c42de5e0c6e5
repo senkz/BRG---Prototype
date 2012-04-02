@@ -1,0 +1,6 @@
+package connections;
+
+public interface DAO 
+{
+	public String testConnection();
+}

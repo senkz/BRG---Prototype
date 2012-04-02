@@ -1,0 +1,6 @@
+package connections;
+
+public interface TargetDAO extends DAO
+{
+	public void applyBusinessRule(String _code);
+}

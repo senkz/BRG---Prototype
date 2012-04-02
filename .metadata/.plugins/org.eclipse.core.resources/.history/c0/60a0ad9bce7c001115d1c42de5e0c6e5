@@ -1,0 +1,18 @@
+package connections;
+
+public class TargetDatabaseJDBC_Oracle implements TargetDAO
+{
+
+	@Override
+	public String testConnection(String _username, String _password, String URL) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void applyBusinessRule(String _code) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

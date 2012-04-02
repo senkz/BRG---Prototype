@@ -254,46 +254,13 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 		
 		Repository.updateUser(GUIRegister.activeUser);
 		Repository.initialize();
-		
 	}
 	
 	private void testConnection()
 	{
-		String _targetMessage = "";
-		String _sourceMessage = "";
+		String _targetMessage = Register.getTargetConnection().testConnection(sourceDbUserField.getText(),sourceDbPassField.getText(), sourceURLField.getText());
+		String _sourceMessage = Register.getSourceConnection().testConnection(targetDbUserField.getText(),targetDbPassField.getText(), targetURLField.getText());
 		
-		target = false;
-		source = false;
-
-		//System.out.println(Register.getConnection().getConnection(username, password, URL))
-		
-//		if(Register.getConnection().testConnection(sourceDbUserField.getText(),sourceDbPassField.getText(),sourceURLField.getText()))
-//		{
-//			_sourceMessage+= "Connection to source database established.\n";
-//			target = true;
-//		}
-//		else
-//		{
-//			_sourceMessage+="Connection to source database failed!\n";
-//		}
-//		
-//		if(Register.getConnection().testConnection(targetDbUserField.getText(),targetDbPassField.getText(),targetURLField.getText()))
-//		{
-//			_targetMessage+= "Connection to target database established.\n";
-//			source = true;
-//		}
-//		else
-//		{
-//			_targetMessage+="Connection to target database failed!\n";
-//		}
-//		
-//		if(target&&source)
-//		{
-//			JOptionPane.showMessageDialog(null,_targetMessage+"\n"+_sourceMessage, "Database connections", JOptionPane.INFORMATION_MESSAGE);
-//		}
-//		else
-//		{
-//			JOptionPane.showMessageDialog(null,_targetMessage+"\n"+_sourceMessage, "Database connections", JOptionPane.ERROR_MESSAGE);
-//		}
+		JOptionPane.showMessageDialog(null,"Source database:\n" + _targetMessage+"\n\nTarget database:\n"+_sourceMessage, "Database connections", JOptionPane.INFORMATION_MESSAGE);
 	}
 }

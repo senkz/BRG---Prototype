@@ -1,0 +1,116 @@
+package gui.view;
+
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.sql.SQLException;
+
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+import output.Write;
+
+@SuppressWarnings("serial")
+public class GeneratedCode extends JFrame
+{
+	private JTextArea mycode;
+	private String theCode;
+	private JButton copyClipboard;
+	private JButton writeFile;
+	private JButton applyBR;
+	private JFileChooser fileBrowser = new JFileChooser();
+	private JFrame frame = new JFrame();
+
+	private String errorMSG;
+	
+	public GeneratedCode(String code)
+	{
+		theCode = code;
+		setLayout(new FlowLayout());
+		Toolkit tk = Toolkit.getDefaultToolkit();
+		Dimension screenSize = tk.getScreenSize();
+		setSize(500, 500);
+		int screenHeight = screenSize.height;
+		int screenWidth = screenSize.width;
+		setLocation((screenWidth / 2) - (getWidth() / 2), (screenHeight / 2) - (getHeight() / 2));
+		setVisible(true);
+		mycode = new JTextArea(theCode);
+		mycode.setLineWrap(true);
+		JScrollPane pScroll = new JScrollPane(mycode, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+		//mycode.setPreferredSize(new Dimension(470,400));
+		pScroll.setPreferredSize(new Dimension(480,400));
+		add(pScroll);
+		
+		JPanel knoppenPanel = new JPanel();
+			writeFile = new JButton("Write to file");
+			copyClipboard = new JButton("Copy to clipboard");
+			applyBR = new JButton("Apply on Target Database");
+			
+			copyClipboard.addActionListener(new ActionListener(){
+
+				@Override
+				public void actionPerformed(ActionEvent arg0) {
+					mycode.selectAll();
+					mycode.copy();
+					copyClipboard.transferFocusBackward();
+				}	
+			});
+			
+			writeFile.addActionListener(new ActionListener() {
+				@Override
+				public void actionPerformed(ActionEvent ae) 
+				{
+					int rVal = fileBrowser.showSaveDialog(frame);
+					if (rVal == JFileChooser.APPROVE_OPTION) 
+					{
+						
+						File _file = new File(fileBrowser.getCurrentDirectory().toString()+"\\n"+fileBrowser.getSelectedFile().getName());
+						System.out.println(Write.writeText(_file, theCode, true));
+						System.out.println(fileBrowser.getCurrentDirectory().toString()+"\\n"+fileBrowser.getSelectedFile().getName()+".sql");
+					}
+					if (rVal == JFileChooser.CANCEL_OPTION) {
+						//filename.setText("You pressed cancel");
+					}
+				}
+			});
+			
+//			applyBR.addActionListener(new ActionListener(){
+//
+//				@Override
+//				public void actionPerformed(ActionEvent arg0)
+//				{
+//					TargetDatabase targetDB = new TargetDatabase();
+//					try 
+					{
+//						targetDB.applyBusinessRules(theCode);
+//					}
+//					catch(SQLException ex)
+					{
+//						errorMSG = "Error while applying Business Rule(s):\n" + ex.getMessage();
+//						JFrame frame = new JFrame();
+//						JOptionPane.showMessageDialog(frame, errorMSG, "Business rule database error!", JOptionPane.ERROR_MESSAGE);
+//					}
+//					finally 
+						{
+//						if (errorMSG == null) {
+//							JFrame frame = new JFrame();
+//							JOptionPane.showMessageDialog(frame, "The selected business rule(s), are succesfully added to the target database.");
+//						}
+					}
+				//}
+			//});
+			
+		knoppenPanel.add(copyClipboard);
+		knoppenPanel.add(applyBR);
+		knoppenPanel.add(writeFile);
+		add(knoppenPanel);
+	}
+}}}
