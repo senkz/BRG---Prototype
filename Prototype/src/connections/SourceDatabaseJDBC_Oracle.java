@@ -22,21 +22,21 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	 Connection con;
 	
 	 @Override 
-	public  boolean testConnection()
+	public  String testConnection(String _username, String _password, String _URL)
 	{
 		try
 		{
-			getConnection();
-			return true;
+			getConnection(userid,password,url);
+			return "Connection succesfully established";
 		}
 		catch (Exception e)
 		{
-			
+			return e.getMessage();
 		}
-		return false;
+	
 	}
 	
-	public Connection getConnection()
+	public Connection getConnection(String _username, String _password, String _URL)
 	{		
 		try 
 		{
@@ -63,7 +63,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT NAME FROM APP_BUSINESSRULE";
 		ArrayList<BusinessRule> _temp = new ArrayList<BusinessRule>();
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -87,7 +87,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_BUSINESSRULE WHERE BR_ID = "+id;
 		BusinessRule _businessRule = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -111,7 +111,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_ERROR WHERE ERR_ID = "+id;
 		Error _error = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -134,7 +134,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_TRIGGER WHERE TG_ID = "+id;
 		Trigger _trigger = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -157,7 +157,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_TABLE WHERE TB_ID IN (SELECT DISTINCT TB_FK from APP_JUNC_TB_TG where TG_FK = "+id+")";
 		Table _table = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -180,7 +180,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_OPERATOR WHERE BR_FK = "+id;
 		Operator _operator = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -204,7 +204,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_TABLECOLUMN WHERE TBC_ID = "+id;
 		TableColumn _tableColumn = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();
@@ -227,7 +227,7 @@ public class SourceDatabaseJDBC_Oracle implements DAO
 	{
 		String sql = "SELECT * FROM APP_VALUE WHERE CV_FK = "+id;
 		Value _value = null;
-		Connection con = getConnection();
+		Connection con = getConnection(userid,password,url);
 		try 
 		{
            	stmt = con.createStatement();

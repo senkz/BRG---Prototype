@@ -1,11 +1,6 @@
 package controls;
 
-import java.util.ArrayList;
-
-import connections.DAO;
-import connections.SourceDatabaseJDBC_Oracle;
-
-import model.BusinessRule;
+import connections.*;
 
 public class Register 
 {

@@ -12,5 +12,4 @@ public class Main
 		LoginFrame lg = new LoginFrame();
 		lg.setVisible(true);
 	}
-
 }

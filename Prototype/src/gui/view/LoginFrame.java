@@ -181,6 +181,7 @@ public class LoginFrame extends JFrame implements ActionListener
 			JOptionPane.showMessageDialog(null,errorMessage, "Invalid login data", JOptionPane.ERROR_MESSAGE);
 		}
 		
+		boolean found = false;
 		for (User s : GUIRegister.userList)
 		{
 			if (s.getUsername().equals(namef.getText())&&s.getPassword().equals(new String(passf.getPassword())))
@@ -189,25 +190,23 @@ public class LoginFrame extends JFrame implements ActionListener
 				if (credentials.isSelected())
 				{
 					setCredentials(namef.getText(),passf.getPassword());
-					Repository.removeCredentials();
-					 
+					//Repository.removeCredentials();
 				}
 				else
 				{
 					Repository.removeCredentials();
 				}
+				found = true;
 				System.out.println("Logged in as: "+ namef.getText() + ".");
 				GUIRegister.setActiveUser(s);
 				dispose();
 				DatabaseManagerFrame db = new DatabaseManagerFrame();
 				db.setVisible(true);
 			}
-			else
-			{
-				//invalid login!
-				JOptionPane.showMessageDialog(null,"This combination is not found, please try again", "Invalid login data", JOptionPane.ERROR_MESSAGE);
-			}
 		}
-		
+		if(!found)
+		{
+			JOptionPane.showMessageDialog(null,"This combination is not found, please try again", "Invalid login data", JOptionPane.ERROR_MESSAGE);
+		}		
 	}
 }

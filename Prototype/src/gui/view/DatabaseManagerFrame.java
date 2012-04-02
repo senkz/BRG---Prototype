@@ -15,6 +15,8 @@ import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import controls.Register;
+
 public class DatabaseManagerFrame extends JFrame implements ActionListener
 {
 	private JLabel sourceDbLabel = new JLabel("Source database:");
@@ -31,7 +33,7 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	private JTextField targetDbPassField = new JTextField();
 	private JTextField sourceURLField = new JTextField();
 	private JTextField targetURLField = new JTextField();
-	private JButton save = new JButton("Save");
+	private JButton saveAndContinue = new JButton("Save and continue");
 	private JButton test = new JButton("Test connection");
 	private JButton logout = new JButton("Log out");
 	private JButton pass = new JButton("Change password");
@@ -40,7 +42,8 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	String[] choices = {"Yes", "No", "Cancel"};
 	
 	boolean changed = false;
-	
+	boolean target = false;
+	boolean source = false; 
 	
 	public DatabaseManagerFrame()
 	{
@@ -82,9 +85,9 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 		targetURLField.setBounds(200, 160,100,20);
 		targetURLField.getDocument().addDocumentListener(myListener);
 		
-		save.addActionListener(this);
-		save.setBounds(400, 40,150,20);
-		save.setHorizontalAlignment(SwingConstants.LEFT);
+		saveAndContinue.addActionListener(this);
+		saveAndContinue.setBounds(400, 40,150,20);
+		saveAndContinue.setHorizontalAlignment(SwingConstants.LEFT);
 		
 		test.addActionListener(this);
 		test.setBounds(400,70,150,20);
@@ -117,7 +120,7 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 		add(targetDbPassField);
 		add(sourceURLField);
 		add(targetURLField);
-		add(save);
+		add(saveAndContinue);
 		add(test);
 		add(logout);
 		add(pass);
@@ -164,9 +167,9 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	
 	public void actionPerformed(ActionEvent e)
 	{
-		if (save==e.getSource())
+		if (saveAndContinue==e.getSource())
 		{
-			save();
+			saveContinue();
 		}
 		if (test==e.getSource())
 		{
@@ -174,6 +177,7 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 		}
 		if (logout==e.getSource())
 		{
+			System.out.println("User: "+GUIRegister.activeUser.getUsername()+" had logged out.");
 			GUIRegister.setActiveUser(null);
 			LoginFrame lf = new LoginFrame();
 			lf.setVisible(true);
@@ -226,9 +230,14 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	
 	}
 	
+	private void saveContinue()
+	{
+		
+	}
 	
 	private void saveAndExit()
 	{
+		JOptionPane.showMessageDialog(null,"All data has been saved", "Saving data", JOptionPane.INFORMATION_MESSAGE);
 		save();
 		System.exit(0);
 	}
@@ -247,11 +256,46 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 		
 		Repository.updateUser(GUIRegister.activeUser);
 		Repository.initialize();
-		JOptionPane.showMessageDialog(null,"All data has been saved", "Invalid login data", JOptionPane.INFORMATION_MESSAGE);
+		
 	}
 	
 	private void testConnection()
 	{
-		if(Register.)
+		String _targetMessage = "";
+		String _sourceMessage = "";
+		
+		target = false;
+		source = false;
+
+		//System.out.println(Register.getConnection().getConnection(username, password, URL))
+		
+//		if(Register.getConnection().testConnection(sourceDbUserField.getText(),sourceDbPassField.getText(),sourceURLField.getText()))
+//		{
+//			_sourceMessage+= "Connection to source database established.\n";
+//			target = true;
+//		}
+//		else
+//		{
+//			_sourceMessage+="Connection to source database failed!\n";
+//		}
+//		
+//		if(Register.getConnection().testConnection(targetDbUserField.getText(),targetDbPassField.getText(),targetURLField.getText()))
+//		{
+//			_targetMessage+= "Connection to target database established.\n";
+//			source = true;
+//		}
+//		else
+//		{
+//			_targetMessage+="Connection to target database failed!\n";
+//		}
+//		
+//		if(target&&source)
+//		{
+//			JOptionPane.showMessageDialog(null,_targetMessage+"\n"+_sourceMessage, "Database connections", JOptionPane.INFORMATION_MESSAGE);
+//		}
+//		else
+//		{
+//			JOptionPane.showMessageDialog(null,_targetMessage+"\n"+_sourceMessage, "Database connections", JOptionPane.ERROR_MESSAGE);
+//		}
 	}
 }
