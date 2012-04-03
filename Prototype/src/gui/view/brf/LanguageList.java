@@ -5,6 +5,8 @@ import generator.lang.plsql.OracleGenerator;
 
 import java.util.ArrayList;
 
+import model.BusinessRule;
+
 public class LanguageList {
 	private static ArrayList<Generator> gen_list;
 	
@@ -12,6 +14,18 @@ public class LanguageList {
 		gen_list = new ArrayList<Generator>();
 		
 		gen_list.add(new OracleGenerator());
+		gen_list.add(new Generator() {
+
+			@Override
+			public String generateBR(BusinessRule br) {
+				return "The dummy language does not work.";
+			}
+
+			@Override
+			public String getName() {
+				return "Dummy Language";
+			}
+		});
 	}
 
 	public static ArrayList<String> getAllLanguages() {

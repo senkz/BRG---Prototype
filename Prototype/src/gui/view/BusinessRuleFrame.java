@@ -1,5 +1,6 @@
 package gui.view;
 
+import generator.Generator;
 import gui.view.brf.BRList;
 import gui.view.brf.LanguageList;
 import gui.view.brf.SelectBusinessRules;
@@ -33,7 +34,7 @@ public class BusinessRuleFrame extends JFrame
 {
 	private Register mc = Register.getInstance();
 	
-	private BRList BRList = new BRList();
+	private BRList BRList;
 	
 	private JFrame myframe;
 
@@ -85,6 +86,8 @@ public class BusinessRuleFrame extends JFrame
 	
 	public void init()
 	{
+		BRList = new BRList();
+		
 		myframe.remove(pleaseWaitLabel);
 
 		setSize(700,600);
@@ -186,16 +189,16 @@ public class BusinessRuleFrame extends JFrame
 		selectedToGenerateB.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				BRList.SetToGenerate(generateList.getGeselecteerdeSelected());
+				BRList.SetToGenerate(selectList.getGeselecteerdeSelected());
 				generateList.update(null, null);
 				selectList.update(null, null);
 			}
 		});
-
+		
 		generateToSelectedB.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				BRList.RemoveFromGenerate(selectList.getGeselecteerdeSelected());
+				BRList.RemoveFromGenerate(generateList.getGeselecteerdeSelected());
 				generateList.update(null, null);
 				selectList.update(null, null);
 			}
@@ -227,13 +230,6 @@ public class BusinessRuleFrame extends JFrame
 		allToGenerateB.setAlignmentX(CENTER_ALIGNMENT);
 		allToSelectedB.setAlignmentX(CENTER_ALIGNMENT);
 		allToSelectedB.setAlignmentY(Container.BOTTOM_ALIGNMENT);
-		
-		selectedToGenerateB.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				
-			}
-		});
 	}
 	
 	private void addPanelSouth(){
@@ -257,7 +253,14 @@ public class BusinessRuleFrame extends JFrame
 		genererenB.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				// SEND TO LEANDER FRAME
+				Generator gen = LanguageList.getGenerator(getGenerateLanguage());
+				String s = "";
+				for(BusinessRule br : BRList.getBusinessToGenerate()) {
+					s += gen.generateBR(br) + "\n\n";
+				}
+				
+				GeneratedCode gc = new GeneratedCode(s);
+				gc.setVisible(true);
 			}
 		});
 		

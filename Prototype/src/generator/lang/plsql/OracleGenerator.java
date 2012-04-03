@@ -7,24 +7,15 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 
 import logger.GLogger;
-import model.APP_Error;
-import model.BusinessRule;
-import model.BusinessRuleType;
-import model.CustomCode;
-import model.Operator;
-import model.Table;
-import model.TableColumn;
-import model.Trigger;
-import model.Value;
-import connections.ModelController;
+import model.*;
+import controls.Register;
 
 public class OracleGenerator implements generator.Generator {	
 	private static String name = "ORACLE (PLSQL)";
 	
-	private ModelController mc = ModelController.getInstance();
+	private Register mc = Register.getInstance();
 	
-	public String generateBR(String br_name) {		
-		BusinessRule br = mc.findBusinessRule(br_name);
+	public String generateBR(BusinessRule br) {		
 		BusinessRuleType brt = mc.findBusinessRuleType(br.getBrt_fk());
 		
 		String s = null;
@@ -167,7 +158,7 @@ public class OracleGenerator implements generator.Generator {
 		String s = "";
 		for(int i = 0; i<vl.size(); i++) {
 			if(i!=0) {s+= ", ";}
-			s += vl.get(i).getValue();
+			s += "'" + vl.get(i).getValue() + "'";
 		}
 		tl.bindParam("second_value", s);
 		
@@ -336,5 +327,4 @@ public class OracleGenerator implements generator.Generator {
 	public String getName() {
 		return name;
 	}
-	
 }

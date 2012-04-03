@@ -1,1331 +1,347 @@
-[2012-04-02 13:06:00] [INFO] Made an database connection with:
-[2012-04-02 13:06:00] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 13:06:00] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 13:06:00] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 13:06:00] [INFO] Started loading data.
-[2012-04-02 13:06:00] [INFO] Started loading applications.
-[2012-04-02 13:06:00] [INFO] Done loading 1 application(s)
-[2012-04-02 13:06:00] [INFO] Started loading businessrules.
-[2012-04-02 13:06:00] [INFO] Test error id: 39
-[2012-04-02 13:06:00] [INFO] Test error id: 32
-[2012-04-02 13:06:00] [INFO] Test error id: 35
-[2012-04-02 13:06:00] [INFO] Test error id: 42
-[2012-04-02 13:06:00] [INFO] Test error id: 15
-[2012-04-02 13:06:00] [INFO] Test error id: 26
-[2012-04-02 13:06:00] [INFO] Test error id: 17
-[2012-04-02 13:06:00] [INFO] Done loading 7 businessrule(s)
-[2012-04-02 13:06:00] [INFO] Started loading businessrulestypes.
-[2012-04-02 13:06:00] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 13:06:00] [INFO] Started loading categories.
-[2012-04-02 13:06:00] [INFO] Done loading 1 category
-[2012-04-02 13:06:00] [INFO] Started loading custom code data.
-[2012-04-02 13:06:00] [INFO] Done loading 1 custom code data.
-[2012-04-02 13:06:00] [INFO] Started loading database info.
-[2012-04-02 13:06:00] [INFO] Done loading 1 database
-[2012-04-02 13:06:00] [INFO] Started loading error info.
-[2012-04-02 13:06:00] [INFO] Done loading 8 error messages
-[2012-04-02 13:06:00] [INFO] Started loading operators.
-[2012-04-02 13:06:00] [INFO] Done loading 7 operator(s)
-[2012-04-02 13:06:00] [INFO] Started loading tables.
-[2012-04-02 13:06:00] [INFO] Done loading 2 table(s)
-[2012-04-02 13:06:00] [INFO] Started loading tablecolumns.
-[2012-04-02 13:06:00] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 13:06:00] [INFO] Started loading trigger.
-[2012-04-02 13:06:00] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:06:00] [INFO] Started loading trigger.
-[2012-04-02 13:06:00] [INFO] Done loading 20 trigger(s)
-[2012-04-02 13:06:00] [INFO] Started loading trigger.
-[2012-04-02 13:06:00] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:06:00] [INFO] Finished loading data.
-[2012-04-02 13:06:00] [INFO] Closed database connection.
-[2012-04-02 13:06:21] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [SEVERE] Define business rule has failed and did not add all values on the business rule:
-[2012-04-02 13:06:22] [SEVERE] AttrCompareRuleTest
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:06:22] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:10] [INFO] Made an database connection with:
-[2012-04-02 13:09:10] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 13:09:10] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 13:09:10] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 13:09:10] [INFO] Started loading data.
-[2012-04-02 13:09:10] [INFO] Started loading applications.
-[2012-04-02 13:09:10] [INFO] Done loading 1 application(s)
-[2012-04-02 13:09:10] [INFO] Started loading businessrules.
-[2012-04-02 13:09:10] [INFO] Test error id: 39
-[2012-04-02 13:09:10] [INFO] Test error id: 32
-[2012-04-02 13:09:10] [INFO] Test error id: 35
-[2012-04-02 13:09:10] [INFO] Test error id: 42
-[2012-04-02 13:09:10] [INFO] Test error id: 15
-[2012-04-02 13:09:10] [INFO] Test error id: 26
-[2012-04-02 13:09:10] [INFO] Test error id: 17
-[2012-04-02 13:09:10] [INFO] Done loading 7 businessrule(s)
-[2012-04-02 13:09:10] [INFO] Started loading businessrulestypes.
-[2012-04-02 13:09:10] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 13:09:10] [INFO] Started loading categories.
-[2012-04-02 13:09:10] [INFO] Done loading 1 category
-[2012-04-02 13:09:10] [INFO] Started loading custom code data.
-[2012-04-02 13:09:10] [INFO] Done loading 1 custom code data.
-[2012-04-02 13:09:10] [INFO] Started loading database info.
-[2012-04-02 13:09:10] [INFO] Done loading 1 database
-[2012-04-02 13:09:10] [INFO] Started loading error info.
-[2012-04-02 13:09:10] [INFO] Done loading 8 error messages
-[2012-04-02 13:09:10] [INFO] Started loading operators.
-[2012-04-02 13:09:10] [INFO] Done loading 7 operator(s)
-[2012-04-02 13:09:10] [INFO] Started loading tables.
-[2012-04-02 13:09:10] [INFO] Done loading 2 table(s)
-[2012-04-02 13:09:10] [INFO] Started loading tablecolumns.
-[2012-04-02 13:09:10] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 13:09:10] [INFO] Started loading trigger.
-[2012-04-02 13:09:10] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:09:10] [INFO] Started loading trigger.
-[2012-04-02 13:09:10] [INFO] Done loading 20 trigger(s)
-[2012-04-02 13:09:10] [INFO] Started loading trigger.
-[2012-04-02 13:09:10] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:09:10] [INFO] Finished loading data.
-[2012-04-02 13:09:10] [INFO] Closed database connection.
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:09:16] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:27:53] [INFO] Made an database connection with:
-[2012-04-02 13:27:53] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 13:27:53] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 13:27:53] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 13:27:53] [INFO] Started loading data.
-[2012-04-02 13:27:53] [INFO] Started loading applications.
-[2012-04-02 13:27:53] [INFO] Done loading 1 application(s)
-[2012-04-02 13:27:53] [INFO] Started loading businessrules.
-[2012-04-02 13:27:53] [INFO] Test error id: 39
-[2012-04-02 13:27:53] [INFO] Test error id: 32
-[2012-04-02 13:27:53] [INFO] Test error id: 35
-[2012-04-02 13:27:53] [INFO] Test error id: 42
-[2012-04-02 13:27:53] [INFO] Test error id: 15
-[2012-04-02 13:27:53] [INFO] Test error id: 26
-[2012-04-02 13:27:53] [INFO] Test error id: 17
-[2012-04-02 13:27:53] [INFO] Done loading 7 businessrule(s)
-[2012-04-02 13:27:53] [INFO] Started loading businessrulestypes.
-[2012-04-02 13:27:53] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 13:27:53] [INFO] Started loading categories.
-[2012-04-02 13:27:53] [INFO] Done loading 1 category
-[2012-04-02 13:27:53] [INFO] Started loading custom code data.
-[2012-04-02 13:27:53] [INFO] Done loading 1 custom code data.
-[2012-04-02 13:27:53] [INFO] Started loading database info.
-[2012-04-02 13:27:53] [INFO] Done loading 1 database
-[2012-04-02 13:27:53] [INFO] Started loading error info.
-[2012-04-02 13:27:53] [INFO] Done loading 8 error messages
-[2012-04-02 13:27:54] [INFO] Started loading operators.
-[2012-04-02 13:27:54] [INFO] Done loading 7 operator(s)
-[2012-04-02 13:27:54] [INFO] Started loading tables.
-[2012-04-02 13:27:54] [INFO] Done loading 2 table(s)
-[2012-04-02 13:27:54] [INFO] Started loading tablecolumns.
-[2012-04-02 13:27:54] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 13:27:54] [INFO] Started loading trigger.
-[2012-04-02 13:27:54] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:27:54] [INFO] Started loading trigger.
-[2012-04-02 13:27:54] [INFO] Done loading 20 trigger(s)
-[2012-04-02 13:27:54] [INFO] Started loading trigger.
-[2012-04-02 13:27:54] [INFO] Done loading 8 trigger(s)
-[2012-04-02 13:27:54] [INFO] Finished loading data.
-[2012-04-02 13:27:54] [INFO] Closed database connection.
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 13:28:00] [INFO] Template for business rule succesfully loaded
-[2012-04-02 14:23:39] [INFO] Made an database connection with:
-[2012-04-02 14:23:39] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:23:39] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:23:39] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:23:39] [INFO] Started loading data.
-[2012-04-02 14:23:39] [INFO] Started loading applications.
-[2012-04-02 14:23:39] [INFO] Done loading 1 application(s)
-[2012-04-02 14:23:39] [INFO] Started loading businessrules.
-[2012-04-02 14:23:39] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:23:39] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:23:39] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:23:39] [INFO] Started loading categories.
-[2012-04-02 14:23:39] [INFO] Done loading 1 category
-[2012-04-02 14:23:39] [INFO] Started loading custom code data.
-[2012-04-02 14:23:39] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:23:39] [INFO] Started loading database info.
-[2012-04-02 14:23:39] [INFO] Done loading 1 database
-[2012-04-02 14:23:39] [INFO] Started loading error info.
-[2012-04-02 14:23:39] [INFO] Done loading 9 error messages
-[2012-04-02 14:23:39] [INFO] Started loading operators.
-[2012-04-02 14:23:39] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:23:39] [INFO] Started loading tables.
-[2012-04-02 14:23:39] [INFO] Done loading 2 table(s)
-[2012-04-02 14:23:39] [INFO] Started loading tablecolumns.
-[2012-04-02 14:23:39] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:23:39] [INFO] Started loading trigger.
-[2012-04-02 14:23:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:23:39] [INFO] Started loading trigger.
-[2012-04-02 14:23:39] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:23:39] [INFO] Started loading trigger.
-[2012-04-02 14:23:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:23:39] [INFO] Finished loading data.
-[2012-04-02 14:23:39] [INFO] Closed database connection.
-[2012-04-02 14:25:15] [INFO] Made an database connection with:
-[2012-04-02 14:25:15] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:25:15] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:25:15] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:25:15] [INFO] Started loading data.
-[2012-04-02 14:25:15] [INFO] Started loading applications.
-[2012-04-02 14:25:15] [INFO] Done loading 1 application(s)
-[2012-04-02 14:25:15] [INFO] Started loading businessrules.
-[2012-04-02 14:25:15] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:25:15] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:25:15] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:25:15] [INFO] Started loading categories.
-[2012-04-02 14:25:15] [INFO] Done loading 1 category
-[2012-04-02 14:25:15] [INFO] Started loading custom code data.
-[2012-04-02 14:25:15] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:25:15] [INFO] Started loading database info.
-[2012-04-02 14:25:15] [INFO] Done loading 1 database
-[2012-04-02 14:25:15] [INFO] Started loading error info.
-[2012-04-02 14:25:15] [INFO] Done loading 9 error messages
-[2012-04-02 14:25:15] [INFO] Started loading operators.
-[2012-04-02 14:25:15] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:25:15] [INFO] Started loading tables.
-[2012-04-02 14:25:15] [INFO] Done loading 2 table(s)
-[2012-04-02 14:25:15] [INFO] Started loading tablecolumns.
-[2012-04-02 14:25:15] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:25:15] [INFO] Started loading trigger.
-[2012-04-02 14:25:15] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:25:15] [INFO] Started loading trigger.
-[2012-04-02 14:25:15] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:25:15] [INFO] Started loading trigger.
-[2012-04-02 14:25:15] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:25:15] [INFO] Finished loading data.
-[2012-04-02 14:25:15] [INFO] Closed database connection.
-[2012-04-02 14:26:01] [INFO] Made an database connection with:
-[2012-04-02 14:26:01] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:26:01] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:26:01] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:26:01] [INFO] Started loading data.
-[2012-04-02 14:26:01] [INFO] Started loading applications.
-[2012-04-02 14:26:01] [INFO] Done loading 1 application(s)
-[2012-04-02 14:26:01] [INFO] Started loading businessrules.
-[2012-04-02 14:26:01] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:26:01] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:26:01] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:26:01] [INFO] Started loading categories.
-[2012-04-02 14:26:01] [INFO] Done loading 1 category
-[2012-04-02 14:26:01] [INFO] Started loading custom code data.
-[2012-04-02 14:26:01] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:26:01] [INFO] Started loading database info.
-[2012-04-02 14:26:01] [INFO] Done loading 1 database
-[2012-04-02 14:26:01] [INFO] Started loading error info.
-[2012-04-02 14:26:01] [INFO] Done loading 9 error messages
-[2012-04-02 14:26:01] [INFO] Started loading operators.
-[2012-04-02 14:26:01] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:26:01] [INFO] Started loading tables.
-[2012-04-02 14:26:01] [INFO] Done loading 2 table(s)
-[2012-04-02 14:26:01] [INFO] Started loading tablecolumns.
-[2012-04-02 14:26:01] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:26:01] [INFO] Started loading trigger.
-[2012-04-02 14:26:01] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:26:01] [INFO] Started loading trigger.
-[2012-04-02 14:26:01] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:26:01] [INFO] Started loading trigger.
-[2012-04-02 14:26:01] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:26:01] [INFO] Finished loading data.
-[2012-04-02 14:26:01] [INFO] Closed database connection.
-[2012-04-02 14:27:48] [INFO] Made an database connection with:
-[2012-04-02 14:27:48] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:27:48] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:27:48] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:27:48] [INFO] Started loading data.
-[2012-04-02 14:27:48] [INFO] Started loading applications.
-[2012-04-02 14:27:48] [INFO] Done loading 1 application(s)
-[2012-04-02 14:27:48] [INFO] Started loading businessrules.
-[2012-04-02 14:27:48] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:27:48] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:27:48] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:27:48] [INFO] Started loading categories.
-[2012-04-02 14:27:48] [INFO] Done loading 1 category
-[2012-04-02 14:27:48] [INFO] Started loading custom code data.
-[2012-04-02 14:27:48] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:27:48] [INFO] Started loading database info.
-[2012-04-02 14:27:48] [INFO] Done loading 1 database
-[2012-04-02 14:27:48] [INFO] Started loading error info.
-[2012-04-02 14:27:48] [INFO] Done loading 9 error messages
-[2012-04-02 14:27:48] [INFO] Started loading operators.
-[2012-04-02 14:27:48] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:27:48] [INFO] Started loading tables.
-[2012-04-02 14:27:48] [INFO] Done loading 2 table(s)
-[2012-04-02 14:27:48] [INFO] Started loading tablecolumns.
-[2012-04-02 14:27:48] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:27:48] [INFO] Started loading trigger.
-[2012-04-02 14:27:48] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:27:48] [INFO] Started loading trigger.
-[2012-04-02 14:27:48] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:27:48] [INFO] Started loading trigger.
-[2012-04-02 14:27:48] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:27:48] [INFO] Finished loading data.
-[2012-04-02 14:27:48] [INFO] Closed database connection.
-[2012-04-02 14:29:49] [INFO] Made an database connection with:
-[2012-04-02 14:29:49] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:29:49] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:29:49] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:29:50] [INFO] Started loading data.
-[2012-04-02 14:29:50] [INFO] Started loading applications.
-[2012-04-02 14:29:50] [INFO] Done loading 1 application(s)
-[2012-04-02 14:29:50] [INFO] Started loading businessrules.
-[2012-04-02 14:29:50] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:29:50] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:29:50] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:29:50] [INFO] Started loading categories.
-[2012-04-02 14:29:50] [INFO] Done loading 1 category
-[2012-04-02 14:29:50] [INFO] Started loading custom code data.
-[2012-04-02 14:29:50] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:29:50] [INFO] Started loading database info.
-[2012-04-02 14:29:50] [INFO] Done loading 1 database
-[2012-04-02 14:29:50] [INFO] Started loading error info.
-[2012-04-02 14:29:50] [INFO] Done loading 9 error messages
-[2012-04-02 14:29:50] [INFO] Started loading operators.
-[2012-04-02 14:29:50] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:29:50] [INFO] Started loading tables.
-[2012-04-02 14:29:50] [INFO] Done loading 2 table(s)
-[2012-04-02 14:29:50] [INFO] Started loading tablecolumns.
-[2012-04-02 14:29:50] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:29:50] [INFO] Started loading trigger.
-[2012-04-02 14:29:50] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:29:50] [INFO] Started loading trigger.
-[2012-04-02 14:29:50] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:29:50] [INFO] Started loading trigger.
-[2012-04-02 14:29:50] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:29:50] [INFO] Finished loading data.
-[2012-04-02 14:29:50] [INFO] Closed database connection.
-[2012-04-02 14:33:05] [INFO] Made an database connection with:
-[2012-04-02 14:33:05] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:33:05] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:33:05] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:33:05] [INFO] Started loading data.
-[2012-04-02 14:33:05] [INFO] Started loading applications.
-[2012-04-02 14:33:05] [INFO] Done loading 1 application(s)
-[2012-04-02 14:33:05] [INFO] Started loading businessrules.
-[2012-04-02 14:33:05] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:33:05] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:33:05] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:33:05] [INFO] Started loading categories.
-[2012-04-02 14:33:05] [INFO] Done loading 1 category
-[2012-04-02 14:33:05] [INFO] Started loading custom code data.
-[2012-04-02 14:33:05] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:33:05] [INFO] Started loading database info.
-[2012-04-02 14:33:05] [INFO] Done loading 1 database
-[2012-04-02 14:33:05] [INFO] Started loading error info.
-[2012-04-02 14:33:05] [INFO] Done loading 9 error messages
-[2012-04-02 14:33:05] [INFO] Started loading operators.
-[2012-04-02 14:33:05] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:33:05] [INFO] Started loading tables.
-[2012-04-02 14:33:05] [INFO] Done loading 2 table(s)
-[2012-04-02 14:33:05] [INFO] Started loading tablecolumns.
-[2012-04-02 14:33:05] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:33:05] [INFO] Started loading trigger.
-[2012-04-02 14:33:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:33:05] [INFO] Started loading trigger.
-[2012-04-02 14:33:05] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:33:05] [INFO] Started loading trigger.
-[2012-04-02 14:33:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:33:05] [INFO] Finished loading data.
-[2012-04-02 14:33:05] [INFO] Closed database connection.
-[2012-04-02 14:38:31] [INFO] Made an database connection with:
-[2012-04-02 14:38:31] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:38:31] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:38:31] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:38:31] [INFO] Started loading data.
-[2012-04-02 14:38:31] [INFO] Started loading applications.
-[2012-04-02 14:38:31] [INFO] Done loading 1 application(s)
-[2012-04-02 14:38:31] [INFO] Started loading businessrules.
-[2012-04-02 14:38:31] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:38:31] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:38:31] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:38:31] [INFO] Started loading categories.
-[2012-04-02 14:38:31] [INFO] Done loading 1 category
-[2012-04-02 14:38:31] [INFO] Started loading custom code data.
-[2012-04-02 14:38:31] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:38:31] [INFO] Started loading database info.
-[2012-04-02 14:38:31] [INFO] Done loading 1 database
-[2012-04-02 14:38:31] [INFO] Started loading error info.
-[2012-04-02 14:38:31] [INFO] Done loading 9 error messages
-[2012-04-02 14:38:31] [INFO] Started loading operators.
-[2012-04-02 14:38:31] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:38:31] [INFO] Started loading tables.
-[2012-04-02 14:38:31] [INFO] Done loading 2 table(s)
-[2012-04-02 14:38:31] [INFO] Started loading tablecolumns.
-[2012-04-02 14:38:31] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:38:31] [INFO] Started loading trigger.
-[2012-04-02 14:38:31] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:38:31] [INFO] Started loading trigger.
-[2012-04-02 14:38:31] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:38:31] [INFO] Started loading trigger.
-[2012-04-02 14:38:31] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:38:31] [INFO] Finished loading data.
-[2012-04-02 14:38:31] [INFO] Closed database connection.
-[2012-04-02 14:39:12] [INFO] Made an database connection with:
-[2012-04-02 14:39:12] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:39:12] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:39:12] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:39:12] [INFO] Started loading data.
-[2012-04-02 14:39:12] [INFO] Started loading applications.
-[2012-04-02 14:39:12] [INFO] Done loading 1 application(s)
-[2012-04-02 14:39:12] [INFO] Started loading businessrules.
-[2012-04-02 14:39:12] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:39:12] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:39:12] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:39:12] [INFO] Started loading categories.
-[2012-04-02 14:39:12] [INFO] Done loading 1 category
-[2012-04-02 14:39:12] [INFO] Started loading custom code data.
-[2012-04-02 14:39:12] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:39:12] [INFO] Started loading database info.
-[2012-04-02 14:39:12] [INFO] Done loading 1 database
-[2012-04-02 14:39:12] [INFO] Started loading error info.
-[2012-04-02 14:39:12] [INFO] Done loading 9 error messages
-[2012-04-02 14:39:12] [INFO] Started loading operators.
-[2012-04-02 14:39:12] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:39:12] [INFO] Started loading tables.
-[2012-04-02 14:39:12] [INFO] Done loading 2 table(s)
-[2012-04-02 14:39:12] [INFO] Started loading tablecolumns.
-[2012-04-02 14:39:12] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:39:12] [INFO] Started loading trigger.
-[2012-04-02 14:39:12] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:39:12] [INFO] Started loading trigger.
-[2012-04-02 14:39:12] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:39:12] [INFO] Started loading trigger.
-[2012-04-02 14:39:12] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:39:12] [INFO] Finished loading data.
-[2012-04-02 14:39:12] [INFO] Closed database connection.
-[2012-04-02 14:45:51] [INFO] Made an database connection with:
-[2012-04-02 14:45:51] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:45:51] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:45:51] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:45:51] [INFO] Started loading data.
-[2012-04-02 14:45:51] [INFO] Started loading applications.
-[2012-04-02 14:45:51] [INFO] Done loading 1 application(s)
-[2012-04-02 14:45:51] [INFO] Started loading businessrules.
-[2012-04-02 14:45:51] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:45:51] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:45:51] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:45:51] [INFO] Started loading categories.
-[2012-04-02 14:45:51] [INFO] Done loading 1 category
-[2012-04-02 14:45:51] [INFO] Started loading custom code data.
-[2012-04-02 14:45:51] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:45:51] [INFO] Started loading database info.
-[2012-04-02 14:45:51] [INFO] Done loading 1 database
-[2012-04-02 14:45:51] [INFO] Started loading error info.
-[2012-04-02 14:45:51] [INFO] Done loading 9 error messages
-[2012-04-02 14:45:51] [INFO] Started loading operators.
-[2012-04-02 14:45:51] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:45:51] [INFO] Started loading tables.
-[2012-04-02 14:45:51] [INFO] Done loading 2 table(s)
-[2012-04-02 14:45:51] [INFO] Started loading tablecolumns.
-[2012-04-02 14:45:51] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:45:51] [INFO] Started loading trigger.
-[2012-04-02 14:45:51] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:45:51] [INFO] Started loading trigger.
-[2012-04-02 14:45:51] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:45:51] [INFO] Started loading trigger.
-[2012-04-02 14:45:51] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:45:51] [INFO] Finished loading data.
-[2012-04-02 14:45:51] [INFO] Closed database connection.
-[2012-04-02 14:58:30] [INFO] Made an database connection with:
-[2012-04-02 14:58:30] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 14:58:30] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 14:58:30] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 14:58:30] [INFO] Started loading data.
-[2012-04-02 14:58:30] [INFO] Started loading applications.
-[2012-04-02 14:58:30] [INFO] Done loading 1 application(s)
-[2012-04-02 14:58:30] [INFO] Started loading businessrules.
-[2012-04-02 14:58:30] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 14:58:30] [INFO] Started loading businessrulestypes.
-[2012-04-02 14:58:30] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 14:58:30] [INFO] Started loading categories.
-[2012-04-02 14:58:30] [INFO] Done loading 1 category
-[2012-04-02 14:58:30] [INFO] Started loading custom code data.
-[2012-04-02 14:58:30] [INFO] Done loading 1 custom code data.
-[2012-04-02 14:58:30] [INFO] Started loading database info.
-[2012-04-02 14:58:30] [INFO] Done loading 1 database
-[2012-04-02 14:58:30] [INFO] Started loading error info.
-[2012-04-02 14:58:30] [INFO] Done loading 9 error messages
-[2012-04-02 14:58:30] [INFO] Started loading operators.
-[2012-04-02 14:58:30] [INFO] Done loading 8 operator(s)
-[2012-04-02 14:58:30] [INFO] Started loading tables.
-[2012-04-02 14:58:30] [INFO] Done loading 2 table(s)
-[2012-04-02 14:58:30] [INFO] Started loading tablecolumns.
-[2012-04-02 14:58:30] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 14:58:30] [INFO] Started loading trigger.
-[2012-04-02 14:58:30] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:58:30] [INFO] Started loading trigger.
-[2012-04-02 14:58:30] [INFO] Done loading 22 trigger(s)
-[2012-04-02 14:58:30] [INFO] Started loading trigger.
-[2012-04-02 14:58:30] [INFO] Done loading 9 trigger(s)
-[2012-04-02 14:58:30] [INFO] Finished loading data.
-[2012-04-02 14:58:30] [INFO] Closed database connection.
-[2012-04-02 15:01:13] [INFO] Made an database connection with:
-[2012-04-02 15:01:13] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:01:13] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:01:13] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:01:13] [INFO] Started loading data.
-[2012-04-02 15:01:13] [INFO] Started loading applications.
-[2012-04-02 15:01:13] [INFO] Done loading 1 application(s)
-[2012-04-02 15:01:13] [INFO] Started loading businessrules.
-[2012-04-02 15:01:13] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:01:13] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:01:13] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:01:13] [INFO] Started loading categories.
-[2012-04-02 15:01:13] [INFO] Done loading 1 category
-[2012-04-02 15:01:13] [INFO] Started loading custom code data.
-[2012-04-02 15:01:13] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:01:13] [INFO] Started loading database info.
-[2012-04-02 15:01:13] [INFO] Done loading 1 database
-[2012-04-02 15:01:13] [INFO] Started loading error info.
-[2012-04-02 15:01:13] [INFO] Done loading 9 error messages
-[2012-04-02 15:01:13] [INFO] Started loading operators.
-[2012-04-02 15:01:13] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:01:13] [INFO] Started loading tables.
-[2012-04-02 15:01:13] [INFO] Done loading 2 table(s)
-[2012-04-02 15:01:13] [INFO] Started loading tablecolumns.
-[2012-04-02 15:01:13] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:01:13] [INFO] Started loading trigger.
-[2012-04-02 15:01:13] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:01:13] [INFO] Started loading trigger.
-[2012-04-02 15:01:13] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:01:13] [INFO] Started loading trigger.
-[2012-04-02 15:01:13] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:01:13] [INFO] Finished loading data.
-[2012-04-02 15:01:13] [INFO] Closed database connection.
-[2012-04-02 15:03:56] [INFO] Made an database connection with:
-[2012-04-02 15:03:56] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:03:56] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:03:56] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:03:56] [INFO] Started loading data.
-[2012-04-02 15:03:56] [INFO] Started loading applications.
-[2012-04-02 15:03:56] [INFO] Done loading 1 application(s)
-[2012-04-02 15:03:56] [INFO] Started loading businessrules.
-[2012-04-02 15:03:56] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:03:56] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:03:56] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:03:56] [INFO] Started loading categories.
-[2012-04-02 15:03:56] [INFO] Done loading 1 category
-[2012-04-02 15:03:56] [INFO] Started loading custom code data.
-[2012-04-02 15:03:56] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:03:56] [INFO] Started loading database info.
-[2012-04-02 15:03:57] [INFO] Done loading 1 database
-[2012-04-02 15:03:57] [INFO] Started loading error info.
-[2012-04-02 15:03:57] [INFO] Done loading 9 error messages
-[2012-04-02 15:03:57] [INFO] Started loading operators.
-[2012-04-02 15:03:57] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:03:57] [INFO] Started loading tables.
-[2012-04-02 15:03:57] [INFO] Done loading 2 table(s)
-[2012-04-02 15:03:57] [INFO] Started loading tablecolumns.
-[2012-04-02 15:03:57] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:03:57] [INFO] Started loading trigger.
-[2012-04-02 15:03:57] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:03:57] [INFO] Started loading trigger.
-[2012-04-02 15:03:57] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:03:57] [INFO] Started loading trigger.
-[2012-04-02 15:03:57] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:03:57] [INFO] Finished loading data.
-[2012-04-02 15:03:57] [INFO] Closed database connection.
-[2012-04-02 15:05:14] [INFO] Made an database connection with:
-[2012-04-02 15:05:14] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:05:14] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:05:14] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:05:14] [INFO] Started loading data.
-[2012-04-02 15:05:14] [INFO] Started loading applications.
-[2012-04-02 15:05:14] [INFO] Done loading 1 application(s)
-[2012-04-02 15:05:14] [INFO] Started loading businessrules.
-[2012-04-02 15:05:14] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:05:14] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:05:14] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:05:14] [INFO] Started loading categories.
-[2012-04-02 15:05:14] [INFO] Done loading 1 category
-[2012-04-02 15:05:14] [INFO] Started loading custom code data.
-[2012-04-02 15:05:14] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:05:14] [INFO] Started loading database info.
-[2012-04-02 15:05:14] [INFO] Done loading 1 database
-[2012-04-02 15:05:14] [INFO] Started loading error info.
-[2012-04-02 15:05:14] [INFO] Done loading 9 error messages
-[2012-04-02 15:05:14] [INFO] Started loading operators.
-[2012-04-02 15:05:14] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:05:14] [INFO] Started loading tables.
-[2012-04-02 15:05:14] [INFO] Done loading 2 table(s)
-[2012-04-02 15:05:14] [INFO] Started loading tablecolumns.
-[2012-04-02 15:05:14] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:05:14] [INFO] Started loading trigger.
-[2012-04-02 15:05:14] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:05:14] [INFO] Started loading trigger.
-[2012-04-02 15:05:14] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:05:14] [INFO] Started loading trigger.
-[2012-04-02 15:05:14] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:05:14] [INFO] Finished loading data.
-[2012-04-02 15:05:14] [INFO] Closed database connection.
-[2012-04-02 15:05:39] [INFO] Made an database connection with:
-[2012-04-02 15:05:39] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:05:39] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:05:39] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:05:39] [INFO] Started loading data.
-[2012-04-02 15:05:39] [INFO] Started loading applications.
-[2012-04-02 15:05:39] [INFO] Done loading 1 application(s)
-[2012-04-02 15:05:39] [INFO] Started loading businessrules.
-[2012-04-02 15:05:39] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:05:39] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:05:39] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:05:39] [INFO] Started loading categories.
-[2012-04-02 15:05:39] [INFO] Done loading 1 category
-[2012-04-02 15:05:39] [INFO] Started loading custom code data.
-[2012-04-02 15:05:39] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:05:39] [INFO] Started loading database info.
-[2012-04-02 15:05:39] [INFO] Done loading 1 database
-[2012-04-02 15:05:39] [INFO] Started loading error info.
-[2012-04-02 15:05:39] [INFO] Done loading 9 error messages
-[2012-04-02 15:05:39] [INFO] Started loading operators.
-[2012-04-02 15:05:39] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:05:39] [INFO] Started loading tables.
-[2012-04-02 15:05:39] [INFO] Done loading 2 table(s)
-[2012-04-02 15:05:39] [INFO] Started loading tablecolumns.
-[2012-04-02 15:05:39] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:05:39] [INFO] Started loading trigger.
-[2012-04-02 15:05:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:05:39] [INFO] Started loading trigger.
-[2012-04-02 15:05:39] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:05:39] [INFO] Started loading trigger.
-[2012-04-02 15:05:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:05:39] [INFO] Finished loading data.
-[2012-04-02 15:05:39] [INFO] Closed database connection.
-[2012-04-02 15:09:00] [INFO] Made an database connection with:
-[2012-04-02 15:09:00] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:09:00] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:09:00] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:09:00] [INFO] Started loading data.
-[2012-04-02 15:09:00] [INFO] Started loading applications.
-[2012-04-02 15:09:00] [INFO] Done loading 1 application(s)
-[2012-04-02 15:09:00] [INFO] Started loading businessrules.
-[2012-04-02 15:09:00] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:09:00] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:09:00] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:09:00] [INFO] Started loading categories.
-[2012-04-02 15:09:00] [INFO] Done loading 1 category
-[2012-04-02 15:09:00] [INFO] Started loading custom code data.
-[2012-04-02 15:09:00] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:09:00] [INFO] Started loading database info.
-[2012-04-02 15:09:00] [INFO] Done loading 1 database
-[2012-04-02 15:09:00] [INFO] Started loading error info.
-[2012-04-02 15:09:00] [INFO] Done loading 9 error messages
-[2012-04-02 15:09:00] [INFO] Started loading operators.
-[2012-04-02 15:09:00] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:09:00] [INFO] Started loading tables.
-[2012-04-02 15:09:00] [INFO] Done loading 2 table(s)
-[2012-04-02 15:09:00] [INFO] Started loading tablecolumns.
-[2012-04-02 15:09:00] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:09:00] [INFO] Started loading trigger.
-[2012-04-02 15:09:00] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:09:00] [INFO] Started loading trigger.
-[2012-04-02 15:09:00] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:09:00] [INFO] Started loading trigger.
-[2012-04-02 15:09:00] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:09:00] [INFO] Finished loading data.
-[2012-04-02 15:09:00] [INFO] Closed database connection.
-[2012-04-02 15:21:48] [INFO] Made an database connection with:
-[2012-04-02 15:21:48] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:21:48] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:21:48] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:21:48] [INFO] Started loading data.
-[2012-04-02 15:21:48] [INFO] Started loading applications.
-[2012-04-02 15:21:48] [INFO] Done loading 1 application(s)
-[2012-04-02 15:21:48] [INFO] Started loading businessrules.
-[2012-04-02 15:21:48] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:21:48] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:21:48] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:21:48] [INFO] Started loading categories.
-[2012-04-02 15:21:48] [INFO] Done loading 1 category
-[2012-04-02 15:21:48] [INFO] Started loading custom code data.
-[2012-04-02 15:21:48] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:21:48] [INFO] Started loading database info.
-[2012-04-02 15:21:48] [INFO] Done loading 1 database
-[2012-04-02 15:21:48] [INFO] Started loading error info.
-[2012-04-02 15:21:48] [INFO] Done loading 9 error messages
-[2012-04-02 15:21:48] [INFO] Started loading operators.
-[2012-04-02 15:21:48] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:21:48] [INFO] Started loading tables.
-[2012-04-02 15:21:48] [INFO] Done loading 2 table(s)
-[2012-04-02 15:21:48] [INFO] Started loading tablecolumns.
-[2012-04-02 15:21:48] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:21:48] [INFO] Started loading trigger.
-[2012-04-02 15:21:48] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:21:48] [INFO] Started loading trigger.
-[2012-04-02 15:21:48] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:21:49] [INFO] Started loading trigger.
-[2012-04-02 15:21:49] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:21:49] [INFO] Finished loading data.
-[2012-04-02 15:21:49] [INFO] Closed database connection.
-[2012-04-02 15:23:00] [INFO] Made an database connection with:
-[2012-04-02 15:23:00] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:23:00] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:23:00] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:23:00] [INFO] Started loading data.
-[2012-04-02 15:23:00] [INFO] Started loading applications.
-[2012-04-02 15:23:00] [INFO] Done loading 1 application(s)
-[2012-04-02 15:23:00] [INFO] Started loading businessrules.
-[2012-04-02 15:23:00] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:23:00] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:23:00] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:23:00] [INFO] Started loading categories.
-[2012-04-02 15:23:00] [INFO] Done loading 1 category
-[2012-04-02 15:23:00] [INFO] Started loading custom code data.
-[2012-04-02 15:23:00] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:23:00] [INFO] Started loading database info.
-[2012-04-02 15:23:00] [INFO] Done loading 1 database
-[2012-04-02 15:23:00] [INFO] Started loading error info.
-[2012-04-02 15:23:00] [INFO] Done loading 9 error messages
-[2012-04-02 15:23:00] [INFO] Started loading operators.
-[2012-04-02 15:23:00] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:23:00] [INFO] Started loading tables.
-[2012-04-02 15:23:00] [INFO] Done loading 2 table(s)
-[2012-04-02 15:23:00] [INFO] Started loading tablecolumns.
-[2012-04-02 15:23:00] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:23:00] [INFO] Started loading trigger.
-[2012-04-02 15:23:00] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:23:00] [INFO] Started loading trigger.
-[2012-04-02 15:23:00] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:23:00] [INFO] Started loading trigger.
-[2012-04-02 15:23:00] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:23:00] [INFO] Finished loading data.
-[2012-04-02 15:23:00] [INFO] Closed database connection.
-[2012-04-02 15:24:44] [INFO] Made an database connection with:
-[2012-04-02 15:24:44] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:24:44] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:24:44] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:24:44] [INFO] Started loading data.
-[2012-04-02 15:24:44] [INFO] Started loading applications.
-[2012-04-02 15:24:44] [INFO] Done loading 1 application(s)
-[2012-04-02 15:24:44] [INFO] Started loading businessrules.
-[2012-04-02 15:24:44] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:24:44] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:24:45] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:24:45] [INFO] Started loading categories.
-[2012-04-02 15:24:45] [INFO] Done loading 1 category
-[2012-04-02 15:24:45] [INFO] Started loading custom code data.
-[2012-04-02 15:24:45] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:24:45] [INFO] Started loading database info.
-[2012-04-02 15:24:45] [INFO] Done loading 1 database
-[2012-04-02 15:24:45] [INFO] Started loading error info.
-[2012-04-02 15:24:45] [INFO] Done loading 9 error messages
-[2012-04-02 15:24:45] [INFO] Started loading operators.
-[2012-04-02 15:24:45] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:24:45] [INFO] Started loading tables.
-[2012-04-02 15:24:45] [INFO] Done loading 2 table(s)
-[2012-04-02 15:24:45] [INFO] Started loading tablecolumns.
-[2012-04-02 15:24:45] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:24:45] [INFO] Started loading trigger.
-[2012-04-02 15:24:45] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:24:45] [INFO] Started loading trigger.
-[2012-04-02 15:24:45] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:24:45] [INFO] Started loading trigger.
-[2012-04-02 15:24:45] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:24:45] [INFO] Finished loading data.
-[2012-04-02 15:24:45] [INFO] Closed database connection.
-[2012-04-02 15:25:19] [INFO] Made an database connection with:
-[2012-04-02 15:25:19] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:25:19] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:25:19] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:25:19] [INFO] Started loading data.
-[2012-04-02 15:25:19] [INFO] Started loading applications.
-[2012-04-02 15:25:19] [INFO] Done loading 1 application(s)
-[2012-04-02 15:25:19] [INFO] Started loading businessrules.
-[2012-04-02 15:25:19] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:25:19] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:25:19] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:25:19] [INFO] Started loading categories.
-[2012-04-02 15:25:19] [INFO] Done loading 1 category
-[2012-04-02 15:25:19] [INFO] Started loading custom code data.
-[2012-04-02 15:25:19] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:25:19] [INFO] Started loading database info.
-[2012-04-02 15:25:19] [INFO] Done loading 1 database
-[2012-04-02 15:25:19] [INFO] Started loading error info.
-[2012-04-02 15:25:19] [INFO] Done loading 9 error messages
-[2012-04-02 15:25:19] [INFO] Started loading operators.
-[2012-04-02 15:25:19] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:25:19] [INFO] Started loading tables.
-[2012-04-02 15:25:19] [INFO] Done loading 2 table(s)
-[2012-04-02 15:25:19] [INFO] Started loading tablecolumns.
-[2012-04-02 15:25:19] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:25:19] [INFO] Started loading trigger.
-[2012-04-02 15:25:19] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:25:19] [INFO] Started loading trigger.
-[2012-04-02 15:25:19] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:25:19] [INFO] Started loading trigger.
-[2012-04-02 15:25:19] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:25:19] [INFO] Finished loading data.
-[2012-04-02 15:25:19] [INFO] Closed database connection.
-[2012-04-02 15:26:07] [INFO] Made an database connection with:
-[2012-04-02 15:26:07] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:26:07] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:26:07] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:26:07] [INFO] Started loading data.
-[2012-04-02 15:26:07] [INFO] Started loading applications.
-[2012-04-02 15:26:07] [INFO] Done loading 1 application(s)
-[2012-04-02 15:26:07] [INFO] Started loading businessrules.
-[2012-04-02 15:26:07] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:26:07] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:26:07] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:26:07] [INFO] Started loading categories.
-[2012-04-02 15:26:07] [INFO] Done loading 1 category
-[2012-04-02 15:26:07] [INFO] Started loading custom code data.
-[2012-04-02 15:26:07] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:26:07] [INFO] Started loading database info.
-[2012-04-02 15:26:07] [INFO] Done loading 1 database
-[2012-04-02 15:26:07] [INFO] Started loading error info.
-[2012-04-02 15:26:07] [INFO] Done loading 9 error messages
-[2012-04-02 15:26:07] [INFO] Started loading operators.
-[2012-04-02 15:26:07] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:26:07] [INFO] Started loading tables.
-[2012-04-02 15:26:07] [INFO] Done loading 2 table(s)
-[2012-04-02 15:26:07] [INFO] Started loading tablecolumns.
-[2012-04-02 15:26:07] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:26:07] [INFO] Started loading trigger.
-[2012-04-02 15:26:07] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:26:07] [INFO] Started loading trigger.
-[2012-04-02 15:26:07] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:26:07] [INFO] Started loading trigger.
-[2012-04-02 15:26:07] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:26:07] [INFO] Finished loading data.
-[2012-04-02 15:26:07] [INFO] Closed database connection.
-[2012-04-02 15:35:33] [INFO] Made an database connection with:
-[2012-04-02 15:35:33] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:35:33] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:35:33] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:35:33] [INFO] Started loading data.
-[2012-04-02 15:35:33] [INFO] Started loading applications.
-[2012-04-02 15:35:33] [INFO] Done loading 1 application(s)
-[2012-04-02 15:35:33] [INFO] Started loading businessrules.
-[2012-04-02 15:35:33] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:35:33] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:35:33] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:35:33] [INFO] Started loading categories.
-[2012-04-02 15:35:33] [INFO] Done loading 1 category
-[2012-04-02 15:35:33] [INFO] Started loading custom code data.
-[2012-04-02 15:35:33] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:35:33] [INFO] Started loading database info.
-[2012-04-02 15:35:33] [INFO] Done loading 1 database
-[2012-04-02 15:35:33] [INFO] Started loading error info.
-[2012-04-02 15:35:33] [INFO] Done loading 9 error messages
-[2012-04-02 15:35:33] [INFO] Started loading operators.
-[2012-04-02 15:35:33] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:35:33] [INFO] Started loading tables.
-[2012-04-02 15:35:33] [INFO] Done loading 2 table(s)
-[2012-04-02 15:35:33] [INFO] Started loading tablecolumns.
-[2012-04-02 15:35:33] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:35:33] [INFO] Started loading trigger.
-[2012-04-02 15:35:33] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:35:33] [INFO] Started loading trigger.
-[2012-04-02 15:35:33] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:35:33] [INFO] Started loading trigger.
-[2012-04-02 15:35:33] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:35:33] [INFO] Finished loading data.
-[2012-04-02 15:35:33] [INFO] Closed database connection.
-[2012-04-02 15:37:08] [INFO] Made an database connection with:
-[2012-04-02 15:37:08] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:37:08] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:37:08] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:37:08] [INFO] Started loading data.
-[2012-04-02 15:37:08] [INFO] Started loading applications.
-[2012-04-02 15:37:08] [INFO] Done loading 1 application(s)
-[2012-04-02 15:37:08] [INFO] Started loading businessrules.
-[2012-04-02 15:37:08] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:37:08] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:37:08] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:37:08] [INFO] Started loading categories.
-[2012-04-02 15:37:08] [INFO] Done loading 1 category
-[2012-04-02 15:37:08] [INFO] Started loading custom code data.
-[2012-04-02 15:37:08] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:37:08] [INFO] Started loading database info.
-[2012-04-02 15:37:08] [INFO] Done loading 1 database
-[2012-04-02 15:37:08] [INFO] Started loading error info.
-[2012-04-02 15:37:08] [INFO] Done loading 9 error messages
-[2012-04-02 15:37:08] [INFO] Started loading operators.
-[2012-04-02 15:37:08] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:37:08] [INFO] Started loading tables.
-[2012-04-02 15:37:08] [INFO] Done loading 2 table(s)
-[2012-04-02 15:37:08] [INFO] Started loading tablecolumns.
-[2012-04-02 15:37:08] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:37:08] [INFO] Started loading trigger.
-[2012-04-02 15:37:08] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:37:08] [INFO] Started loading trigger.
-[2012-04-02 15:37:08] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:37:08] [INFO] Started loading trigger.
-[2012-04-02 15:37:08] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:37:08] [INFO] Finished loading data.
-[2012-04-02 15:37:08] [INFO] Closed database connection.
-[2012-04-02 15:38:04] [INFO] Made an database connection with:
-[2012-04-02 15:38:04] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:38:04] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:38:04] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:38:04] [INFO] Started loading data.
-[2012-04-02 15:38:04] [INFO] Started loading applications.
-[2012-04-02 15:38:04] [INFO] Done loading 1 application(s)
-[2012-04-02 15:38:05] [INFO] Started loading businessrules.
-[2012-04-02 15:38:05] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:38:05] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:38:05] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:38:05] [INFO] Started loading categories.
-[2012-04-02 15:38:05] [INFO] Done loading 1 category
-[2012-04-02 15:38:05] [INFO] Started loading custom code data.
-[2012-04-02 15:38:05] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:38:05] [INFO] Started loading database info.
-[2012-04-02 15:38:05] [INFO] Done loading 1 database
-[2012-04-02 15:38:05] [INFO] Started loading error info.
-[2012-04-02 15:38:05] [INFO] Done loading 9 error messages
-[2012-04-02 15:38:05] [INFO] Started loading operators.
-[2012-04-02 15:38:05] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:38:05] [INFO] Started loading tables.
-[2012-04-02 15:38:05] [INFO] Done loading 2 table(s)
-[2012-04-02 15:38:05] [INFO] Started loading tablecolumns.
-[2012-04-02 15:38:05] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:38:05] [INFO] Started loading trigger.
-[2012-04-02 15:38:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:38:05] [INFO] Started loading trigger.
-[2012-04-02 15:38:05] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:38:05] [INFO] Started loading trigger.
-[2012-04-02 15:38:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:38:05] [INFO] Finished loading data.
-[2012-04-02 15:38:05] [INFO] Closed database connection.
-[2012-04-02 15:39:05] [INFO] Made an database connection with:
-[2012-04-02 15:39:05] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:39:05] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:39:05] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:39:05] [INFO] Started loading data.
-[2012-04-02 15:39:05] [INFO] Started loading applications.
-[2012-04-02 15:39:05] [INFO] Done loading 1 application(s)
-[2012-04-02 15:39:05] [INFO] Started loading businessrules.
-[2012-04-02 15:39:05] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:39:05] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:39:05] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:39:05] [INFO] Started loading categories.
-[2012-04-02 15:39:05] [INFO] Done loading 1 category
-[2012-04-02 15:39:05] [INFO] Started loading custom code data.
-[2012-04-02 15:39:05] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:39:05] [INFO] Started loading database info.
-[2012-04-02 15:39:05] [INFO] Done loading 1 database
-[2012-04-02 15:39:05] [INFO] Started loading error info.
-[2012-04-02 15:39:05] [INFO] Done loading 9 error messages
-[2012-04-02 15:39:05] [INFO] Started loading operators.
-[2012-04-02 15:39:05] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:39:05] [INFO] Started loading tables.
-[2012-04-02 15:39:05] [INFO] Done loading 2 table(s)
-[2012-04-02 15:39:05] [INFO] Started loading tablecolumns.
-[2012-04-02 15:39:05] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:39:05] [INFO] Started loading trigger.
-[2012-04-02 15:39:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:39:05] [INFO] Started loading trigger.
-[2012-04-02 15:39:05] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:39:05] [INFO] Started loading trigger.
-[2012-04-02 15:39:05] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:39:05] [INFO] Finished loading data.
-[2012-04-02 15:39:05] [INFO] Closed database connection.
-[2012-04-02 15:39:51] [INFO] Made an database connection with:
-[2012-04-02 15:39:51] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:39:51] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:39:51] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:39:51] [INFO] Started loading data.
-[2012-04-02 15:39:51] [INFO] Started loading applications.
-[2012-04-02 15:39:51] [INFO] Done loading 1 application(s)
-[2012-04-02 15:39:51] [INFO] Started loading businessrules.
-[2012-04-02 15:39:51] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:39:51] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:39:51] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:39:51] [INFO] Started loading categories.
-[2012-04-02 15:39:51] [INFO] Done loading 1 category
-[2012-04-02 15:39:51] [INFO] Started loading custom code data.
-[2012-04-02 15:39:51] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:39:51] [INFO] Started loading database info.
-[2012-04-02 15:39:51] [INFO] Done loading 1 database
-[2012-04-02 15:39:51] [INFO] Started loading error info.
-[2012-04-02 15:39:51] [INFO] Done loading 9 error messages
-[2012-04-02 15:39:51] [INFO] Started loading operators.
-[2012-04-02 15:39:51] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:39:51] [INFO] Started loading tables.
-[2012-04-02 15:39:51] [INFO] Done loading 2 table(s)
-[2012-04-02 15:39:51] [INFO] Started loading tablecolumns.
-[2012-04-02 15:39:51] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:39:51] [INFO] Started loading trigger.
-[2012-04-02 15:39:51] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:39:51] [INFO] Started loading trigger.
-[2012-04-02 15:39:51] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:39:51] [INFO] Started loading trigger.
-[2012-04-02 15:39:51] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:39:51] [INFO] Finished loading data.
-[2012-04-02 15:39:51] [INFO] Closed database connection.
-[2012-04-02 15:42:47] [INFO] Made an database connection with:
-[2012-04-02 15:42:47] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:42:47] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:42:47] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:42:47] [INFO] Started loading data.
-[2012-04-02 15:42:47] [INFO] Started loading applications.
-[2012-04-02 15:42:47] [INFO] Done loading 1 application(s)
-[2012-04-02 15:42:47] [INFO] Started loading businessrules.
-[2012-04-02 15:42:47] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:42:47] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:42:47] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:42:47] [INFO] Started loading categories.
-[2012-04-02 15:42:47] [INFO] Done loading 1 category
-[2012-04-02 15:42:47] [INFO] Started loading custom code data.
-[2012-04-02 15:42:47] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:42:47] [INFO] Started loading database info.
-[2012-04-02 15:42:47] [INFO] Done loading 1 database
-[2012-04-02 15:42:47] [INFO] Started loading error info.
-[2012-04-02 15:42:47] [INFO] Done loading 9 error messages
-[2012-04-02 15:42:47] [INFO] Started loading operators.
-[2012-04-02 15:42:47] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:42:47] [INFO] Started loading tables.
-[2012-04-02 15:42:47] [INFO] Done loading 2 table(s)
-[2012-04-02 15:42:47] [INFO] Started loading tablecolumns.
-[2012-04-02 15:42:47] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:42:47] [INFO] Started loading trigger.
-[2012-04-02 15:42:47] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:42:47] [INFO] Started loading trigger.
-[2012-04-02 15:42:47] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:42:47] [INFO] Started loading trigger.
-[2012-04-02 15:42:47] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:42:47] [INFO] Finished loading data.
-[2012-04-02 15:42:47] [INFO] Closed database connection.
-[2012-04-02 15:43:42] [INFO] Made an database connection with:
-[2012-04-02 15:43:42] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:43:42] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:43:42] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:43:42] [INFO] Started loading data.
-[2012-04-02 15:43:42] [INFO] Started loading applications.
-[2012-04-02 15:43:42] [INFO] Done loading 1 application(s)
-[2012-04-02 15:43:42] [INFO] Started loading businessrules.
-[2012-04-02 15:43:42] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:43:42] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:43:42] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:43:42] [INFO] Started loading categories.
-[2012-04-02 15:43:42] [INFO] Done loading 1 category
-[2012-04-02 15:43:42] [INFO] Started loading custom code data.
-[2012-04-02 15:43:42] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:43:42] [INFO] Started loading database info.
-[2012-04-02 15:43:42] [INFO] Done loading 1 database
-[2012-04-02 15:43:42] [INFO] Started loading error info.
-[2012-04-02 15:43:42] [INFO] Done loading 9 error messages
-[2012-04-02 15:43:42] [INFO] Started loading operators.
-[2012-04-02 15:43:42] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:43:42] [INFO] Started loading tables.
-[2012-04-02 15:43:42] [INFO] Done loading 2 table(s)
-[2012-04-02 15:43:42] [INFO] Started loading tablecolumns.
-[2012-04-02 15:43:42] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:43:42] [INFO] Started loading trigger.
-[2012-04-02 15:43:42] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:43:42] [INFO] Started loading trigger.
-[2012-04-02 15:43:42] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:43:42] [INFO] Started loading trigger.
-[2012-04-02 15:43:42] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:43:42] [INFO] Finished loading data.
-[2012-04-02 15:43:42] [INFO] Closed database connection.
-[2012-04-02 15:56:01] [INFO] Made an database connection with:
-[2012-04-02 15:56:01] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:56:01] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:56:01] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:56:01] [INFO] Started loading data.
-[2012-04-02 15:56:01] [INFO] Started loading applications.
-[2012-04-02 15:56:01] [INFO] Done loading 1 application(s)
-[2012-04-02 15:56:01] [INFO] Started loading businessrules.
-[2012-04-02 15:56:01] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:56:01] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:56:01] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:56:01] [INFO] Started loading categories.
-[2012-04-02 15:56:01] [INFO] Done loading 1 category
-[2012-04-02 15:56:01] [INFO] Started loading custom code data.
-[2012-04-02 15:56:01] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:56:01] [INFO] Started loading database info.
-[2012-04-02 15:56:01] [INFO] Done loading 1 database
-[2012-04-02 15:56:01] [INFO] Started loading error info.
-[2012-04-02 15:56:01] [INFO] Done loading 9 error messages
-[2012-04-02 15:56:01] [INFO] Started loading operators.
-[2012-04-02 15:56:01] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:56:01] [INFO] Started loading tables.
-[2012-04-02 15:56:01] [INFO] Done loading 2 table(s)
-[2012-04-02 15:56:01] [INFO] Started loading tablecolumns.
-[2012-04-02 15:56:01] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:56:01] [INFO] Started loading trigger.
-[2012-04-02 15:56:01] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:56:01] [INFO] Started loading trigger.
-[2012-04-02 15:56:01] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:56:01] [INFO] Started loading trigger.
-[2012-04-02 15:56:01] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:56:01] [INFO] Finished loading data.
-[2012-04-02 15:56:01] [INFO] Closed database connection.
-[2012-04-02 15:57:36] [INFO] Made an database connection with:
-[2012-04-02 15:57:36] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 15:57:36] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 15:57:36] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 15:57:36] [INFO] Started loading data.
-[2012-04-02 15:57:36] [INFO] Started loading applications.
-[2012-04-02 15:57:36] [INFO] Done loading 1 application(s)
-[2012-04-02 15:57:36] [INFO] Started loading businessrules.
-[2012-04-02 15:57:36] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 15:57:36] [INFO] Started loading businessrulestypes.
-[2012-04-02 15:57:36] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 15:57:36] [INFO] Started loading categories.
-[2012-04-02 15:57:36] [INFO] Done loading 1 category
-[2012-04-02 15:57:36] [INFO] Started loading custom code data.
-[2012-04-02 15:57:36] [INFO] Done loading 1 custom code data.
-[2012-04-02 15:57:36] [INFO] Started loading database info.
-[2012-04-02 15:57:36] [INFO] Done loading 1 database
-[2012-04-02 15:57:36] [INFO] Started loading error info.
-[2012-04-02 15:57:36] [INFO] Done loading 9 error messages
-[2012-04-02 15:57:36] [INFO] Started loading operators.
-[2012-04-02 15:57:36] [INFO] Done loading 8 operator(s)
-[2012-04-02 15:57:36] [INFO] Started loading tables.
-[2012-04-02 15:57:36] [INFO] Done loading 2 table(s)
-[2012-04-02 15:57:36] [INFO] Started loading tablecolumns.
-[2012-04-02 15:57:36] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 15:57:36] [INFO] Started loading trigger.
-[2012-04-02 15:57:36] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:57:36] [INFO] Started loading trigger.
-[2012-04-02 15:57:36] [INFO] Done loading 22 trigger(s)
-[2012-04-02 15:57:36] [INFO] Started loading trigger.
-[2012-04-02 15:57:36] [INFO] Done loading 9 trigger(s)
-[2012-04-02 15:57:36] [INFO] Finished loading data.
-[2012-04-02 15:57:36] [INFO] Closed database connection.
-[2012-04-02 16:23:41] [INFO] Made an database connection with:
-[2012-04-02 16:23:41] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:23:41] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:23:41] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:23:41] [INFO] Started loading data.
-[2012-04-02 16:23:41] [INFO] Started loading applications.
-[2012-04-02 16:23:41] [INFO] Done loading 1 application(s)
-[2012-04-02 16:23:41] [INFO] Started loading businessrules.
-[2012-04-02 16:23:41] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:23:41] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:23:41] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:23:41] [INFO] Started loading categories.
-[2012-04-02 16:23:41] [INFO] Done loading 1 category
-[2012-04-02 16:23:41] [INFO] Started loading custom code data.
-[2012-04-02 16:23:41] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:23:41] [INFO] Started loading database info.
-[2012-04-02 16:23:41] [INFO] Done loading 1 database
-[2012-04-02 16:23:41] [INFO] Started loading error info.
-[2012-04-02 16:23:41] [INFO] Done loading 9 error messages
-[2012-04-02 16:23:41] [INFO] Started loading operators.
-[2012-04-02 16:23:41] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:23:41] [INFO] Started loading tables.
-[2012-04-02 16:23:41] [INFO] Done loading 2 table(s)
-[2012-04-02 16:23:41] [INFO] Started loading tablecolumns.
-[2012-04-02 16:23:41] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:23:41] [INFO] Started loading trigger.
-[2012-04-02 16:23:41] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:23:41] [INFO] Started loading trigger.
-[2012-04-02 16:23:41] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:23:41] [INFO] Started loading trigger.
-[2012-04-02 16:23:41] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:23:41] [INFO] Finished loading data.
-[2012-04-02 16:23:41] [INFO] Closed database connection.
-[2012-04-02 16:24:44] [INFO] Made an database connection with:
-[2012-04-02 16:24:44] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:24:44] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:24:44] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:24:44] [INFO] Started loading data.
-[2012-04-02 16:24:44] [INFO] Started loading applications.
-[2012-04-02 16:24:44] [INFO] Done loading 1 application(s)
-[2012-04-02 16:24:44] [INFO] Started loading businessrules.
-[2012-04-02 16:24:44] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:24:44] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:24:44] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:24:44] [INFO] Started loading categories.
-[2012-04-02 16:24:44] [INFO] Done loading 1 category
-[2012-04-02 16:24:44] [INFO] Started loading custom code data.
-[2012-04-02 16:24:44] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:24:44] [INFO] Started loading database info.
-[2012-04-02 16:24:44] [INFO] Done loading 1 database
-[2012-04-02 16:24:44] [INFO] Started loading error info.
-[2012-04-02 16:24:44] [INFO] Done loading 9 error messages
-[2012-04-02 16:24:44] [INFO] Started loading operators.
-[2012-04-02 16:24:44] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:24:44] [INFO] Started loading tables.
-[2012-04-02 16:24:44] [INFO] Done loading 2 table(s)
-[2012-04-02 16:24:44] [INFO] Started loading tablecolumns.
-[2012-04-02 16:24:44] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:24:44] [INFO] Started loading trigger.
-[2012-04-02 16:24:44] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:24:44] [INFO] Started loading trigger.
-[2012-04-02 16:24:44] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:24:44] [INFO] Started loading trigger.
-[2012-04-02 16:24:44] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:24:44] [INFO] Finished loading data.
-[2012-04-02 16:24:44] [INFO] Closed database connection.
-[2012-04-02 16:26:45] [INFO] Made an database connection with:
-[2012-04-02 16:26:45] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:26:45] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:26:45] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:26:45] [INFO] Started loading data.
-[2012-04-02 16:26:45] [INFO] Started loading applications.
-[2012-04-02 16:26:45] [INFO] Done loading 1 application(s)
-[2012-04-02 16:26:45] [INFO] Started loading businessrules.
-[2012-04-02 16:26:45] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:26:45] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:26:45] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:26:45] [INFO] Started loading categories.
-[2012-04-02 16:26:45] [INFO] Done loading 1 category
-[2012-04-02 16:26:45] [INFO] Started loading custom code data.
-[2012-04-02 16:26:45] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:26:45] [INFO] Started loading database info.
-[2012-04-02 16:26:45] [INFO] Done loading 1 database
-[2012-04-02 16:26:45] [INFO] Started loading error info.
-[2012-04-02 16:26:45] [INFO] Done loading 9 error messages
-[2012-04-02 16:26:45] [INFO] Started loading operators.
-[2012-04-02 16:26:45] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:26:45] [INFO] Started loading tables.
-[2012-04-02 16:26:45] [INFO] Done loading 2 table(s)
-[2012-04-02 16:26:45] [INFO] Started loading tablecolumns.
-[2012-04-02 16:26:45] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:26:45] [INFO] Started loading trigger.
-[2012-04-02 16:26:45] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:26:45] [INFO] Started loading trigger.
-[2012-04-02 16:26:45] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:26:45] [INFO] Started loading trigger.
-[2012-04-02 16:26:45] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:26:45] [INFO] Finished loading data.
-[2012-04-02 16:26:45] [INFO] Closed database connection.
-[2012-04-02 16:30:48] [INFO] Made an database connection with:
-[2012-04-02 16:30:48] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:30:48] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:30:48] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:30:48] [INFO] Started loading data.
-[2012-04-02 16:30:48] [INFO] Started loading applications.
-[2012-04-02 16:30:48] [INFO] Done loading 1 application(s)
-[2012-04-02 16:30:48] [INFO] Started loading businessrules.
-[2012-04-02 16:30:48] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:30:48] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:30:48] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:30:48] [INFO] Started loading categories.
-[2012-04-02 16:30:48] [INFO] Done loading 1 category
-[2012-04-02 16:30:48] [INFO] Started loading custom code data.
-[2012-04-02 16:30:48] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:30:48] [INFO] Started loading database info.
-[2012-04-02 16:30:48] [INFO] Done loading 1 database
-[2012-04-02 16:30:48] [INFO] Started loading error info.
-[2012-04-02 16:30:48] [INFO] Done loading 9 error messages
-[2012-04-02 16:30:48] [INFO] Started loading operators.
-[2012-04-02 16:30:48] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:30:48] [INFO] Started loading tables.
-[2012-04-02 16:30:48] [INFO] Done loading 2 table(s)
-[2012-04-02 16:30:48] [INFO] Started loading tablecolumns.
-[2012-04-02 16:30:48] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:30:48] [INFO] Started loading trigger.
-[2012-04-02 16:30:48] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:30:48] [INFO] Started loading trigger.
-[2012-04-02 16:30:48] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:30:48] [INFO] Started loading trigger.
-[2012-04-02 16:30:48] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:30:48] [INFO] Finished loading data.
-[2012-04-02 16:30:48] [INFO] Closed database connection.
-[2012-04-02 16:33:38] [INFO] Made an database connection with:
-[2012-04-02 16:33:38] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:33:38] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:33:38] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:33:39] [INFO] Started loading data.
-[2012-04-02 16:33:39] [INFO] Started loading applications.
-[2012-04-02 16:33:39] [INFO] Done loading 1 application(s)
-[2012-04-02 16:33:39] [INFO] Started loading businessrules.
-[2012-04-02 16:33:39] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:33:39] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:33:39] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:33:39] [INFO] Started loading categories.
-[2012-04-02 16:33:39] [INFO] Done loading 1 category
-[2012-04-02 16:33:39] [INFO] Started loading custom code data.
-[2012-04-02 16:33:39] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:33:39] [INFO] Started loading database info.
-[2012-04-02 16:33:39] [INFO] Done loading 1 database
-[2012-04-02 16:33:39] [INFO] Started loading error info.
-[2012-04-02 16:33:39] [INFO] Done loading 9 error messages
-[2012-04-02 16:33:39] [INFO] Started loading operators.
-[2012-04-02 16:33:39] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:33:39] [INFO] Started loading tables.
-[2012-04-02 16:33:39] [INFO] Done loading 2 table(s)
-[2012-04-02 16:33:39] [INFO] Started loading tablecolumns.
-[2012-04-02 16:33:39] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:33:39] [INFO] Started loading trigger.
-[2012-04-02 16:33:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:33:39] [INFO] Started loading trigger.
-[2012-04-02 16:33:39] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:33:39] [INFO] Started loading trigger.
-[2012-04-02 16:33:39] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:33:39] [INFO] Finished loading data.
-[2012-04-02 16:33:39] [INFO] Closed database connection.
-[2012-04-02 16:37:16] [INFO] Made an database connection with:
-[2012-04-02 16:37:16] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:37:16] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:37:17] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:37:17] [INFO] Started loading data.
-[2012-04-02 16:37:17] [INFO] Started loading applications.
-[2012-04-02 16:37:17] [INFO] Done loading 1 application(s)
-[2012-04-02 16:37:17] [INFO] Started loading businessrules.
-[2012-04-02 16:37:17] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:37:17] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:37:17] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:37:17] [INFO] Started loading categories.
-[2012-04-02 16:37:17] [INFO] Done loading 1 category
-[2012-04-02 16:37:17] [INFO] Started loading custom code data.
-[2012-04-02 16:37:17] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:37:17] [INFO] Started loading database info.
-[2012-04-02 16:37:17] [INFO] Done loading 1 database
-[2012-04-02 16:37:17] [INFO] Started loading error info.
-[2012-04-02 16:37:17] [INFO] Done loading 9 error messages
-[2012-04-02 16:37:17] [INFO] Started loading operators.
-[2012-04-02 16:37:17] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:37:17] [INFO] Started loading tables.
-[2012-04-02 16:37:17] [INFO] Done loading 2 table(s)
-[2012-04-02 16:37:17] [INFO] Started loading tablecolumns.
-[2012-04-02 16:37:17] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:37:17] [INFO] Started loading trigger.
-[2012-04-02 16:37:17] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:37:17] [INFO] Started loading trigger.
-[2012-04-02 16:37:17] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:37:17] [INFO] Started loading trigger.
-[2012-04-02 16:37:17] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:37:17] [INFO] Finished loading data.
-[2012-04-02 16:37:17] [INFO] Closed database connection.
-[2012-04-02 16:38:16] [INFO] Made an database connection with:
-[2012-04-02 16:38:16] [INFO] Username: THO7_2011_2B_TEAM3A
-[2012-04-02 16:38:16] [INFO] Connectionstring: jdbc:oracle:thin:@ondora01.hu.nl:8521:cursus01
-[2012-04-02 16:38:16] [INFO] Driver: oracle.jdbc.OracleDriver
-[2012-04-02 16:38:16] [INFO] Started loading data.
-[2012-04-02 16:38:16] [INFO] Started loading applications.
-[2012-04-02 16:38:16] [INFO] Done loading 1 application(s)
-[2012-04-02 16:38:16] [INFO] Started loading businessrules.
-[2012-04-02 16:38:16] [INFO] Done loading 8 businessrule(s)
-[2012-04-02 16:38:16] [INFO] Started loading businessrulestypes.
-[2012-04-02 16:38:16] [INFO] Done loading 8 businessruletype(s)
-[2012-04-02 16:38:16] [INFO] Started loading categories.
-[2012-04-02 16:38:16] [INFO] Done loading 1 category
-[2012-04-02 16:38:16] [INFO] Started loading custom code data.
-[2012-04-02 16:38:16] [INFO] Done loading 1 custom code data.
-[2012-04-02 16:38:16] [INFO] Started loading database info.
-[2012-04-02 16:38:16] [INFO] Done loading 1 database
-[2012-04-02 16:38:16] [INFO] Started loading error info.
-[2012-04-02 16:38:16] [INFO] Done loading 9 error messages
-[2012-04-02 16:38:16] [INFO] Started loading operators.
-[2012-04-02 16:38:16] [INFO] Done loading 8 operator(s)
-[2012-04-02 16:38:16] [INFO] Started loading tables.
-[2012-04-02 16:38:16] [INFO] Done loading 2 table(s)
-[2012-04-02 16:38:16] [INFO] Started loading tablecolumns.
-[2012-04-02 16:38:16] [INFO] Done loading 4 tablecolumn(s)
-[2012-04-02 16:38:16] [INFO] Started loading trigger.
-[2012-04-02 16:38:16] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:38:16] [INFO] Started loading trigger.
-[2012-04-02 16:38:16] [INFO] Done loading 22 trigger(s)
-[2012-04-02 16:38:16] [INFO] Started loading trigger.
-[2012-04-02 16:38:16] [INFO] Done loading 9 trigger(s)
-[2012-04-02 16:38:16] [INFO] Finished loading data.
-[2012-04-02 16:38:16] [INFO] Closed database connection.
+[2012-04-03 11:38:52] [INFO] Started loading data.
+[2012-04-03 11:38:52] [INFO] Started loading applications.
+[2012-04-03 11:38:52] [INFO] Done loading 1 application(s)
+[2012-04-03 11:38:52] [INFO] Started loading businessrules.
+[2012-04-03 11:38:52] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:38:52] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:38:53] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:38:53] [INFO] Started loading categories.
+[2012-04-03 11:38:53] [INFO] Done loading 1 category
+[2012-04-03 11:38:53] [INFO] Started loading custom code data.
+[2012-04-03 11:38:53] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:38:53] [INFO] Started loading database info.
+[2012-04-03 11:38:53] [INFO] Done loading 1 database
+[2012-04-03 11:38:53] [INFO] Started loading error info.
+[2012-04-03 11:38:53] [INFO] Done loading 9 error messages
+[2012-04-03 11:38:53] [INFO] Started loading operators.
+[2012-04-03 11:38:53] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:38:53] [INFO] Started loading tables.
+[2012-04-03 11:38:53] [INFO] Done loading 2 table(s)
+[2012-04-03 11:38:53] [INFO] Started loading tablecolumns.
+[2012-04-03 11:38:53] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:38:53] [INFO] Started loading trigger.
+[2012-04-03 11:38:53] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:38:53] [INFO] Started loading trigger.
+[2012-04-03 11:38:53] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:38:53] [INFO] Started loading trigger.
+[2012-04-03 11:38:53] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:38:53] [INFO] Finished loading data.
+[2012-04-03 11:38:53] [INFO] Closed database connection.
+[2012-04-03 11:40:18] [INFO] Started loading data.
+[2012-04-03 11:40:18] [INFO] Started loading applications.
+[2012-04-03 11:40:18] [INFO] Done loading 1 application(s)
+[2012-04-03 11:40:18] [INFO] Started loading businessrules.
+[2012-04-03 11:40:18] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:40:18] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:40:19] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:40:19] [INFO] Started loading categories.
+[2012-04-03 11:40:19] [INFO] Done loading 1 category
+[2012-04-03 11:40:19] [INFO] Started loading custom code data.
+[2012-04-03 11:40:19] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:40:19] [INFO] Started loading database info.
+[2012-04-03 11:40:19] [INFO] Done loading 1 database
+[2012-04-03 11:40:19] [INFO] Started loading error info.
+[2012-04-03 11:40:19] [INFO] Done loading 9 error messages
+[2012-04-03 11:40:19] [INFO] Started loading operators.
+[2012-04-03 11:40:19] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:40:19] [INFO] Started loading tables.
+[2012-04-03 11:40:19] [INFO] Done loading 2 table(s)
+[2012-04-03 11:40:19] [INFO] Started loading tablecolumns.
+[2012-04-03 11:40:19] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:40:19] [INFO] Started loading trigger.
+[2012-04-03 11:40:19] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:40:19] [INFO] Started loading trigger.
+[2012-04-03 11:40:19] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:40:19] [INFO] Started loading trigger.
+[2012-04-03 11:40:19] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:40:19] [INFO] Finished loading data.
+[2012-04-03 11:40:19] [INFO] Closed database connection.
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:25] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:40:56] [INFO] Started loading data.
+[2012-04-03 11:40:56] [INFO] Started loading applications.
+[2012-04-03 11:40:56] [INFO] Done loading 1 application(s)
+[2012-04-03 11:40:56] [INFO] Started loading businessrules.
+[2012-04-03 11:40:56] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:40:56] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:40:56] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:40:56] [INFO] Started loading categories.
+[2012-04-03 11:40:56] [INFO] Done loading 1 category
+[2012-04-03 11:40:56] [INFO] Started loading custom code data.
+[2012-04-03 11:40:56] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:40:56] [INFO] Started loading database info.
+[2012-04-03 11:40:56] [INFO] Done loading 1 database
+[2012-04-03 11:40:56] [INFO] Started loading error info.
+[2012-04-03 11:40:56] [INFO] Done loading 9 error messages
+[2012-04-03 11:40:56] [INFO] Started loading operators.
+[2012-04-03 11:40:56] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:40:56] [INFO] Started loading tables.
+[2012-04-03 11:40:56] [INFO] Done loading 2 table(s)
+[2012-04-03 11:40:56] [INFO] Started loading tablecolumns.
+[2012-04-03 11:40:56] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:40:56] [INFO] Started loading trigger.
+[2012-04-03 11:40:56] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:40:56] [INFO] Started loading trigger.
+[2012-04-03 11:40:56] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:40:56] [INFO] Started loading trigger.
+[2012-04-03 11:40:56] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:40:56] [INFO] Finished loading data.
+[2012-04-03 11:40:56] [INFO] Closed database connection.
+[2012-04-03 11:42:38] [INFO] Started loading data.
+[2012-04-03 11:42:38] [INFO] Started loading applications.
+[2012-04-03 11:42:38] [INFO] Done loading 1 application(s)
+[2012-04-03 11:42:38] [INFO] Started loading businessrules.
+[2012-04-03 11:42:38] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:42:38] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:42:38] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:42:38] [INFO] Started loading categories.
+[2012-04-03 11:42:38] [INFO] Done loading 1 category
+[2012-04-03 11:42:38] [INFO] Started loading custom code data.
+[2012-04-03 11:42:38] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:42:38] [INFO] Started loading database info.
+[2012-04-03 11:42:38] [INFO] Done loading 1 database
+[2012-04-03 11:42:38] [INFO] Started loading error info.
+[2012-04-03 11:42:39] [INFO] Done loading 9 error messages
+[2012-04-03 11:42:39] [INFO] Started loading operators.
+[2012-04-03 11:42:39] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:42:39] [INFO] Started loading tables.
+[2012-04-03 11:42:39] [INFO] Done loading 2 table(s)
+[2012-04-03 11:42:39] [INFO] Started loading tablecolumns.
+[2012-04-03 11:42:39] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:42:39] [INFO] Started loading trigger.
+[2012-04-03 11:42:39] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:42:39] [INFO] Started loading trigger.
+[2012-04-03 11:42:39] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:42:39] [INFO] Started loading trigger.
+[2012-04-03 11:42:39] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:42:39] [INFO] Finished loading data.
+[2012-04-03 11:42:39] [INFO] Closed database connection.
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:42:53] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:50:57] [INFO] Started loading data.
+[2012-04-03 11:50:57] [INFO] Started loading applications.
+[2012-04-03 11:50:57] [INFO] Done loading 1 application(s)
+[2012-04-03 11:50:57] [INFO] Started loading businessrules.
+[2012-04-03 11:50:57] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:50:57] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:50:57] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:50:57] [INFO] Started loading categories.
+[2012-04-03 11:50:57] [INFO] Done loading 1 category
+[2012-04-03 11:50:57] [INFO] Started loading custom code data.
+[2012-04-03 11:50:57] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:50:57] [INFO] Started loading database info.
+[2012-04-03 11:50:57] [INFO] Done loading 1 database
+[2012-04-03 11:50:57] [INFO] Started loading error info.
+[2012-04-03 11:50:57] [INFO] Done loading 9 error messages
+[2012-04-03 11:50:57] [INFO] Started loading operators.
+[2012-04-03 11:50:57] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:50:57] [INFO] Started loading tables.
+[2012-04-03 11:50:57] [INFO] Done loading 2 table(s)
+[2012-04-03 11:50:57] [INFO] Started loading tablecolumns.
+[2012-04-03 11:50:57] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:50:57] [INFO] Started loading trigger.
+[2012-04-03 11:50:57] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:50:57] [INFO] Started loading trigger.
+[2012-04-03 11:50:58] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:50:58] [INFO] Started loading trigger.
+[2012-04-03 11:50:58] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:50:58] [INFO] Finished loading data.
+[2012-04-03 11:50:58] [INFO] Closed database connection.
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:51:03] [INFO] Template for business rule succesfully loaded
+[2012-04-03 11:52:36] [INFO] Started loading data.
+[2012-04-03 11:52:36] [INFO] Started loading applications.
+[2012-04-03 11:52:36] [INFO] Done loading 1 application(s)
+[2012-04-03 11:52:36] [INFO] Started loading businessrules.
+[2012-04-03 11:52:36] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:52:36] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:52:36] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:52:36] [INFO] Started loading categories.
+[2012-04-03 11:52:36] [INFO] Done loading 1 category
+[2012-04-03 11:52:36] [INFO] Started loading custom code data.
+[2012-04-03 11:52:36] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:52:36] [INFO] Started loading database info.
+[2012-04-03 11:52:36] [INFO] Done loading 1 database
+[2012-04-03 11:52:36] [INFO] Started loading error info.
+[2012-04-03 11:52:36] [INFO] Done loading 9 error messages
+[2012-04-03 11:52:36] [INFO] Started loading operators.
+[2012-04-03 11:52:36] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:52:36] [INFO] Started loading tables.
+[2012-04-03 11:52:36] [INFO] Done loading 2 table(s)
+[2012-04-03 11:52:36] [INFO] Started loading tablecolumns.
+[2012-04-03 11:52:36] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:52:36] [INFO] Started loading trigger.
+[2012-04-03 11:52:36] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:52:36] [INFO] Started loading trigger.
+[2012-04-03 11:52:36] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:52:36] [INFO] Started loading trigger.
+[2012-04-03 11:52:36] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:52:36] [INFO] Finished loading data.
+[2012-04-03 11:52:36] [INFO] Closed database connection.
+[2012-04-03 11:55:45] [INFO] Started loading data.
+[2012-04-03 11:55:45] [INFO] Started loading applications.
+[2012-04-03 11:55:45] [INFO] Done loading 1 application(s)
+[2012-04-03 11:55:45] [INFO] Started loading businessrules.
+[2012-04-03 11:55:45] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:55:45] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:55:45] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:55:45] [INFO] Started loading categories.
+[2012-04-03 11:55:45] [INFO] Done loading 1 category
+[2012-04-03 11:55:45] [INFO] Started loading custom code data.
+[2012-04-03 11:55:45] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:55:45] [INFO] Started loading database info.
+[2012-04-03 11:55:45] [INFO] Done loading 1 database
+[2012-04-03 11:55:45] [INFO] Started loading error info.
+[2012-04-03 11:55:45] [INFO] Done loading 9 error messages
+[2012-04-03 11:55:45] [INFO] Started loading operators.
+[2012-04-03 11:55:45] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:55:45] [INFO] Started loading tables.
+[2012-04-03 11:55:45] [INFO] Done loading 2 table(s)
+[2012-04-03 11:55:45] [INFO] Started loading tablecolumns.
+[2012-04-03 11:55:45] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:55:45] [INFO] Started loading trigger.
+[2012-04-03 11:55:45] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:55:45] [INFO] Started loading trigger.
+[2012-04-03 11:55:45] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:55:45] [INFO] Started loading trigger.
+[2012-04-03 11:55:45] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:55:45] [INFO] Finished loading data.
+[2012-04-03 11:55:45] [INFO] Closed database connection.
+[2012-04-03 11:56:32] [INFO] Started loading data.
+[2012-04-03 11:56:32] [INFO] Started loading applications.
+[2012-04-03 11:56:32] [INFO] Done loading 1 application(s)
+[2012-04-03 11:56:32] [INFO] Started loading businessrules.
+[2012-04-03 11:56:32] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 11:56:32] [INFO] Started loading businessrulestypes.
+[2012-04-03 11:56:32] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 11:56:32] [INFO] Started loading categories.
+[2012-04-03 11:56:32] [INFO] Done loading 1 category
+[2012-04-03 11:56:32] [INFO] Started loading custom code data.
+[2012-04-03 11:56:32] [INFO] Done loading 1 custom code data.
+[2012-04-03 11:56:32] [INFO] Started loading database info.
+[2012-04-03 11:56:32] [INFO] Done loading 1 database
+[2012-04-03 11:56:32] [INFO] Started loading error info.
+[2012-04-03 11:56:32] [INFO] Done loading 9 error messages
+[2012-04-03 11:56:32] [INFO] Started loading operators.
+[2012-04-03 11:56:32] [INFO] Done loading 8 operator(s)
+[2012-04-03 11:56:32] [INFO] Started loading tables.
+[2012-04-03 11:56:32] [INFO] Done loading 2 table(s)
+[2012-04-03 11:56:32] [INFO] Started loading tablecolumns.
+[2012-04-03 11:56:32] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 11:56:32] [INFO] Started loading trigger.
+[2012-04-03 11:56:32] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:56:32] [INFO] Started loading trigger.
+[2012-04-03 11:56:32] [INFO] Done loading 22 trigger(s)
+[2012-04-03 11:56:32] [INFO] Started loading trigger.
+[2012-04-03 11:56:32] [INFO] Done loading 9 trigger(s)
+[2012-04-03 11:56:32] [INFO] Finished loading data.
+[2012-04-03 11:56:32] [INFO] Closed database connection.
+[2012-04-03 12:01:42] [INFO] Started loading data.
+[2012-04-03 12:01:42] [INFO] Started loading applications.
+[2012-04-03 12:01:42] [INFO] Done loading 1 application(s)
+[2012-04-03 12:01:42] [INFO] Started loading businessrules.
+[2012-04-03 12:01:42] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 12:01:42] [INFO] Started loading businessrulestypes.
+[2012-04-03 12:01:42] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 12:01:42] [INFO] Started loading categories.
+[2012-04-03 12:01:42] [INFO] Done loading 1 category
+[2012-04-03 12:01:42] [INFO] Started loading custom code data.
+[2012-04-03 12:01:42] [INFO] Done loading 1 custom code data.
+[2012-04-03 12:01:42] [INFO] Started loading database info.
+[2012-04-03 12:01:42] [INFO] Done loading 1 database
+[2012-04-03 12:01:42] [INFO] Started loading error info.
+[2012-04-03 12:01:42] [INFO] Done loading 9 error messages
+[2012-04-03 12:01:42] [INFO] Started loading operators.
+[2012-04-03 12:01:42] [INFO] Done loading 8 operator(s)
+[2012-04-03 12:01:42] [INFO] Started loading tables.
+[2012-04-03 12:01:42] [INFO] Done loading 2 table(s)
+[2012-04-03 12:01:43] [INFO] Started loading tablecolumns.
+[2012-04-03 12:01:43] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 12:01:43] [INFO] Started loading trigger.
+[2012-04-03 12:01:43] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:01:43] [INFO] Started loading trigger.
+[2012-04-03 12:01:43] [INFO] Done loading 22 trigger(s)
+[2012-04-03 12:01:43] [INFO] Started loading trigger.
+[2012-04-03 12:01:43] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:01:43] [INFO] Finished loading data.
+[2012-04-03 12:01:43] [INFO] Closed database connection.
+[2012-04-03 12:02:10] [INFO] Started loading data.
+[2012-04-03 12:02:10] [INFO] Started loading applications.
+[2012-04-03 12:02:10] [INFO] Done loading 1 application(s)
+[2012-04-03 12:02:10] [INFO] Started loading businessrules.
+[2012-04-03 12:02:10] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 12:02:10] [INFO] Started loading businessrulestypes.
+[2012-04-03 12:02:10] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 12:02:10] [INFO] Started loading categories.
+[2012-04-03 12:02:10] [INFO] Done loading 1 category
+[2012-04-03 12:02:10] [INFO] Started loading custom code data.
+[2012-04-03 12:02:10] [INFO] Done loading 1 custom code data.
+[2012-04-03 12:02:10] [INFO] Started loading database info.
+[2012-04-03 12:02:10] [INFO] Done loading 1 database
+[2012-04-03 12:02:10] [INFO] Started loading error info.
+[2012-04-03 12:02:10] [INFO] Done loading 9 error messages
+[2012-04-03 12:02:10] [INFO] Started loading operators.
+[2012-04-03 12:02:10] [INFO] Done loading 8 operator(s)
+[2012-04-03 12:02:10] [INFO] Started loading tables.
+[2012-04-03 12:02:10] [INFO] Done loading 2 table(s)
+[2012-04-03 12:02:10] [INFO] Started loading tablecolumns.
+[2012-04-03 12:02:10] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 12:02:10] [INFO] Started loading trigger.
+[2012-04-03 12:02:10] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:02:10] [INFO] Started loading trigger.
+[2012-04-03 12:02:10] [INFO] Done loading 22 trigger(s)
+[2012-04-03 12:02:10] [INFO] Started loading trigger.
+[2012-04-03 12:02:10] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:02:10] [INFO] Finished loading data.
+[2012-04-03 12:02:10] [INFO] Closed database connection.
+[2012-04-03 12:02:52] [INFO] Started loading data.
+[2012-04-03 12:02:52] [INFO] Started loading applications.
+[2012-04-03 12:02:52] [INFO] Done loading 1 application(s)
+[2012-04-03 12:02:52] [INFO] Started loading businessrules.
+[2012-04-03 12:02:52] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 12:02:52] [INFO] Started loading businessrulestypes.
+[2012-04-03 12:02:52] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 12:02:52] [INFO] Started loading categories.
+[2012-04-03 12:02:52] [INFO] Done loading 1 category
+[2012-04-03 12:02:52] [INFO] Started loading custom code data.
+[2012-04-03 12:02:52] [INFO] Done loading 1 custom code data.
+[2012-04-03 12:02:52] [INFO] Started loading database info.
+[2012-04-03 12:02:52] [INFO] Done loading 1 database
+[2012-04-03 12:02:52] [INFO] Started loading error info.
+[2012-04-03 12:02:52] [INFO] Done loading 9 error messages
+[2012-04-03 12:02:52] [INFO] Started loading operators.
+[2012-04-03 12:02:52] [INFO] Done loading 8 operator(s)
+[2012-04-03 12:02:52] [INFO] Started loading tables.
+[2012-04-03 12:02:52] [INFO] Done loading 2 table(s)
+[2012-04-03 12:02:52] [INFO] Started loading tablecolumns.
+[2012-04-03 12:02:52] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 12:02:52] [INFO] Started loading trigger.
+[2012-04-03 12:02:52] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:02:52] [INFO] Started loading trigger.
+[2012-04-03 12:02:52] [INFO] Done loading 22 trigger(s)
+[2012-04-03 12:02:52] [INFO] Started loading trigger.
+[2012-04-03 12:02:52] [INFO] Done loading 9 trigger(s)
+[2012-04-03 12:02:52] [INFO] Finished loading data.
+[2012-04-03 12:02:52] [INFO] Closed database connection.
+[2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
+[2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
+[2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
+[2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
