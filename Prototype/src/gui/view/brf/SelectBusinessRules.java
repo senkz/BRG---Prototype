@@ -14,12 +14,12 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
 import model.BusinessRule;
-import connections.ModelController;
+import controls.Register;
 
 @SuppressWarnings("serial")
 public class SelectBusinessRules extends JPanel implements Observer{
 
-	private ModelController mc = ModelController.getInstance();
+	private Register mc = Register.getInstance();
 	
 	private JList selectList;
 	private JComboBox selectTypeRule;

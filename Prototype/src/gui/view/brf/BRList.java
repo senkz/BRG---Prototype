@@ -3,10 +3,10 @@ package gui.view.brf;
 import java.util.ArrayList;
 
 import model.BusinessRule;
-import connections.ModelController;
+import controls.Register;
 
 public class BRList {
-	private ModelController mc = ModelController.getInstance();
+	private Register mc = Register.getInstance();
 	
 	private ArrayList<BusinessRule> br_listed = new ArrayList<BusinessRule> ();
 	private ArrayList<BusinessRule> br_generate = new ArrayList<BusinessRule> ();

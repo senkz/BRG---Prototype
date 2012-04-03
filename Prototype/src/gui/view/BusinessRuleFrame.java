@@ -26,12 +26,12 @@ import javax.swing.KeyStroke;
 
 import model.BusinessRule;
 import model.BusinessRuleType;
-import connections.ModelController;
+import controls.Register;
 
 @SuppressWarnings("serial")
 public class BusinessRuleFrame extends JFrame
 {
-	private ModelController mc = ModelController.getInstance();
+	private Register mc = Register.getInstance();
 	
 	private BRList BRList = new BRList();
 	

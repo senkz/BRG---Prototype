@@ -1,14 +1,15 @@
 package connections;
 
 import java.sql.Connection;
-import java.util.ArrayList;
 
-import model.BusinessRule;
+public interface SourceDAO {
 
-public interface SourceDAO extends DAO
-{
-	ArrayList<BusinessRule> getBusinessRules();
-	BusinessRule getBusinessRule(int id);
-	public  Connection getConnection(String username, String password, String URL);
-	public String testConnection(String username, String password, String URL); 
+	public abstract String testConnection(String _username, String _password,
+			String _URL);
+
+	public abstract Connection getConnection(String _username,
+			String _password, String _URL);
+
+	public abstract void loadObjects();
+
 }
