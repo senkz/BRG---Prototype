@@ -345,3 +345,98 @@
 [2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
 [2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
 [2012-04-03 12:03:07] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:11] [INFO] Started loading data.
+[2012-04-03 13:49:11] [INFO] Started loading applications.
+[2012-04-03 13:49:11] [INFO] Done loading 1 application(s)
+[2012-04-03 13:49:11] [INFO] Started loading businessrules.
+[2012-04-03 13:49:11] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 13:49:11] [INFO] Started loading businessrulestypes.
+[2012-04-03 13:49:11] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 13:49:11] [INFO] Started loading categories.
+[2012-04-03 13:49:11] [INFO] Done loading 1 category
+[2012-04-03 13:49:11] [INFO] Started loading custom code data.
+[2012-04-03 13:49:11] [INFO] Done loading 1 custom code data.
+[2012-04-03 13:49:11] [INFO] Started loading database info.
+[2012-04-03 13:49:11] [INFO] Done loading 1 database
+[2012-04-03 13:49:11] [INFO] Started loading error info.
+[2012-04-03 13:49:11] [INFO] Done loading 9 error messages
+[2012-04-03 13:49:11] [INFO] Started loading operators.
+[2012-04-03 13:49:11] [INFO] Done loading 8 operator(s)
+[2012-04-03 13:49:11] [INFO] Started loading tables.
+[2012-04-03 13:49:11] [INFO] Done loading 2 table(s)
+[2012-04-03 13:49:11] [INFO] Started loading tablecolumns.
+[2012-04-03 13:49:11] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 13:49:11] [INFO] Started loading trigger.
+[2012-04-03 13:49:11] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:49:11] [INFO] Started loading trigger.
+[2012-04-03 13:49:11] [INFO] Done loading 22 trigger(s)
+[2012-04-03 13:49:11] [INFO] Started loading trigger.
+[2012-04-03 13:49:11] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:49:11] [INFO] Finished loading data.
+[2012-04-03 13:49:11] [INFO] Closed database connection.
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:15] [INFO] Template for business rule succesfully loaded
+[2012-04-03 13:49:59] [INFO] Started loading data.
+[2012-04-03 13:49:59] [INFO] Started loading applications.
+[2012-04-03 13:49:59] [INFO] Done loading 1 application(s)
+[2012-04-03 13:49:59] [INFO] Started loading businessrules.
+[2012-04-03 13:49:59] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 13:49:59] [INFO] Started loading businessrulestypes.
+[2012-04-03 13:49:59] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 13:49:59] [INFO] Started loading categories.
+[2012-04-03 13:49:59] [INFO] Done loading 1 category
+[2012-04-03 13:49:59] [INFO] Started loading custom code data.
+[2012-04-03 13:49:59] [INFO] Done loading 1 custom code data.
+[2012-04-03 13:49:59] [INFO] Started loading database info.
+[2012-04-03 13:49:59] [INFO] Done loading 1 database
+[2012-04-03 13:49:59] [INFO] Started loading error info.
+[2012-04-03 13:49:59] [INFO] Done loading 9 error messages
+[2012-04-03 13:49:59] [INFO] Started loading operators.
+[2012-04-03 13:49:59] [INFO] Done loading 8 operator(s)
+[2012-04-03 13:49:59] [INFO] Started loading tables.
+[2012-04-03 13:49:59] [INFO] Done loading 2 table(s)
+[2012-04-03 13:49:59] [INFO] Started loading tablecolumns.
+[2012-04-03 13:49:59] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 13:49:59] [INFO] Started loading trigger.
+[2012-04-03 13:49:59] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:49:59] [INFO] Started loading trigger.
+[2012-04-03 13:49:59] [INFO] Done loading 22 trigger(s)
+[2012-04-03 13:49:59] [INFO] Started loading trigger.
+[2012-04-03 13:49:59] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:49:59] [INFO] Finished loading data.
+[2012-04-03 13:49:59] [INFO] Closed database connection.
+[2012-04-03 13:53:00] [INFO] Started loading data.
+[2012-04-03 13:53:00] [INFO] Started loading applications.
+[2012-04-03 13:53:00] [INFO] Done loading 1 application(s)
+[2012-04-03 13:53:00] [INFO] Started loading businessrules.
+[2012-04-03 13:53:00] [INFO] Done loading 8 businessrule(s)
+[2012-04-03 13:53:00] [INFO] Started loading businessrulestypes.
+[2012-04-03 13:53:00] [INFO] Done loading 8 businessruletype(s)
+[2012-04-03 13:53:00] [INFO] Started loading categories.
+[2012-04-03 13:53:00] [INFO] Done loading 1 category
+[2012-04-03 13:53:00] [INFO] Started loading custom code data.
+[2012-04-03 13:53:00] [INFO] Done loading 1 custom code data.
+[2012-04-03 13:53:00] [INFO] Started loading database info.
+[2012-04-03 13:53:00] [INFO] Done loading 1 database
+[2012-04-03 13:53:00] [INFO] Started loading error info.
+[2012-04-03 13:53:00] [INFO] Done loading 9 error messages
+[2012-04-03 13:53:00] [INFO] Started loading operators.
+[2012-04-03 13:53:00] [INFO] Done loading 8 operator(s)
+[2012-04-03 13:53:00] [INFO] Started loading tables.
+[2012-04-03 13:53:00] [INFO] Done loading 2 table(s)
+[2012-04-03 13:53:00] [INFO] Started loading tablecolumns.
+[2012-04-03 13:53:01] [INFO] Done loading 4 tablecolumn(s)
+[2012-04-03 13:53:01] [INFO] Started loading trigger.
+[2012-04-03 13:53:01] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:53:01] [INFO] Started loading trigger.
+[2012-04-03 13:53:01] [INFO] Done loading 22 trigger(s)
+[2012-04-03 13:53:01] [INFO] Started loading trigger.
+[2012-04-03 13:53:01] [INFO] Done loading 9 trigger(s)
+[2012-04-03 13:53:01] [INFO] Finished loading data.
+[2012-04-03 13:53:01] [INFO] Closed database connection.

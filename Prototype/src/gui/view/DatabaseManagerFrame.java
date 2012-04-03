@@ -15,6 +15,8 @@ import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import connections.SourceDAO;
+import connections.SourceDatabaseJDBC_Oracle;
 import controls.Register;
 
 
@@ -234,7 +236,10 @@ public class DatabaseManagerFrame extends JFrame implements ActionListener
 	
 	private void saveContinue()
 	{
-		
+		save();
+
+		new BusinessRuleFrame();
+		dispose();
 	}
 	
 	private void saveAndExit()

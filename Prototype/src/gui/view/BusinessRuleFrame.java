@@ -27,6 +27,8 @@ import javax.swing.KeyStroke;
 
 import model.BusinessRule;
 import model.BusinessRuleType;
+import connections.SourceDAO;
+import connections.SourceDatabaseJDBC_Oracle;
 import controls.Register;
 
 @SuppressWarnings("serial")
@@ -82,6 +84,11 @@ public class BusinessRuleFrame extends JFrame
 		setLocation((screenWidth / 2) - (getWidth() / 2), (screenHeight / 2) - (getHeight() / 2));
 		add(pleaseWaitLabel);
 		setVisible(true);
+
+		SourceDAO mc = Register.getSourceConnection();
+		mc.loadObjects();
+		
+		this.init();	
 	}
 	
 	public void init()
@@ -115,6 +122,13 @@ public class BusinessRuleFrame extends JFrame
 		menuItem_close = new JMenuItem("Close", KeyEvent.VK_C);
 		menuItem_close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4, ActionEvent.ALT_MASK));
 		file_menu.add(menuItem_close);
+
+		menuItem_close.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				System.exit(0);
+			}
+		});
 		
 		menuBar.add(file_menu);
 		
