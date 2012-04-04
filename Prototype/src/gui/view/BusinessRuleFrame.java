@@ -270,8 +270,9 @@ public class BusinessRuleFrame extends JFrame
 				Generator gen = LanguageList.getGenerator(getGenerateLanguage());
 				String s = "";
 				for(BusinessRule br : BRList.getBusinessToGenerate()) {
-					s += gen.generateBR(br) + "\n\n";
+					s += gen.generateBR(br) + "\n/\n\n";
 				}
+				s = s.substring(0, s.length()-4);
 				
 				GeneratedCode gc = new GeneratedCode(s);
 				gc.setVisible(true);

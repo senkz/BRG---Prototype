@@ -201,11 +201,11 @@ public class OracleGenerator implements generator.Generator {
 		
 		TableColumn tbc1 = mc.findTableColumn(o.getTc1_fk());
 		Table tb1 = mc.findTable(tbc1.getTb_fk());
-		tl.bindParam("first_value", tbc1.getName() + "." + tb1.getName());
+		tl.bindParam("first_value", tb1.getName() + "." + tbc1.getName());
 
 		TableColumn tbc2 = mc.findTableColumn(o.getTc2_fk());
 		Table tb2 = mc.findTable(tbc2.getTb_fk());
-		tl.bindParam("second_value", tbc2.getName() + "." + tb2.getName());
+		tl.bindParam("second_value", tb2.getName() + "." + tbc2.getName());
 		
 		Trigger tg = mc.findTrigger(br.getTg_fk());
 		switch(tg.getEvent()) {

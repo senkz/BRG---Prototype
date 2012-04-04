@@ -5,6 +5,9 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.logging.Level;
+
+import logger.GLogger;
 
 public class TargetDatabaseJDBC_Oracle implements TargetDAO
 {
@@ -71,19 +74,22 @@ public class TargetDatabaseJDBC_Oracle implements TargetDAO
 	@Override
 	public boolean applyBusinessRule(String _code)
 	{
-		String sql = _code;
 		Connection con = getConnection(userid,password,url);
 		try 
 		{
+			String [] code_parts = _code.split("/");
 	       	stmt = con.createStatement();
-	        ResultSet rs = stmt.executeQuery(sql);
+	       	
+	       	for(String s : code_parts) {
+		        stmt.executeQuery(s);
+	       	}
 	        stmt.close();
 		    con.close();
 		    return true;
 		} 
 		catch(SQLException ex)
 		{
-			System.err.println("SQLException: " + ex.getMessage());
+			GLogger.log(Level.SEVERE, "SQLException: " + ex.getMessage());
 			return false;
 		}
 	}

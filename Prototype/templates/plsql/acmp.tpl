@@ -7,4 +7,3 @@ IF :new.{first_value} {operator} {second_value}
 THEN raise_application_error(-20000, '[{error_code}] {error_message}');
 END IF;
 END;
-/
